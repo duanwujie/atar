@@ -27,7 +27,6 @@ atar_SOURCES =     $(TAR_PREFIX)/tar.cpp \
                    $(TAR_PREFIX)/safe_strncpy.cpp \
                    $(TAR_PREFIX)/get_header_tar.cpp \
                    $(TAR_PREFIX)/copyfd.cpp \
-                   $(TAR_PREFIX)/getopt32.cpp \
                    $(TAR_PREFIX)/find_list_entry.cpp \
                    $(TAR_PREFIX)/header_verbose_list.cpp\
                    $(TAR_PREFIX)/recursive_action.cpp \
@@ -63,6 +62,4 @@ atar_SOURCES =     $(TAR_PREFIX)/tar.cpp \
                    $(TAR_PREFIX)/data_extract_to_command.cpp \
                    $(TAR_PREFIX)/makedev.cpp \
                    $(TAR_PREFIX)/appletlib.cpp
-
-
 

@@ -1033,7 +1033,7 @@ extern const char *opt_complementary;
 extern const char *applet_long_options;
 #endif
 extern uint32_t option_mask32;
-extern uint32_t getopt32(char **argv, const char *applet_opts, ...) FAST_FUNC;
+//extern uint32_t getopt32(char **argv, const char *applet_opts, ...) FAST_FUNC;
 
 
 /* Having next pointer as a first member allows easy creation
