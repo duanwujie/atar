@@ -1,0 +1,2228 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDWEIGHTS	./libarchive/bz/huffman.c	33;"	d	file:
+ADD_CHAR_TO_BLOCK	./libarchive/bz/bzlib.c	161;"	d	file:
+ADJTIME_PATH	./libbb/rtc.c	11;"	d	file:
+ADJTIME_PATH	./libbb/rtc.c	13;"	d	file:
+ALIGN1	./libarchive/decompress_gunzip.c	/^static const uint8_t border[] ALIGN1 = {$/;"	v	file:
+ALIGN1	./libarchive/decompress_gunzip.c	/^static const uint8_t cpdext[] ALIGN1 = {$/;"	v	file:
+ALIGN1	./libarchive/decompress_gunzip.c	/^static const uint8_t cplext[] ALIGN1 = {$/;"	v	file:
+ALIGN1	./libbb/appletlib.c	/^static const char packed_usage[] ALIGN1 = { PACKED_USAGE };$/;"	v	file:
+ALIGN1	./libbb/appletlib.c	/^static const char usage_messages[] ALIGN1 = UNPACKED_USAGE;$/;"	v	file:
+ALIGN1	./libbb/appletlib.c	/^static const char usr_bin [] ALIGN1 = "\/usr\/bin\/";$/;"	v	file:
+ALIGN1	./libbb/appletlib.c	/^static const char usr_sbin[] ALIGN1 = "\/usr\/sbin\/";$/;"	v	file:
+ALIGN1	./libbb/dump.c	/^static const char conv_str[] ALIGN1 =$/;"	v	file:
+ALIGN1	./libbb/dump.c	/^static const char index_str[] ALIGN1 = ".#-+ 0123456789";$/;"	v	file:
+ALIGN1	./libbb/dump.c	/^static const char lcc[] ALIGN1 = "diouxX";$/;"	v	file:
+ALIGN1	./libbb/dump.c	/^static const char size_conv_str[] ALIGN1 =$/;"	v	file:
+ALIGN1	./libbb/lineedit.c	/^static const char null_str[] ALIGN1 = "";$/;"	v	file:
+ALIGN1	./libbb/login.c	/^static const char fmtstr_d[] ALIGN1 = "%A, %d %B %Y";$/;"	v	file:
+ALIGN1	./libbb/login.c	/^static const char forbid[] ALIGN1 =$/;"	v	file:
+ALIGN1	./libbb/messages.c	/^const char bb_PATH_root_path[] ALIGN1 =$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_banner[] ALIGN1 = BANNER;$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_busybox_exec_path[] ALIGN1 = CONFIG_BUSYBOX_EXEC_PATH;$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_default_login_shell[] ALIGN1 = LIBBB_DEFAULT_LOGIN_SHELL;$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_hexdigits_upcase[] ALIGN1 = "0123456789ABCDEF";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_can_not_create_raw_socket[] ALIGN1 = "can't create raw socket";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_invalid_arg[] ALIGN1 = "invalid argument '%s' to '%s'";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_invalid_date[] ALIGN1 = "invalid date '%s'";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_memory_exhausted[] ALIGN1 = "out of memory";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_perm_denied_are_you_root[] ALIGN1 = "permission denied (are you root?)";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_requires_arg[] ALIGN1 = "%s requires an argument";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_standard_input[] ALIGN1 = "standard input";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_standard_output[] ALIGN1 = "standard output";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_unknown[] ALIGN1 = "(unknown)";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_msg_you_must_be_root[] ALIGN1 = "you must be root";$/;"	v
+ALIGN1	./libbb/messages.c	/^const char bb_path_wtmp_file[] ALIGN1 =$/;"	v
+ALIGN1	./libbb/mode_string.c	/^static const char mode_chars[7] ALIGN1 = "rwxSTst";$/;"	v	file:
+ALIGN1	./libbb/mode_string.c	/^static const char type_chars[16] ALIGN1 = "?pc?d?b?-?l?s???";$/;"	v	file:
+ALIGN1	./libbb/pw_encrypt_sha.c	/^static const char str_rounds[] ALIGN1 = "rounds=%u$";$/;"	v	file:
+ALIGN1	./libbb/uuencode.c	/^const char bb_uuenc_tbl_base64[65 + 1] ALIGN1 = {$/;"	v
+ALIGN1	./libbb/uuencode.c	/^const char bb_uuenc_tbl_std[65] ALIGN1 = {$/;"	v
+ALIGN2	./libarchive/decompress_gunzip.c	/^static const uint16_t cpdist[] ALIGN2 = {$/;"	v	file:
+ALIGN2	./libarchive/decompress_gunzip.c	/^static const uint16_t cplens[] ALIGN2 = {$/;"	v	file:
+ALIGN2	./libarchive/decompress_gunzip.c	/^static const uint16_t mask_bits[] ALIGN2 = {$/;"	v	file:
+ALIGN_BITS	./libarchive/unxz/xz_lzma2.h	190;"	d
+ALIGN_MASK	./libarchive/unxz/xz_lzma2.h	192;"	d
+ALIGN_SIZE	./libarchive/unxz/xz_lzma2.h	191;"	d
+ALLOC_STATE	./libarchive/decompress_gunzip.c	162;"	d	file:
+ALLOC_STATE	./libarchive/decompress_gunzip.c	174;"	d	file:
+ALL_ARGV_IS_OPTS	./libbb/getopt32.c	350;"	d	file:
+ARRAY	./libbb/unicode.c	459;"	d	file:
+ARRAY	./libbb/unicode.c	603;"	d	file:
+ARRAY	./libbb/unicode.c	702;"	d	file:
+ARRAY	./libbb/unicode.c	767;"	d	file:
+ARRAY	./libbb/unicode.c	787;"	d	file:
+ARRAY	./libbb/unicode.c	971;"	d	file:
+AssertD	./libarchive/bz/bzlib_private.h	47;"	d
+AssertD	./libarchive/bz/bzlib_private.h	53;"	d
+AssertH	./libarchive/bz/bzlib_private.h	37;"	d
+AssertH	./libarchive/bz/bzlib_private.h	43;"	d
+BANNER	./libbb/messages.c	20;"	d	file:
+BB_ADDITIONAL_PATH	./libbb/messages.c	12;"	d	file:
+BB_EXECVP	./libbb/execable.c	/^int FAST_FUNC BB_EXECVP(const char *file, char *const argv[])$/;"	f
+BB_EXECVP_or_die	./libbb/execable.c	/^int FAST_FUNC BB_EXECVP_or_die(char **argv)$/;"	f
+BB_EXTRA_VERSION	./libbb/messages.c	17;"	d	file:
+BB_LOOP_GET_STATUS	./libbb/loop.c	21;"	d	file:
+BB_LOOP_GET_STATUS	./libbb/loop.c	33;"	d	file:
+BB_LOOP_SET_STATUS	./libbb/loop.c	20;"	d	file:
+BB_LOOP_SET_STATUS	./libbb/loop.c	32;"	d	file:
+BB_NUL	./libbb/lineedit.c	79;"	d	file:
+BB_NUL	./libbb/lineedit.c	95;"	d	file:
+BB_PUTCHAR	./libbb/lineedit.c	/^static void BB_PUTCHAR(wchar_t c)$/;"	f	file:
+BB_PUTCHAR	./libbb/lineedit.c	340;"	d	file:
+BB_isalnum	./libbb/lineedit.c	/^static bool BB_isalnum(CHAR_T c) { return ((unsigned)c < 256 && isalnum(c)); }$/;"	f	file:
+BB_isalnum	./libbb/lineedit.c	98;"	d	file:
+BB_ispunct	./libbb/lineedit.c	/^static bool BB_ispunct(CHAR_T c) { return ((unsigned)c < 256 && ispunct(c)); }$/;"	f	file:
+BB_ispunct	./libbb/lineedit.c	99;"	d	file:
+BB_isspace	./libbb/lineedit.c	/^static bool BB_isspace(CHAR_T c) { return ((unsigned)c < 256 && isspace(c)); }$/;"	f	file:
+BB_isspace	./libbb/lineedit.c	97;"	d	file:
+BCJ_ARM	./libarchive/unxz/xz_dec_bcj.c	/^		BCJ_ARM = 7,        \/* Little endian only *\/$/;"	e	enum:xz_dec_bcj::__anon20	file:
+BCJ_ARMTHUMB	./libarchive/unxz/xz_dec_bcj.c	/^		BCJ_ARMTHUMB = 8,   \/* Little endian only *\/$/;"	e	enum:xz_dec_bcj::__anon20	file:
+BCJ_IA64	./libarchive/unxz/xz_dec_bcj.c	/^		BCJ_IA64 = 6,       \/* Big or little endian *\/$/;"	e	enum:xz_dec_bcj::__anon20	file:
+BCJ_POWERPC	./libarchive/unxz/xz_dec_bcj.c	/^		BCJ_POWERPC = 5,    \/* Big endian only *\/$/;"	e	enum:xz_dec_bcj::__anon20	file:
+BCJ_SPARC	./libarchive/unxz/xz_dec_bcj.c	/^		BCJ_SPARC = 9       \/* Big or little endian *\/$/;"	e	enum:xz_dec_bcj::__anon20	file:
+BCJ_X86	./libarchive/unxz/xz_dec_bcj.c	/^		BCJ_X86 = 4,        \/* x86 or x86-64 *\/$/;"	e	enum:xz_dec_bcj::__anon20	file:
+BIGFREQ	./libarchive/bz/blocksort.c	719;"	d	file:
+BIGFREQ	./libarchive/bz/blocksort.c	999;"	d	file:
+BIG_	./libbb/unicode.c	457;"	d	file:
+BIG_	./libbb/unicode.c	591;"	d	file:
+BIG_	./libbb/unicode.c	593;"	d	file:
+BIG_	./libbb/unicode.c	596;"	d	file:
+BIG_	./libbb/unicode.c	598;"	d	file:
+BIG_	./libbb/unicode.c	601;"	d	file:
+BIG_	./libbb/unicode.c	700;"	d	file:
+BIG_	./libbb/unicode.c	755;"	d	file:
+BIG_	./libbb/unicode.c	757;"	d	file:
+BIG_	./libbb/unicode.c	760;"	d	file:
+BIG_	./libbb/unicode.c	762;"	d	file:
+BIG_	./libbb/unicode.c	765;"	d	file:
+BIG_	./libbb/unicode.c	785;"	d	file:
+BIG_	./libbb/unicode.c	959;"	d	file:
+BIG_	./libbb/unicode.c	961;"	d	file:
+BIG_	./libbb/unicode.c	964;"	d	file:
+BIG_	./libbb/unicode.c	966;"	d	file:
+BIG_	./libbb/unicode.c	969;"	d	file:
+BITS	./libarchive/decompress_uncompress.c	57;"	d	file:
+BITS_STR	./libarchive/decompress_uncompress.c	58;"	d	file:
+BIT_MASK	./libarchive/decompress_uncompress.c	38;"	d	file:
+BLOCK_MODE	./libarchive/decompress_uncompress.c	42;"	d	file:
+BMAX	./libarchive/decompress_gunzip.c	/^	BMAX = 16,	\/* maximum bit length of any code (16 for explode) *\/$/;"	e	enum:__anon27	file:
+BUFFER_SIZE	./libbb/mntent_r.c	176;"	d	file:
+BUFFER_SIZE	./libbb/mntent_r.c	182;"	d	file:
+BZ2_blockSort	./libarchive/bz/blocksort.c	/^void BZ2_blockSort(EState* s)$/;"	f	file:
+BZ2_bsInitWrite	./libarchive/bz/compress.c	/^void BZ2_bsInitWrite(EState* s)$/;"	f	file:
+BZ2_bzBuffToBuffCompress	./libarchive/bz/bzlib.c	/^int BZ2_bzBuffToBuffCompress(char* dest,$/;"	f	file:
+BZ2_bzCompress	./libarchive/bz/bzlib.c	/^int BZ2_bzCompress(bz_stream *strm, int action)$/;"	f	file:
+BZ2_bzCompressEnd	./libarchive/bz/bzlib.c	/^void BZ2_bzCompressEnd(bz_stream *strm)$/;"	f	file:
+BZ2_bzCompressInit	./libarchive/bz/bzlib.c	/^void BZ2_bzCompressInit(bz_stream *strm, int blockSize100k)$/;"	f	file:
+BZ2_compressBlock	./libarchive/bz/compress.c	/^void BZ2_compressBlock(EState* s, int is_last_block)$/;"	f	file:
+BZ2_hbAssignCodes	./libarchive/bz/huffman.c	/^void BZ2_hbAssignCodes(int32_t *code,$/;"	f	file:
+BZ2_hbMakeCodeLengths	./libarchive/bz/huffman.c	/^void BZ2_hbMakeCodeLengths(EState *s,$/;"	f	file:
+BZ2_hbMakeCodeLengths__heap	./libarchive/bz/bzlib_private.h	/^	int32_t  BZ2_hbMakeCodeLengths__heap  [BZ_MAX_ALPHA_SIZE + 2];$/;"	m	struct:EState
+BZ2_hbMakeCodeLengths__parent	./libarchive/bz/bzlib_private.h	/^	int32_t  BZ2_hbMakeCodeLengths__parent[BZ_MAX_ALPHA_SIZE * 2];$/;"	m	struct:EState
+BZ2_hbMakeCodeLengths__weight	./libarchive/bz/bzlib_private.h	/^	int32_t  BZ2_hbMakeCodeLengths__weight[BZ_MAX_ALPHA_SIZE * 2];$/;"	m	struct:EState
+BZ_CONFIG_ERROR	./libarchive/bz/bzlib.h	43;"	d
+BZ_DATA_ERROR	./libarchive/bz/bzlib.h	38;"	d
+BZ_DATA_ERROR_MAGIC	./libarchive/bz/bzlib.h	39;"	d
+BZ_FINALISE_CRC	./libarchive/bz/bzlib_private.h	88;"	d
+BZ_FINISH	./libarchive/bz/bzlib.h	28;"	d
+BZ_FINISH_OK	./libarchive/bz/bzlib.h	33;"	d
+BZ_FLUSH	./libarchive/bz/bzlib.h	27;"	d
+BZ_FLUSH_OK	./libarchive/bz/bzlib.h	32;"	d
+BZ_GREATER_ICOST	./libarchive/bz/compress.c	247;"	d	file:
+BZ_G_SIZE	./libarchive/bz/bzlib_private.h	75;"	d
+BZ_HDR_0	./libarchive/bz/bzlib_private.h	62;"	d
+BZ_HDR_B	./libarchive/bz/bzlib_private.h	59;"	d
+BZ_HDR_BZh0	./libarchive/bz/bzlib_private.h	64;"	d
+BZ_HDR_Z	./libarchive/bz/bzlib_private.h	60;"	d
+BZ_HDR_h	./libarchive/bz/bzlib_private.h	61;"	d
+BZ_INITIALISE_CRC	./libarchive/bz/bzlib_private.h	83;"	d
+BZ_IO_ERROR	./libarchive/bz/bzlib.h	40;"	d
+BZ_ITER	./libarchive/bz/compress.c	369;"	d	file:
+BZ_ITER	./libarchive/bz/compress.c	384;"	d	file:
+BZ_ITUR	./libarchive/bz/compress.c	424;"	d	file:
+BZ_ITUR	./libarchive/bz/compress.c	435;"	d	file:
+BZ_LESSER_ICOST	./libarchive/bz/compress.c	246;"	d	file:
+BZ_MAX_ALPHA_SIZE	./libarchive/bz/bzlib_private.h	68;"	d
+BZ_MAX_CODE_LEN	./libarchive/bz/bzlib_private.h	69;"	d
+BZ_MAX_SELECTORS	./libarchive/bz/bzlib_private.h	78;"	d
+BZ_MEM_ERROR	./libarchive/bz/bzlib.h	37;"	d
+BZ_M_FINISHING	./libarchive/bz/bzlib_private.h	104;"	d
+BZ_M_FLUSHING	./libarchive/bz/bzlib_private.h	103;"	d
+BZ_M_IDLE	./libarchive/bz/bzlib_private.h	101;"	d
+BZ_M_RUNNING	./libarchive/bz/bzlib_private.h	102;"	d
+BZ_N_GROUPS	./libarchive/bz/bzlib_private.h	74;"	d
+BZ_N_ITERS	./libarchive/bz/bzlib_private.h	76;"	d
+BZ_N_OVERSHOOT	./libarchive/bz/bzlib_private.h	112;"	d
+BZ_N_QSORT	./libarchive/bz/bzlib_private.h	110;"	d
+BZ_N_RADIX	./libarchive/bz/bzlib_private.h	109;"	d
+BZ_N_SHELL	./libarchive/bz/bzlib_private.h	111;"	d
+BZ_OK	./libarchive/bz/bzlib.h	30;"	d
+BZ_OUTBUFF_FULL	./libarchive/bz/bzlib.h	42;"	d
+BZ_PARAM_ERROR	./libarchive/bz/bzlib.h	36;"	d
+BZ_RUN	./libarchive/bz/bzlib.h	26;"	d
+BZ_RUNA	./libarchive/bz/bzlib_private.h	71;"	d
+BZ_RUNB	./libarchive/bz/bzlib_private.h	72;"	d
+BZ_RUN_OK	./libarchive/bz/bzlib.h	31;"	d
+BZ_SEQUENCE_ERROR	./libarchive/bz/bzlib.h	35;"	d
+BZ_STREAM_END	./libarchive/bz/bzlib.h	34;"	d
+BZ_S_INPUT	./libarchive/bz/bzlib_private.h	107;"	d
+BZ_S_OUTPUT	./libarchive/bz/bzlib_private.h	106;"	d
+BZ_UNEXPECTED_EOF	./libarchive/bz/bzlib.h	41;"	d
+BZ_UPDATE_CRC	./libarchive/bz/bzlib_private.h	93;"	d
+B_SIZE	./libarchive/lzo1x_9x.c	157;"	d	file:
+Bool	./libarchive/bz/bzlib_private.h	/^typedef unsigned char Bool;$/;"	t
+C	./libbb/pw_encrypt_des.c	233;"	d	file:
+C	./libbb/pw_encrypt_des.c	795;"	d	file:
+CATEGORIES	./libbb/obscure.c	85;"	d	file:
+CHAR_T	./libbb/lineedit.c	77;"	d	file:
+CHAR_T	./libbb/lineedit.c	80;"	d	file:
+CHAR_T	./libbb/lineedit.c	96;"	d	file:
+CLEAR	./libarchive/decompress_uncompress.c	47;"	d	file:
+CLEARMASK	./libarchive/bz/blocksort.c	1001;"	d	file:
+CLEARMASK	./libarchive/bz/blocksort.c	721;"	d	file:
+CLEAR_BH	./libarchive/bz/blocksort.c	224;"	d	file:
+CLEAR_BH	./libarchive/bz/blocksort.c	355;"	d	file:
+CLOCK_MONOTONIC	./libbb/time.c	230;"	d	file:
+CTRL	./libbb/lineedit.c	2095;"	d	file:
+CTRL	./libbb/lineedit.c	2096;"	d	file:
+Ch	./libbb/hash_md5_sha.c	614;"	d	file:
+Ch	./libbb/hash_md5_sha.c	628;"	d	file:
+Ch	./libbb/hash_md5_sha.c	668;"	d	file:
+Ch	./libbb/hash_md5_sha.c	704;"	d	file:
+Ch	./libbb/hash_md5_sha.c	730;"	d	file:
+D	./libbb/pw_encrypt_des.c	329;"	d	file:
+D	./libbb/pw_encrypt_des.c	799;"	d	file:
+DEALLOC_STATE	./libarchive/decompress_gunzip.c	163;"	d	file:
+DEALLOC_STATE	./libarchive/decompress_gunzip.c	175;"	d	file:
+DEBUG	./libbb/getpty.c	11;"	d	file:
+DEBUG_RECURS_ACTION	./libbb/recursive_action.c	12;"	d	file:
+DECLARE_STATE	./libarchive/decompress_gunzip.c	161;"	d	file:
+DECLARE_STATE	./libarchive/decompress_gunzip.c	173;"	d	file:
+DEC_IS_DYNALLOC	./libarchive/unxz/xz_private.h	82;"	d
+DEC_IS_DYNALLOC	./libarchive/unxz/xz_private.h	84;"	d
+DEC_IS_MULTI	./libarchive/unxz/xz_private.h	88;"	d
+DEC_IS_MULTI	./libarchive/unxz/xz_private.h	90;"	d
+DEC_IS_MULTI	./libarchive/unxz/xz_private.h	92;"	d
+DEC_IS_PREALLOC	./libarchive/unxz/xz_private.h	76;"	d
+DEC_IS_PREALLOC	./libarchive/unxz/xz_private.h	78;"	d
+DEC_IS_SINGLE	./libarchive/unxz/xz_private.h	70;"	d
+DEC_IS_SINGLE	./libarchive/unxz/xz_private.h	72;"	d
+DEINIT_S	./libbb/lineedit.c	210;"	d	file:
+DELBUFSIZ	./libbb/lineedit.c	156;"	d	file:
+DENTRY	./libarchive/liblzo.h	66;"	d
+DEPTHOF	./libarchive/bz/huffman.c	30;"	d	file:
+DES_OUT_BUFSIZE	./libbb/pw_encrypt_des.c	697;"	d	file:
+DEVNAME_MAX	./libbb/find_root_device.c	/^enum { DEVNAME_MAX = 256 };$/;"	e	enum:__anon4	file:
+DIE_ON_ERROR	./libbb/xconnect.c	156;"	d	file:
+DIST_MODEL_END	./libarchive/unxz/xz_lzma2.h	180;"	d
+DIST_MODEL_START	./libarchive/unxz/xz_lzma2.h	168;"	d
+DIST_SLOTS	./libarchive/unxz/xz_lzma2.h	159;"	d
+DIST_SLOT_BITS	./libarchive/unxz/xz_lzma2.h	158;"	d
+DIST_STATES	./libarchive/unxz/xz_lzma2.h	141;"	d
+DM	./libarchive/liblzo.h	70;"	d
+DMS	./libarchive/liblzo.h	69;"	d
+DMUL	./libarchive/liblzo.h	71;"	d
+DOWNHEAP1	./libarchive/bz/huffman.c	/^void DOWNHEAP1(int32_t *heap, int32_t *weight, int32_t nHeap)$/;"	f	file:
+DOWNHEAP1	./libarchive/bz/huffman.c	54;"	d	file:
+DO_COMPRESS	./libarchive/lzo1x_1.c	33;"	d	file:
+DO_COMPRESS	./libarchive/lzo1x_1o.c	33;"	d	file:
+DO_COMPRESS	./libarchive/lzo1x_c.c	/^int DO_COMPRESS(const uint8_t* in, unsigned in_len,$/;"	f
+DX2	./libarchive/liblzo.h	48;"	d
+DX3	./libarchive/liblzo.h	52;"	d
+D_BITS	./libarchive/lzo1x_1.c	29;"	d	file:
+D_BITS	./libarchive/lzo1x_1o.c	29;"	d	file:
+D_HIGH	./libarchive/liblzo.h	56;"	d
+D_INDEX1	./libarchive/lzo1x_1.c	30;"	d	file:
+D_INDEX1	./libarchive/lzo1x_1o.c	30;"	d	file:
+D_INDEX2	./libarchive/lzo1x_1.c	31;"	d	file:
+D_INDEX2	./libarchive/lzo1x_1o.c	31;"	d	file:
+D_MASK	./libarchive/liblzo.h	55;"	d
+D_SIZE	./libarchive/liblzo.h	54;"	d
+ENABLE_FEATURE_EDITING	./libbb/lineedit.c	58;"	d	file:
+ENABLE_FEATURE_INDIVIDUAL	./libbb/appletlib.c	47;"	d	file:
+ENABLE_FEATURE_INDIVIDUAL	./libbb/appletlib.c	48;"	d	file:
+ENABLE_FEATURE_TAB_COMPLETION	./libbb/lineedit.c	59;"	d	file:
+ENABLE_FEATURE_USERNAME_COMPLETION	./libbb/lineedit.c	60;"	d	file:
+ENABLE_USERNAME_OR_HOMEDIR	./libbb/lineedit.c	68;"	d	file:
+ERROR_WCHAR	./libbb/unicode.c	173;"	d	file:
+ESC	./libbb/lineedit.c	109;"	d	file:
+EState	./libarchive/bz/bzlib_private.h	/^typedef struct EState {$/;"	s
+EState	./libarchive/bz/bzlib_private.h	/^} EState;$/;"	t	typeref:struct:EState
+F	./libbb/hash_md5prime.c	118;"	d	file:
+FALLBACK_QSORT_SMALL_THRESH	./libarchive/bz/blocksort.c	107;"	d	file:
+FALLBACK_QSORT_SMALL_THRESH	./libarchive/bz/blocksort.c	205;"	d	file:
+FALLBACK_QSORT_STACK_SIZE	./libarchive/bz/blocksort.c	108;"	d	file:
+FALLBACK_QSORT_STACK_SIZE	./libarchive/bz/blocksort.c	206;"	d	file:
+FF	./libbb/hash_md5_sha.c	125;"	d	file:
+FF	./libbb/hash_md5_sha.c	129;"	d	file:
+FF	./libbb/hash_md5_sha.c	434;"	d	file:
+FF	./libbb/hash_md5prime.c	130;"	d	file:
+FG	./libbb/hash_md5_sha.c	126;"	d	file:
+FG	./libbb/hash_md5_sha.c	130;"	d	file:
+FG	./libbb/hash_md5_sha.c	435;"	d	file:
+FH	./libbb/hash_md5_sha.c	127;"	d	file:
+FH	./libbb/hash_md5_sha.c	131;"	d	file:
+FH	./libbb/hash_md5_sha.c	436;"	d	file:
+FI	./libbb/hash_md5_sha.c	128;"	d	file:
+FI	./libbb/hash_md5_sha.c	132;"	d	file:
+FI	./libbb/hash_md5_sha.c	437;"	d	file:
+FILEMODEBITS	./libbb/parse_mode.c	16;"	d	file:
+FIND_DIR_ONLY	./libbb/lineedit.c	/^	FIND_DIR_ONLY = 1,$/;"	e	enum:__anon2	file:
+FIND_EXE_ONLY	./libbb/lineedit.c	/^	FIND_EXE_ONLY = 0,$/;"	e	enum:__anon2	file:
+FIND_FILE_ONLY	./libbb/lineedit.c	/^	FIND_FILE_ONLY = 2,$/;"	e	enum:__anon2	file:
+FIRST	./libarchive/decompress_uncompress.c	46;"	d	file:
+FIRST_ARGV_IS_OPT	./libbb/getopt32.c	351;"	d	file:
+FIX_ALIASING	./libarchive/get_header_tar.c	/^typedef off_t    aliased_off_t    FIX_ALIASING;$/;"	t	file:
+FIX_ALIASING	./libarchive/get_header_tar.c	/^typedef uint32_t aliased_uint32_t FIX_ALIASING;$/;"	t	file:
+FLAGS_DEREF	./libbb/copy_file.c	86;"	d	file:
+FOOTER_MAGIC	./libarchive/unxz/xz_stream.h	31;"	d
+FOOTER_MAGIC_SIZE	./libarchive/unxz/xz_stream.h	32;"	d
+FULL_DISTANCES	./libarchive/unxz/xz_lzma2.h	184;"	d
+FULL_DISTANCES_BITS	./libarchive/unxz/xz_lzma2.h	183;"	d
+False	./libarchive/bz/bzlib_private.h	33;"	d
+G	./libbb/hash_md5prime.c	119;"	d	file:
+GET_OCTAL	./libarchive/get_header_tar.c	91;"	d	file:
+GG	./libbb/hash_md5prime.c	135;"	d	file:
+GINDEX	./libarchive/liblzo.h	47;"	d
+GROUP_SIZE	./libarchive/decompress_bunzip2.c	53;"	d	file:
+GUNZIP_WSIZE	./libarchive/decompress_gunzip.c	/^	GUNZIP_WSIZE = 0x8000,$/;"	e	enum:__anon27	file:
+H	./libbb/hash_md5prime.c	120;"	d	file:
+HACK_FOR_WRONG_WIDTH	./libbb/lineedit.c	349;"	d	file:
+HASH_SIZE	./libbb/inode_hash.c	20;"	d	file:
+HAVE_ANY_OP	./libarchive/liblzo.h	85;"	d
+HBITS	./libarchive/decompress_uncompress.c	53;"	d	file:
+HEAD2	./libarchive/lzo1x_9x.c	428;"	d	file:
+HEAD2	./libarchive/lzo1x_9x.c	97;"	d	file:
+HEAD2	./libarchive/lzo1x_9x.c	99;"	d	file:
+HEAD3	./libarchive/lzo1x_9x.c	427;"	d	file:
+HEAD3	./libarchive/lzo1x_9x.c	93;"	d	file:
+HEADER_MAGIC	./libarchive/unxz/xz_stream.h	28;"	d
+HEADER_MAGIC_SIZE	./libarchive/unxz/xz_stream.h	29;"	d
+HH	./libbb/hash_md5prime.c	140;"	d	file:
+HMASK	./libarchive/decompress_uncompress.c	55;"	d	file:
+HPRIME	./libarchive/decompress_uncompress.c	56;"	d	file:
+HSIZE	./libarchive/decompress_uncompress.c	54;"	d	file:
+I	./libbb/hash_md5prime.c	121;"	d	file:
+IBUFSIZ	./libarchive/decompress_uncompress.c	32;"	d	file:
+IF_FEATURE_INDIVIDUAL	./libbb/appletlib.c	49;"	d	file:
+IF_FEATURE_INDIVIDUAL	./libbb/appletlib.c	50;"	d	file:
+IF_USERNAME_OR_HOMEDIR	./libbb/lineedit.c	70;"	d	file:
+IF_USERNAME_OR_HOMEDIR	./libbb/lineedit.c	72;"	d	file:
+IF_USERNAME_OR_HOMEDIR	./libbb/lineedit.c	73;"	d	file:
+IGNORE_PORT	./libbb/xconnect.c	417;"	d	file:
+II	./libbb/hash_md5prime.c	145;"	d	file:
+IN6_IS_ADDR_UNSPECIFIED	./libbb/inet_common.c	183;"	d	file:
+INET6_resolve	./libbb/inet_common.c	/^int FAST_FUNC INET6_resolve(const char *name, struct sockaddr_in6 *sin6)$/;"	f
+INET6_rresolve	./libbb/inet_common.c	/^char* FAST_FUNC INET6_rresolve(struct sockaddr_in6 *sin6, int numeric)$/;"	f
+INET_resolve	./libbb/inet_common.c	/^int FAST_FUNC INET_resolve(const char *name, struct sockaddr_in *s_in, int hostfirst)$/;"	f
+INET_rresolve	./libbb/inet_common.c	/^char* FAST_FUNC INET_rresolve(struct sockaddr_in *s_in, int numeric, uint32_t netmask)$/;"	f
+INIT_BITS	./libarchive/decompress_uncompress.c	49;"	d	file:
+INIT_S	./libbb/lineedit.c	188;"	d	file:
+IOBUF_SIZE	./libarchive/decompress_bunzip2.c	70;"	d	file:
+IP	./libbb/pw_encrypt_des.c	/^static const uint8_t IP[64] = {$/;"	v	file:
+ISSET_BH	./libarchive/bz/blocksort.c	225;"	d	file:
+ISSET_BH	./libarchive/bz/blocksort.c	356;"	d	file:
+KDGKBTYPE	./libbb/get_console.c	/^enum { KDGKBTYPE = 0x4B33 };  \/* get keyboard type *\/$/;"	e	enum:__anon6	file:
+LAST_CAT	./libbb/obscure.c	92;"	d	file:
+LEN_HIGH_BITS	./libarchive/unxz/xz_lzma2.h	125;"	d
+LEN_HIGH_SYMBOLS	./libarchive/unxz/xz_lzma2.h	126;"	d
+LEN_LOW_BITS	./libarchive/unxz/xz_lzma2.h	121;"	d
+LEN_LOW_SYMBOLS	./libarchive/unxz/xz_lzma2.h	122;"	d
+LEN_MID_BITS	./libarchive/unxz/xz_lzma2.h	123;"	d
+LEN_MID_SYMBOLS	./libarchive/unxz/xz_lzma2.h	124;"	d
+LEN_SYMBOLS	./libarchive/unxz/xz_lzma2.h	127;"	d
+LITERAL_CODERS_MAX	./libarchive/unxz/xz_lzma2.h	109;"	d
+LITERAL_CODER_SIZE	./libarchive/unxz/xz_lzma2.h	106;"	d
+LIT_STATES	./libarchive/unxz/xz_lzma2.h	61;"	d
+LOGIN	./libbb/login.c	16;"	d	file:
+LOOP_CLR_FD	./libbb/loop.c	31;"	d	file:
+LOOP_SET_FD	./libbb/loop.c	30;"	d	file:
+LOWERCASE	./libbb/obscure.c	87;"	d	file:
+LO_KEY_SIZE	./libbb/loop.c	29;"	d	file:
+LO_NAME_SIZE	./libbb/loop.c	28;"	d	file:
+LZMA_ALIGN	./libarchive/decompress_unlzma.c	/^	LZMA_ALIGN          = (LZMA_SPEC_POS \\$/;"	e	enum:__anon25	file:
+LZMA_BASE_SIZE	./libarchive/decompress_unlzma.c	/^	LZMA_BASE_SIZE = 1846,$/;"	e	enum:__anon25	file:
+LZMA_END_POS_MODEL_INDEX	./libarchive/decompress_unlzma.c	/^	LZMA_END_POS_MODEL_INDEX   = 14,$/;"	e	enum:__anon25	file:
+LZMA_IN_REQUIRED	./libarchive/unxz/xz_dec_lzma2.c	26;"	d	file:
+LZMA_IS_MATCH	./libarchive/decompress_unlzma.c	/^	LZMA_IS_MATCH       = 0,$/;"	e	enum:__anon25	file:
+LZMA_IS_REP	./libarchive/decompress_unlzma.c	/^	LZMA_IS_REP         = (LZMA_IS_MATCH + (LZMA_NUM_STATES << LZMA_NUM_POS_BITS_MAX)),$/;"	e	enum:__anon25	file:
+LZMA_IS_REP_0_LONG	./libarchive/decompress_unlzma.c	/^	LZMA_IS_REP_0_LONG  = (LZMA_IS_REP_G2 + LZMA_NUM_STATES),$/;"	e	enum:__anon25	file:
+LZMA_IS_REP_G0	./libarchive/decompress_unlzma.c	/^	LZMA_IS_REP_G0      = (LZMA_IS_REP + LZMA_NUM_STATES),$/;"	e	enum:__anon25	file:
+LZMA_IS_REP_G1	./libarchive/decompress_unlzma.c	/^	LZMA_IS_REP_G1      = (LZMA_IS_REP_G0 + LZMA_NUM_STATES),$/;"	e	enum:__anon25	file:
+LZMA_IS_REP_G2	./libarchive/decompress_unlzma.c	/^	LZMA_IS_REP_G2      = (LZMA_IS_REP_G1 + LZMA_NUM_STATES),$/;"	e	enum:__anon25	file:
+LZMA_LEN_CHOICE	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_CHOICE     = 0,$/;"	e	enum:__anon25	file:
+LZMA_LEN_CHOICE_2	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_CHOICE_2   = (LZMA_LEN_CHOICE + 1),$/;"	e	enum:__anon25	file:
+LZMA_LEN_CODER	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_CODER      = (LZMA_ALIGN + (1 << LZMA_NUM_ALIGN_BITS)),$/;"	e	enum:__anon25	file:
+LZMA_LEN_HIGH	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_HIGH       = (LZMA_LEN_MID \\$/;"	e	enum:__anon25	file:
+LZMA_LEN_LOW	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_LOW        = (LZMA_LEN_CHOICE_2 + 1),$/;"	e	enum:__anon25	file:
+LZMA_LEN_MID	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_MID        = (LZMA_LEN_LOW \\$/;"	e	enum:__anon25	file:
+LZMA_LEN_NUM_HIGH_BITS	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_NUM_HIGH_BITS = 8,$/;"	e	enum:__anon25	file:
+LZMA_LEN_NUM_LOW_BITS	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_NUM_LOW_BITS  = 3,$/;"	e	enum:__anon25	file:
+LZMA_LEN_NUM_MID_BITS	./libarchive/decompress_unlzma.c	/^	LZMA_LEN_NUM_MID_BITS  = 3,$/;"	e	enum:__anon25	file:
+LZMA_LITERAL	./libarchive/decompress_unlzma.c	/^	LZMA_LITERAL        = (LZMA_REP_LEN_CODER + LZMA_NUM_LEN_PROBS),$/;"	e	enum:__anon25	file:
+LZMA_LIT_SIZE	./libarchive/decompress_unlzma.c	/^	LZMA_LIT_SIZE  = 768,$/;"	e	enum:__anon25	file:
+LZMA_MATCH_MIN_LEN	./libarchive/decompress_unlzma.c	/^	LZMA_MATCH_MIN_LEN  = 2,$/;"	e	enum:__anon25	file:
+LZMA_NUM_ALIGN_BITS	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_ALIGN_BITS = 4,$/;"	e	enum:__anon25	file:
+LZMA_NUM_FULL_DISTANCES	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_FULL_DISTANCES    = (1 << (LZMA_END_POS_MODEL_INDEX >> 1)),$/;"	e	enum:__anon25	file:
+LZMA_NUM_LEN_PROBS	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_LEN_PROBS  = (LZMA_LEN_HIGH + (1 << LZMA_LEN_NUM_HIGH_BITS)),$/;"	e	enum:__anon25	file:
+LZMA_NUM_LEN_TO_POS_STATES	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_LEN_TO_POS_STATES = 4,$/;"	e	enum:__anon25	file:
+LZMA_NUM_LIT_STATES	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_LIT_STATES = 7,$/;"	e	enum:__anon25	file:
+LZMA_NUM_POS_BITS_MAX	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_POS_BITS_MAX = 4,$/;"	e	enum:__anon25	file:
+LZMA_NUM_POS_SLOT_BITS	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_POS_SLOT_BITS = 6,$/;"	e	enum:__anon25	file:
+LZMA_NUM_STATES	./libarchive/decompress_unlzma.c	/^	LZMA_NUM_STATES     = 12,$/;"	e	enum:__anon25	file:
+LZMA_POS_SLOT	./libarchive/decompress_unlzma.c	/^	LZMA_POS_SLOT       = (LZMA_IS_REP_0_LONG \\$/;"	e	enum:__anon25	file:
+LZMA_REP_LEN_CODER	./libarchive/decompress_unlzma.c	/^	LZMA_REP_LEN_CODER  = (LZMA_LEN_CODER + LZMA_NUM_LEN_PROBS),$/;"	e	enum:__anon25	file:
+LZMA_SPEC_POS	./libarchive/decompress_unlzma.c	/^	LZMA_SPEC_POS       = (LZMA_POS_SLOT \\$/;"	e	enum:__anon25	file:
+LZMA_START_POS_MODEL_INDEX	./libarchive/decompress_unlzma.c	/^	LZMA_START_POS_MODEL_INDEX = 4,$/;"	e	enum:__anon25	file:
+LZO_CHECK_MPOS_NON_DET	./libarchive/liblzo.h	58;"	d
+LZO_EOF_CODE	./libarchive/liblzo.h	44;"	d
+LZO_MAX	./libarchive/lzo1x_9x.c	47;"	d	file:
+LZO_MAX3	./libarchive/lzo1x_9x.c	49;"	d	file:
+LZO_MIN	./libarchive/lzo1x_9x.c	48;"	d	file:
+LZO_UNALIGNED_OK_2	./libarchive/lzo1x_9x.c	42;"	d	file:
+LZO_UNALIGNED_OK_4	./libarchive/lzo1x_9x.c	43;"	d	file:
+M1_MARKER	./libarchive/liblzo.h	37;"	d
+M1_MAX_OFFSET	./libarchive/liblzo.h	33;"	d
+M2_MAX_LEN	./libarchive/liblzo.h	30;"	d
+M2_MAX_OFFSET	./libarchive/liblzo.h	34;"	d
+M2_MIN_LEN	./libarchive/liblzo.h	29;"	d
+M3_MARKER	./libarchive/liblzo.h	38;"	d
+M3_MAX_LEN	./libarchive/liblzo.h	31;"	d
+M3_MAX_OFFSET	./libarchive/liblzo.h	35;"	d
+M4_MARKER	./libarchive/liblzo.h	39;"	d
+M4_MAX_LEN	./libarchive/liblzo.h	32;"	d
+M4_MAX_OFFSET	./libarchive/liblzo.h	36;"	d
+MAIN_QSORT_DEPTH_THRESH	./libarchive/bz/blocksort.c	585;"	d	file:
+MAIN_QSORT_DEPTH_THRESH	./libarchive/bz/blocksort.c	700;"	d	file:
+MAIN_QSORT_SMALL_THRESH	./libarchive/bz/blocksort.c	584;"	d	file:
+MAIN_QSORT_SMALL_THRESH	./libarchive/bz/blocksort.c	699;"	d	file:
+MAIN_QSORT_STACK_SIZE	./libarchive/bz/blocksort.c	586;"	d	file:
+MAIN_QSORT_STACK_SIZE	./libarchive/bz/blocksort.c	701;"	d	file:
+MATCH_LEN_MAX	./libarchive/unxz/xz_lzma2.h	133;"	d
+MATCH_LEN_MIN	./libarchive/unxz/xz_lzma2.h	112;"	d
+MAXCODE	./libarchive/decompress_uncompress.c	60;"	d	file:
+MAXSEG_64K	./libarchive/decompress_uncompress.c	59;"	d	file:
+MAXSYMLINKS	./libbb/xreadlink.c	14;"	d	file:
+MAX_GROUPS	./libarchive/decompress_bunzip2.c	52;"	d	file:
+MAX_HUFCODE_BITS	./libarchive/decompress_bunzip2.c	54;"	d	file:
+MAX_LINELEN	./libbb/lineedit.c	/^	MAX_LINELEN = CONFIG_FEATURE_EDITING_MAX_LEN < 0x7ff0$/;"	e	enum:__anon1	file:
+MAX_SYMBOLS	./libarchive/decompress_bunzip2.c	55;"	d	file:
+MD5_OUT_BUFSIZE	./libbb/pw_encrypt_md5.c	73;"	d	file:
+MD5_SMALL	./libbb/hash_md5_sha.c	113;"	d	file:
+MD5_SMALL	./libbb/hash_md5_sha.c	115;"	d	file:
+MD5_SMALL	./libbb/hash_md5_sha.c	117;"	d	file:
+MD5_SMALL	./libbb/hash_md5prime.c	79;"	d	file:
+MD5_SMALL	./libbb/hash_md5prime.c	81;"	d	file:
+MD5_SMALL	./libbb/hash_md5prime.c	83;"	d	file:
+MIN_LOOKAHEAD	./libarchive/liblzo.h	42;"	d
+MX_MAX_OFFSET	./libarchive/liblzo.h	41;"	d
+MYMAX	./libarchive/bz/huffman.c	31;"	d	file:
+Maj	./libbb/hash_md5_sha.c	615;"	d	file:
+Maj	./libbb/hash_md5_sha.c	629;"	d	file:
+Maj	./libbb/hash_md5_sha.c	669;"	d	file:
+Maj	./libbb/hash_md5_sha.c	705;"	d	file:
+Maj	./libbb/hash_md5_sha.c	731;"	d	file:
+NEED_IP	./libarchive/liblzo.h	77;"	d
+NEED_OP	./libarchive/liblzo.h	82;"	d
+NIL2	./libarchive/lzo1x_9x.c	101;"	d	file:
+NOT_DIGIT	./libbb/bb_strtod.c	13;"	d	file:
+NUMBERS	./libbb/obscure.c	89;"	d	file:
+NUM_SPEEDS	./libbb/speed_table.c	/^enum { NUM_SPEEDS = ARRAY_SIZE(speeds) };$/;"	e	enum:__anon5	file:
+N_MAX	./libarchive/decompress_gunzip.c	/^	N_MAX = 288,	\/* maximum number of codes in any set *\/$/;"	e	enum:__anon27	file:
+OBUFSIZ	./libarchive/decompress_uncompress.c	35;"	d	file:
+ONE	./libbb/progress.c	131;"	d	file:
+PAIR	./libbb/unicode.c	458;"	d	file:
+PAIR	./libbb/unicode.c	592;"	d	file:
+PAIR	./libbb/unicode.c	594;"	d	file:
+PAIR	./libbb/unicode.c	597;"	d	file:
+PAIR	./libbb/unicode.c	599;"	d	file:
+PAIR	./libbb/unicode.c	602;"	d	file:
+PAIR	./libbb/unicode.c	701;"	d	file:
+PAIR	./libbb/unicode.c	756;"	d	file:
+PAIR	./libbb/unicode.c	758;"	d	file:
+PAIR	./libbb/unicode.c	761;"	d	file:
+PAIR	./libbb/unicode.c	763;"	d	file:
+PAIR	./libbb/unicode.c	766;"	d	file:
+PAIR	./libbb/unicode.c	786;"	d	file:
+PAIR	./libbb/unicode.c	960;"	d	file:
+PAIR	./libbb/unicode.c	962;"	d	file:
+PAIR	./libbb/unicode.c	965;"	d	file:
+PAIR	./libbb/unicode.c	967;"	d	file:
+PAIR	./libbb/unicode.c	970;"	d	file:
+PARAM_INT	./libbb/getopt32.c	/^	PARAM_INT,$/;"	e	enum:__anon11	file:
+PARAM_LIST	./libbb/getopt32.c	/^	PARAM_LIST,$/;"	e	enum:__anon11	file:
+PARAM_STRING	./libbb/getopt32.c	/^	PARAM_STRING,$/;"	e	enum:__anon11	file:
+PASS_STATE	./libarchive/decompress_gunzip.c	165;"	d	file:
+PASS_STATE	./libarchive/decompress_gunzip.c	177;"	d	file:
+PASS_STATE_ONLY	./libarchive/decompress_gunzip.c	166;"	d	file:
+PASS_STATE_ONLY	./libarchive/decompress_gunzip.c	178;"	d	file:
+PATH_INCR	./libbb/xgetcwd.c	22;"	d	file:
+POS_STATES_MAX	./libarchive/unxz/xz_lzma2.h	27;"	d
+PROBS_TOTAL	./libarchive/unxz/xz_lzma2.h	195;"	d
+PROCPS_BUFSIZE	./libbb/procps.c	79;"	d	file:
+PROTOTYPES	./libbb/appletlib.c	39;"	d	file:
+PROTOTYPES	./libbb/appletlib.c	41;"	d	file:
+QUOT	./libbb/lineedit.c	851;"	d	file:
+R0	./libbb/hash_md5_sha.c	618;"	d	file:
+R0	./libbb/hash_md5_sha.c	632;"	d	file:
+R0	./libbb/hash_md5_sha.c	672;"	d	file:
+R0	./libbb/hash_md5_sha.c	708;"	d	file:
+R0	./libbb/hash_md5_sha.c	734;"	d	file:
+R1	./libbb/hash_md5_sha.c	619;"	d	file:
+R1	./libbb/hash_md5_sha.c	633;"	d	file:
+R1	./libbb/hash_md5_sha.c	673;"	d	file:
+R1	./libbb/hash_md5_sha.c	709;"	d	file:
+R1	./libbb/hash_md5_sha.c	735;"	d	file:
+RC_BIT_MODEL_TOTAL	./libarchive/unxz/xz_lzma2.h	19;"	d
+RC_BIT_MODEL_TOTAL_BITS	./libarchive/unxz/xz_lzma2.h	18;"	d
+RC_BUFFER	./libarchive/decompress_unlzma.c	30;"	d	file:
+RC_BUFFER_SIZE	./libarchive/decompress_unlzma.c	36;"	d	file:
+RC_INIT_BYTES	./libarchive/unxz/xz_dec_lzma2.c	17;"	d	file:
+RC_MODEL_TOTAL_BITS	./libarchive/decompress_unlzma.c	45;"	d	file:
+RC_MOVE_BITS	./libarchive/decompress_unlzma.c	44;"	d	file:
+RC_MOVE_BITS	./libarchive/unxz/xz_lzma2.h	20;"	d
+RC_SHIFT_BITS	./libarchive/unxz/xz_lzma2.h	15;"	d
+RC_TOP_BITS	./libarchive/decompress_unlzma.c	43;"	d	file:
+RC_TOP_BITS	./libarchive/unxz/xz_lzma2.h	16;"	d
+RC_TOP_VALUE	./libarchive/unxz/xz_lzma2.h	17;"	d
+REPS	./libarchive/unxz/xz_lzma2.h	202;"	d
+RETVAL_DATA_ERROR	./libarchive/decompress_bunzip2.c	65;"	d	file:
+RETVAL_LAST_BLOCK	./libarchive/decompress_bunzip2.c	61;"	d	file:
+RETVAL_NOT_BZIP_DATA	./libarchive/decompress_bunzip2.c	62;"	d	file:
+RETVAL_OBSOLETE_INPUT	./libarchive/decompress_bunzip2.c	67;"	d	file:
+RETVAL_OK	./libarchive/decompress_bunzip2.c	60;"	d	file:
+RETVAL_OUT_OF_MEMORY	./libarchive/decompress_bunzip2.c	66;"	d	file:
+RETVAL_SHORT_WRITE	./libarchive/decompress_bunzip2.c	64;"	d	file:
+RETVAL_UNEXPECTED_INPUT_EOF	./libarchive/decompress_bunzip2.c	63;"	d	file:
+ROUNDS_DEFAULT	./libbb/pw_encrypt_sha.c	11;"	d	file:
+ROUNDS_MAX	./libbb/pw_encrypt_sha.c	15;"	d	file:
+ROUNDS_MIN	./libbb/pw_encrypt_sha.c	13;"	d	file:
+RhoPi_twice	./libbb/hash_md5_sha.c	1035;"	d	file:
+RhoPi_twice	./libbb/hash_md5_sha.c	1046;"	d	file:
+S	./libarchive/decompress_gunzip.c	164;"	d	file:
+S	./libarchive/decompress_gunzip.c	176;"	d	file:
+S	./libbb/lineedit.c	169;"	d	file:
+S0	./libbb/hash_md5_sha.c	616;"	d	file:
+S0	./libbb/hash_md5_sha.c	630;"	d	file:
+S0	./libbb/hash_md5_sha.c	670;"	d	file:
+S0	./libbb/hash_md5_sha.c	706;"	d	file:
+S0	./libbb/hash_md5_sha.c	732;"	d	file:
+S1	./libbb/hash_md5_sha.c	617;"	d	file:
+S1	./libbb/hash_md5_sha.c	631;"	d	file:
+S1	./libbb/hash_md5_sha.c	671;"	d	file:
+S1	./libbb/hash_md5_sha.c	707;"	d	file:
+S1	./libbb/hash_md5_sha.c	733;"	d	file:
+SALT_LEN_MAX	./libbb/pw_encrypt_sha.c	9;"	d	file:
+SCAN	./libbb/procps.c	210;"	d	file:
+SCAN	./libbb/procps.c	224;"	d	file:
+SCAN_TWO	./libbb/procps.c	499;"	d	file:
+SCAN_TWO	./libbb/procps.c	507;"	d	file:
+SELINUX_CONTEXT_KEYWORD	./libarchive/get_header_tar.c	148;"	d	file:
+SEQ_BLOCK_CHECK	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_BLOCK_CHECK,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_BLOCK_HEADER	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_BLOCK_HEADER,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_BLOCK_PADDING	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_BLOCK_PADDING,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_BLOCK_START	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_BLOCK_START,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_BLOCK_UNCOMPRESS	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_BLOCK_UNCOMPRESS,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_CLEAR_TILL_END_OF_SCREEN	./libbb/lineedit.c	111;"	d	file:
+SEQ_COMPRESSED_0	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_COMPRESSED_0,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_COMPRESSED_1	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_COMPRESSED_1,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_CONTROL	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_CONTROL,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_COPY	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_COPY$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_INDEX	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_INDEX,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_INDEX_COUNT	./libarchive/unxz/xz_dec_stream.c	/^			SEQ_INDEX_COUNT,$/;"	e	enum:xz_dec::__anon17::__anon18	file:
+SEQ_INDEX_CRC32	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_INDEX_CRC32,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_INDEX_PADDING	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_INDEX_PADDING,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_INDEX_UNCOMPRESSED	./libarchive/unxz/xz_dec_stream.c	/^			SEQ_INDEX_UNCOMPRESSED$/;"	e	enum:xz_dec::__anon17::__anon18	file:
+SEQ_INDEX_UNPADDED	./libarchive/unxz/xz_dec_stream.c	/^			SEQ_INDEX_UNPADDED,$/;"	e	enum:xz_dec::__anon17::__anon18	file:
+SEQ_LZMA_PREPARE	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_LZMA_PREPARE,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_LZMA_RUN	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_LZMA_RUN,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_PROPERTIES	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_PROPERTIES,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_STREAM_FOOTER	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_STREAM_FOOTER$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_STREAM_HEADER	./libarchive/unxz/xz_dec_stream.c	/^		SEQ_STREAM_HEADER,$/;"	e	enum:xz_dec::__anon14	file:
+SEQ_UNCOMPRESSED_1	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_UNCOMPRESSED_1,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SEQ_UNCOMPRESSED_2	./libarchive/unxz/xz_dec_lzma2.c	/^		SEQ_UNCOMPRESSED_2,$/;"	e	enum:lzma2_dec::lzma2_seq	file:
+SETMASK	./libarchive/bz/blocksort.c	1000;"	d	file:
+SETMASK	./libarchive/bz/blocksort.c	720;"	d	file:
+SET_BH	./libarchive/bz/blocksort.c	223;"	d	file:
+SET_BH	./libarchive/bz/blocksort.c	354;"	d	file:
+SHA3_IBLK_BYTES	./libbb/hash_md5_sha.c	/^	SHA3_IBLK_BYTES = 72, \/* 576 bits \/ 8 *\/$/;"	e	enum:__anon9	file:
+SHA3_SMALL	./libbb/hash_md5_sha.c	922;"	d	file:
+SHA3_SMALL	./libbb/hash_md5_sha.c	924;"	d	file:
+SHA3_SMALL	./libbb/hash_md5_sha.c	926;"	d	file:
+SHOW_USAGE_IF_ERROR	./libbb/getopt32.c	349;"	d	file:
+SIZEOF_LZO_SWD_T	./libarchive/lzo1x_9x.c	145;"	d	file:
+SPECIAL	./libbb/obscure.c	90;"	d	file:
+STALLTIME	./libbb/progress.c	/^	STALLTIME = 5$/;"	e	enum:__anon10	file:
+STATES	./libarchive/unxz/xz_lzma2.h	58;"	d
+STATE_IN_BSS	./libarchive/decompress_gunzip.c	67;"	d	file:
+STATE_IN_MALLOC	./libarchive/decompress_gunzip.c	68;"	d	file:
+STATE_LIT_LIT	./libarchive/unxz/xz_lzma2.h	/^	STATE_LIT_LIT,$/;"	e	enum:lzma_state
+STATE_LIT_LONGREP	./libarchive/unxz/xz_lzma2.h	/^	STATE_LIT_LONGREP,$/;"	e	enum:lzma_state
+STATE_LIT_MATCH	./libarchive/unxz/xz_lzma2.h	/^	STATE_LIT_MATCH,$/;"	e	enum:lzma_state
+STATE_LIT_SHORTREP	./libarchive/unxz/xz_lzma2.h	/^	STATE_LIT_SHORTREP,$/;"	e	enum:lzma_state
+STATE_MATCH_LIT	./libarchive/unxz/xz_lzma2.h	/^	STATE_MATCH_LIT,$/;"	e	enum:lzma_state
+STATE_MATCH_LIT_LIT	./libarchive/unxz/xz_lzma2.h	/^	STATE_MATCH_LIT_LIT,$/;"	e	enum:lzma_state
+STATE_NONLIT_MATCH	./libarchive/unxz/xz_lzma2.h	/^	STATE_NONLIT_MATCH,$/;"	e	enum:lzma_state
+STATE_NONLIT_REP	./libarchive/unxz/xz_lzma2.h	/^	STATE_NONLIT_REP$/;"	e	enum:lzma_state
+STATE_PARAM	./libarchive/decompress_gunzip.c	167;"	d	file:
+STATE_PARAM	./libarchive/decompress_gunzip.c	179;"	d	file:
+STATE_PARAM_ONLY	./libarchive/decompress_gunzip.c	168;"	d	file:
+STATE_PARAM_ONLY	./libarchive/decompress_gunzip.c	180;"	d	file:
+STATE_REP_LIT	./libarchive/unxz/xz_lzma2.h	/^	STATE_REP_LIT,$/;"	e	enum:lzma_state
+STATE_REP_LIT_LIT	./libarchive/unxz/xz_lzma2.h	/^	STATE_REP_LIT_LIT,$/;"	e	enum:lzma_state
+STATE_SHORTREP_LIT	./libarchive/unxz/xz_lzma2.h	/^	STATE_SHORTREP_LIT,$/;"	e	enum:lzma_state
+STATE_SHORTREP_LIT_LIT	./libarchive/unxz/xz_lzma2.h	/^	STATE_SHORTREP_LIT_LIT,$/;"	e	enum:lzma_state
+STORE_RUN	./libarchive/lzo1x_9x.c	/^static uint8_t *STORE_RUN(lzo1x_999_t *c, uint8_t *op,$/;"	f	file:
+STREAM_HEADER_SIZE	./libarchive/unxz/xz_stream.h	26;"	d
+SWD_BEST_OFF	./libarchive/lzo1x_9x.c	57;"	d	file:
+SWD_F	./libarchive/lzo1x_9x.c	55;"	d	file:
+SWD_HSIZE	./libarchive/lzo1x_9x.c	87;"	d	file:
+SWD_MAX_CHAIN	./libarchive/lzo1x_9x.c	90;"	d	file:
+SWD_N	./libarchive/lzo1x_9x.c	54;"	d	file:
+SWD_UINT_MAX	./libarchive/lzo1x_9x.c	84;"	d	file:
+SYMBOL_RUNA	./libarchive/decompress_bunzip2.c	56;"	d	file:
+SYMBOL_RUNB	./libarchive/decompress_bunzip2.c	57;"	d	file:
+TAR_FILENAME	./libarchive/data_extract_to_command.c	/^	TAR_FILENAME,$/;"	e	enum:__anon13	file:
+TAR_GID	./libarchive/data_extract_to_command.c	/^	TAR_GID,$/;"	e	enum:__anon13	file:
+TAR_GNAME	./libarchive/data_extract_to_command.c	/^	TAR_GNAME,$/;"	e	enum:__anon13	file:
+TAR_MAX	./libarchive/data_extract_to_command.c	/^	TAR_MAX,$/;"	e	enum:__anon13	file:
+TAR_MODE	./libarchive/data_extract_to_command.c	/^	TAR_MODE,$/;"	e	enum:__anon13	file:
+TAR_PREFIX	./Makefile	/^TAR_PREFIX :=.$/;"	m
+TAR_REALNAME	./libarchive/data_extract_to_command.c	/^	TAR_REALNAME,$/;"	e	enum:__anon13	file:
+TAR_SIZE	./libarchive/data_extract_to_command.c	/^	TAR_SIZE,$/;"	e	enum:__anon13	file:
+TAR_SRC_FILES	./Makefile	/^TAR_SRC_FILES :=   $(TAR_PREFIX)\/tar.cpp \\$/;"	m
+TAR_UID	./libarchive/data_extract_to_command.c	/^	TAR_UID,$/;"	e	enum:__anon13	file:
+TAR_UNAME	./libarchive/data_extract_to_command.c	/^	TAR_UNAME,$/;"	e	enum:__anon13	file:
+TEST_IP	./libarchive/liblzo.h	76;"	d
+TEST_LB	./libarchive/liblzo.h	88;"	d
+TEST_OP	./libarchive/liblzo.h	80;"	d
+TEST_OP	./libarchive/liblzo.h	81;"	d
+TIMES_12	./libarchive/bz/blocksort.c	393;"	d	file:
+TIMES_12	./libarchive/bz/blocksort.c	445;"	d	file:
+TIMES_8	./libarchive/bz/blocksort.c	390;"	d	file:
+TIMES_8	./libarchive/bz/blocksort.c	444;"	d	file:
+True	./libarchive/bz/bzlib_private.h	32;"	d
+UNALIGNED_BH	./libarchive/bz/blocksort.c	227;"	d	file:
+UNALIGNED_BH	./libarchive/bz/blocksort.c	358;"	d	file:
+UPDATE_I	./libarchive/liblzo.h	67;"	d
+UPHEAP	./libarchive/bz/huffman.c	37;"	d	file:
+UPPERCASE	./libbb/obscure.c	88;"	d	file:
+USE_PRECOMPUTED_u_sbox	./libbb/pw_encrypt_des.c	61;"	d	file:
+USE_PRECOMPUTED_u_sbox	./libbb/pw_encrypt_des.c	790;"	d	file:
+USE_REPETITIVE_SPEEDUP	./libbb/pw_encrypt_des.c	62;"	d	file:
+USE_REPETITIVE_SPEEDUP	./libbb/pw_encrypt_des.c	791;"	d	file:
+USE_de_keys	./libbb/pw_encrypt_des.c	64;"	d	file:
+USE_de_keys	./libbb/pw_encrypt_des.c	793;"	d	file:
+USE_ip_mask	./libbb/pw_encrypt_des.c	63;"	d	file:
+USE_ip_mask	./libbb/pw_encrypt_des.c	792;"	d	file:
+VI_CMDMODE_BIT	./libbb/lineedit.c	/^	VI_CMDMODE_BIT = 0x40000000,$/;"	e	enum:__anon3	file:
+VLI_BYTES_MAX	./libarchive/unxz/xz_stream.h	49;"	d
+VLI_MAX	./libarchive/unxz/xz_stream.h	45;"	d
+VLI_UNKNOWN	./libarchive/unxz/xz_stream.h	46;"	d
+VT_ACTIVATE	./libbb/get_console.c	/^	VT_ACTIVATE = 0x5606,   \/* make vt active *\/$/;"	e	enum:__anon7	file:
+VT_WAITACTIVE	./libbb/get_console.c	/^	VT_WAITACTIVE = 0x5607  \/* wait for vt active *\/$/;"	e	enum:__anon7	file:
+WANT_HEX_ESCAPES	./libbb/process_escape_sequence.c	13;"	d	file:
+WANT_PIDFILE	./libbb/pidfile.c	11;"	d	file:
+WEIGHTOF	./libarchive/bz/huffman.c	29;"	d	file:
+WORD_BH	./libarchive/bz/blocksort.c	226;"	d	file:
+WORD_BH	./libarchive/bz/blocksort.c	357;"	d	file:
+XSTR_STRTOU	./libbb/xatonum.c	20;"	d	file:
+XSTR_STRTOU	./libbb/xatonum.c	32;"	d	file:
+XSTR_STRTOU	./libbb/xatonum.c	56;"	d	file:
+XSTR_STRTOU	./libbb/xatonum_template.c	195;"	d	file:
+XSTR_TYPE_MAX	./libbb/xatonum.c	18;"	d	file:
+XSTR_TYPE_MAX	./libbb/xatonum.c	30;"	d	file:
+XSTR_TYPE_MAX	./libbb/xatonum.c	53;"	d	file:
+XSTR_TYPE_MAX	./libbb/xatonum_template.c	193;"	d	file:
+XSTR_TYPE_MIN	./libbb/xatonum.c	19;"	d	file:
+XSTR_TYPE_MIN	./libbb/xatonum.c	31;"	d	file:
+XSTR_TYPE_MIN	./libbb/xatonum.c	54;"	d	file:
+XSTR_TYPE_MIN	./libbb/xatonum_template.c	194;"	d	file:
+XSTR_UTYPE_MAX	./libbb/xatonum.c	17;"	d	file:
+XSTR_UTYPE_MAX	./libbb/xatonum.c	29;"	d	file:
+XSTR_UTYPE_MAX	./libbb/xatonum.c	52;"	d	file:
+XSTR_UTYPE_MAX	./libbb/xatonum_template.c	192;"	d	file:
+XZ_BUF_ERROR	./libarchive/unxz/xz.h	/^	XZ_BUF_ERROR$/;"	e	enum:xz_ret
+XZ_CHECK_CRC32	./libarchive/unxz/xz_stream.h	/^	XZ_CHECK_CRC32 = 1,$/;"	e	enum:xz_check
+XZ_CHECK_CRC64	./libarchive/unxz/xz_stream.h	/^	XZ_CHECK_CRC64 = 4,$/;"	e	enum:xz_check
+XZ_CHECK_MAX	./libarchive/unxz/xz_stream.h	60;"	d
+XZ_CHECK_NONE	./libarchive/unxz/xz_stream.h	/^	XZ_CHECK_NONE = 0,$/;"	e	enum:xz_check
+XZ_CHECK_SHA256	./libarchive/unxz/xz_stream.h	/^	XZ_CHECK_SHA256 = 10$/;"	e	enum:xz_check
+XZ_CONFIG_H	./libarchive/unxz/xz_config.h	11;"	d
+XZ_DATA_ERROR	./libarchive/unxz/xz.h	/^	XZ_DATA_ERROR,$/;"	e	enum:xz_ret
+XZ_DEC_ANY_CHECK	./libarchive/decompress_unxz.c	21;"	d	file:
+XZ_DEC_ARM	./libarchive/unxz/xz_private.h	37;"	d
+XZ_DEC_ARMTHUMB	./libarchive/unxz/xz_private.h	40;"	d
+XZ_DEC_BCJ	./libarchive/unxz/xz_private.h	104;"	d
+XZ_DEC_DYNALLOC	./libarchive/decompress_unxz.c	18;"	d	file:
+XZ_DEC_DYNALLOC	./libarchive/unxz/xz_private.h	61;"	d
+XZ_DEC_IA64	./libarchive/unxz/xz_private.h	34;"	d
+XZ_DEC_POWERPC	./libarchive/unxz/xz_private.h	31;"	d
+XZ_DEC_PREALLOC	./libarchive/unxz/xz_private.h	60;"	d
+XZ_DEC_SINGLE	./libarchive/unxz/xz_private.h	59;"	d
+XZ_DEC_SPARC	./libarchive/unxz/xz_private.h	43;"	d
+XZ_DEC_X86	./libarchive/unxz/xz_private.h	28;"	d
+XZ_DYNALLOC	./libarchive/unxz/xz.h	/^	XZ_DYNALLOC$/;"	e	enum:xz_mode
+XZ_EXTERN	./libarchive/decompress_unxz.c	16;"	d	file:
+XZ_EXTERN	./libarchive/unxz/xz.h	28;"	d
+XZ_FORMAT_ERROR	./libarchive/unxz/xz.h	/^	XZ_FORMAT_ERROR,$/;"	e	enum:xz_ret
+XZ_FUNC	./libarchive/decompress_unxz.c	15;"	d	file:
+XZ_FUNC	./libarchive/unxz/xz.h	33;"	d
+XZ_H	./libarchive/unxz/xz.h	12;"	d
+XZ_INTERNAL_CRC32	./libarchive/decompress_unxz.c	24;"	d	file:
+XZ_INTERNAL_CRC32	./libarchive/unxz/xz.h	254;"	d
+XZ_INTERNAL_CRC32	./libarchive/unxz/xz.h	256;"	d
+XZ_LZMA2_H	./libarchive/unxz/xz_lzma2.h	12;"	d
+XZ_MEMLIMIT_ERROR	./libarchive/unxz/xz.h	/^	XZ_MEMLIMIT_ERROR,$/;"	e	enum:xz_ret
+XZ_MEM_ERROR	./libarchive/unxz/xz.h	/^	XZ_MEM_ERROR,$/;"	e	enum:xz_ret
+XZ_OK	./libarchive/unxz/xz.h	/^	XZ_OK,$/;"	e	enum:xz_ret
+XZ_OPTIONS_ERROR	./libarchive/unxz/xz.h	/^	XZ_OPTIONS_ERROR,$/;"	e	enum:xz_ret
+XZ_PREALLOC	./libarchive/unxz/xz.h	/^	XZ_PREALLOC,$/;"	e	enum:xz_mode
+XZ_PRIVATE_H	./libarchive/unxz/xz_private.h	11;"	d
+XZ_SINGLE	./libarchive/unxz/xz.h	/^	XZ_SINGLE,$/;"	e	enum:xz_mode
+XZ_STREAM_END	./libarchive/unxz/xz.h	/^	XZ_STREAM_END,$/;"	e	enum:xz_ret
+XZ_STREAM_H	./libarchive/unxz/xz_stream.h	11;"	d
+XZ_UNSUPPORTED_CHECK	./libarchive/unxz/xz.h	/^	XZ_UNSUPPORTED_CHECK,$/;"	e	enum:xz_ret
+_POSIX_VDISABLE	./libbb/lineedit.c	53;"	d	file:
+__SIGRTMAX	./libbb/u_signal_names.c	181;"	d	file:
+__SIGRTMIN	./libbb/u_signal_names.c	178;"	d	file:
+__always_inline	./libarchive/unxz/xz_config.h	52;"	d
+__always_inline	./libarchive/unxz/xz_config.h	55;"	d
+_range	./libbb/xatonum_template.c	/^type FAST_FUNC xato(_range)(const char *numstr, type lower, type upper)$/;"	f
+_range	./libbb/xatonum_template.c	/^type FAST_FUNC xstrto(_range)(const char *numstr, int base, type lower, type upper)$/;"	f
+_range	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xatou(_range)(const char *numstr,$/;"	f
+_range	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xstrtou(_range)(const char *numstr, int base,$/;"	f
+_range_sfx	./libbb/xatonum_template.c	/^type FAST_FUNC xato(_range_sfx)(const char *numstr,$/;"	f
+_range_sfx	./libbb/xatonum_template.c	/^type FAST_FUNC xstrto(_range_sfx)(const char *numstr, int base,$/;"	f
+_range_sfx	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xatou(_range_sfx)(const char *numstr,$/;"	f
+_range_sfx	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xstrtou(_range_sfx)(const char *numstr, int base,$/;"	f
+_sfx	./libbb/xatonum_template.c	/^type FAST_FUNC xato(_sfx)(const char *numstr, const struct suffix_mult *suffixes)$/;"	f
+_sfx	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xatou(_sfx)(const char *numstr,$/;"	f
+_sfx	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xstrtou(_sfx)(const char *numstr, int base,$/;"	f
+_tolower	./libbb/process_escape_sequence.c	16;"	d	file:
+_tolower	./libbb/process_escape_sequence.c	17;"	d	file:
+abort_unzip	./libarchive/decompress_gunzip.c	/^static void abort_unzip(STATE_PARAM_ONLY)$/;"	f	file:
+add_match	./libbb/lineedit.c	/^static void add_match(char *matched)$/;"	f	file:
+add_pair_to_block	./libarchive/bz/bzlib.c	/^void add_pair_to_block(EState* s)$/;"	f	file:
+add_to_ino_dev_hashtable	./libbb/inode_hash.c	/^void FAST_FUNC add_to_ino_dev_hashtable(const struct stat *statbuf, const char *name)$/;"	f
+addmntent	./libbb/mntent_r.c	/^int addmntent (FILE *stream, const struct mntent *mnt)$/;"	f
+address	./libbb/dump.c	/^	off_t address;           \/* address\/offset in stream *\/$/;"	m	struct:priv_dumper_t	file:
+adjtimex	./libbb/missing_syscalls.c	/^int adjtimex(struct timex *buf)$/;"	f
+adjust_width_and_validate_wc	./libbb/lineedit.c	/^static wchar_t adjust_width_and_validate_wc(unsigned *width_adj, wchar_t wc)$/;"	f	file:
+alloc_dumper	./libbb/dump.c	/^dumper_t* FAST_FUNC alloc_dumper(void)$/;"	f
+alloc_procps_scan	./libbb/procps.c	/^static procps_status_t* FAST_FUNC alloc_procps_scan(void)$/;"	f	file:
+allocated	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t allocated;$/;"	m	struct:dictionary	file:
+allow_buf_error	./libarchive/unxz/xz_dec_stream.c	/^	bool allow_buf_error;$/;"	m	struct:xz_dec	file:
+alt_ctx	./libbb/pw_encrypt_sha.c	285;"	d	file:
+alt_ctx	./libbb/pw_encrypt_sha.c	44;"	d	file:
+alt_result	./libbb/pw_encrypt_sha.c	282;"	d	file:
+alt_result	./libbb/pw_encrypt_sha.c	41;"	d	file:
+applet_long_options	./libbb/getopt32.c	/^const char *applet_long_options;$/;"	v
+applet_name	./libbb/appletlib.c	/^const char *applet_name;$/;"	v
+applet_name	./libbb/lineedit.c	/^const char *applet_name = "debug stuff usage";$/;"	v
+applet_name	./libbb/vfork_daemon_rexec.c	/^	const char *applet_name;$/;"	m	struct:nofork_save_area	file:
+applet_name_compare	./libbb/appletlib.c	/^static int applet_name_compare(const void *name, const void *idx)$/;"	f	file:
+arena	./libbb/find_root_device.c	/^struct arena {$/;"	s	file:
+argv	./libbb/dump.c	/^	char **argv;$/;"	m	struct:priv_dumper_t	file:
+arr1	./libarchive/bz/bzlib_private.h	/^	uint32_t *arr1;$/;"	m	struct:EState
+arr2	./libarchive/bz/bzlib_private.h	/^	uint32_t *arr2;$/;"	m	struct:EState
+ascii_to_bin	./libbb/pw_encrypt_des.c	/^ascii_to_bin(char ch)$/;"	f	file:
+ask_and_check_password	./libbb/correct_password.c	/^int FAST_FUNC ask_and_check_password(const struct passwd *pw)$/;"	f
+ask_and_check_password_extended	./libbb/correct_password.c	/^int FAST_FUNC ask_and_check_password_extended(const struct passwd *pw,$/;"	f
+ask_and_unlink	./libbb/copy_file.c	/^static int ask_and_unlink(const char *dest, int flags)$/;"	f	file:
+ask_terminal	./libbb/lineedit.c	/^static void ask_terminal(void)$/;"	f	file:
+ask_terminal	./libbb/lineedit.c	1767;"	d	file:
+askpass_timeout	./libbb/bb_askpass.c	/^static void askpass_timeout(int UNUSED_PARAM ignore)$/;"	f	file:
+avail_in	./libarchive/bz/bzlib.h	/^	unsigned avail_in;$/;"	m	struct:bz_stream
+avail_out	./libarchive/bz/bzlib.h	/^	unsigned avail_out;$/;"	m	struct:bz_stream
+b	./libarchive/decompress_gunzip.c	/^	unsigned char b;	\/* number of bits in this code or subcode *\/$/;"	m	struct:huft_t	file:
+b	./libarchive/lzo1x_9x.c	/^	uint8_t b[SWD_N + SWD_F];$/;"	m	struct:lzo_swd	file:
+b64_from_24bit	./libbb/pw_encrypt_sha.c	198;"	d	file:
+b64_from_24bit	./libbb/pw_encrypt_sha.c	268;"	d	file:
+b_char	./libarchive/lzo1x_9x.c	/^	int b_char;$/;"	m	struct:lzo_swd	file:
+b_wrap	./libarchive/lzo1x_9x.c	/^	uint8_t b_wrap[SWD_F]; \/* must follow b *\/$/;"	m	struct:lzo_swd	file:
+base	./libarchive/decompress_bunzip2.c	/^	int limit[MAX_HUFCODE_BITS+1], base[MAX_HUFCODE_BITS], permute[MAX_SYMBOLS];$/;"	m	struct:group_data	file:
+bb	./libarchive/decompress_gunzip.c	484;"	d	file:
+bb	./libarchive/decompress_gunzip.c	624;"	d	file:
+bb_argv_dash	./libbb/getopt32.c	/^const char *const bb_argv_dash[] = { "-", NULL };$/;"	v
+bb_ask	./libbb/bb_askpass.c	/^char* FAST_FUNC bb_ask(const int fd, int timeout, const char *prompt)$/;"	f
+bb_ask_confirmation	./libbb/ask_confirmation.c	/^int FAST_FUNC bb_ask_confirmation(void)$/;"	f
+bb_ask_stdin	./libbb/bb_askpass.c	/^char* FAST_FUNC bb_ask_stdin(const char *prompt)$/;"	f
+bb_basename	./libbb/get_last_path_component.c	/^const char* FAST_FUNC bb_basename(const char *name)$/;"	f
+bb_bswap_64	./libbb/bb_bswap_64.c	/^uint64_t FAST_FUNC bb_bswap_64(uint64_t x)$/;"	f
+bb_copyfd_eof	./libbb/copyfd.c	/^off_t FAST_FUNC bb_copyfd_eof(int fd1, int fd2)$/;"	f
+bb_copyfd_exact_size	./libbb/copyfd.c	/^void FAST_FUNC bb_copyfd_exact_size(int fd1, int fd2, off_t size)$/;"	f
+bb_copyfd_size	./libbb/copyfd.c	/^off_t FAST_FUNC bb_copyfd_size(int fd1, int fd2, off_t size)$/;"	f
+bb_daemonize_or_rexec	./libbb/vfork_daemon_rexec.c	/^void FAST_FUNC bb_daemonize_or_rexec(int flags, char **argv)$/;"	f
+bb_do_delay	./libbb/bb_do_delay.c	/^void FAST_FUNC bb_do_delay(int seconds)$/;"	f
+bb_dump_add	./libbb/dump.c	/^void FAST_FUNC bb_dump_add(dumper_t* pub_dumper, const char *fmt)$/;"	f
+bb_dump_dump	./libbb/dump.c	/^int FAST_FUNC bb_dump_dump(dumper_t *pub_dumper, char **argv)$/;"	f
+bb_dump_size	./libbb/dump.c	/^static NOINLINE int bb_dump_size(FS *fs)$/;"	f	file:
+bb_errno	./libbb/ptr_to_globals.c	/^int *bb_errno;$/;"	v
+bb_errno	./libbb/ptr_to_globals.c	/^int *const bb_errno __attribute__ ((section (".data")));$/;"	v
+bb_error_msg	./libbb/verror_msg.c	/^void FAST_FUNC bb_error_msg(const char *s, ...)$/;"	f
+bb_error_msg_and_die	./libbb/verror_msg.c	/^void FAST_FUNC bb_error_msg_and_die(const char *s, ...)$/;"	f
+bb_full_fd_action	./libbb/copyfd.c	/^static off_t bb_full_fd_action(int src_fd, int dst_fd, off_t size)$/;"	f	file:
+bb_get_chunk_from_file	./libbb/get_line_from_file.c	/^char* FAST_FUNC bb_get_chunk_from_file(FILE *file, int *end)$/;"	f
+bb_get_last_path_component_nostrip	./libbb/get_last_path_component.c	/^char* FAST_FUNC bb_get_last_path_component_nostrip(const char *path)$/;"	f
+bb_get_last_path_component_strip	./libbb/get_last_path_component.c	/^char* FAST_FUNC bb_get_last_path_component_strip(char *path)$/;"	f
+bb_got_signal	./libbb/signals.c	/^smallint bb_got_signal;$/;"	v
+bb_herror_msg	./libbb/herror_msg.c	/^void FAST_FUNC bb_herror_msg(const char *s, ...)$/;"	f
+bb_herror_msg_and_die	./libbb/herror_msg.c	/^void FAST_FUNC bb_herror_msg_and_die(const char *s, ...)$/;"	f
+bb_info_msg	./libbb/info_msg.c	/^void FAST_FUNC bb_info_msg(const char *s, ...)$/;"	f
+bb_ioctl_or_warn	./libbb/xfuncs_printf.c	/^int FAST_FUNC bb_ioctl_or_warn(int fd, unsigned request, void *argp)$/;"	f
+bb_ioctl_or_warn	./libbb/xfuncs_printf.c	/^int FAST_FUNC bb_ioctl_or_warn(int fd, unsigned request, void *argp, const char *ioctl_name)$/;"	f
+bb_lookup_port	./libbb/xconnect.c	/^unsigned FAST_FUNC bb_lookup_port(const char *port, const char *protocol, unsigned default_port)$/;"	f
+bb_loop_info	./libbb/loop.c	/^typedef struct loop_info64 bb_loop_info;$/;"	t	typeref:struct:loop_info64	file:
+bb_loop_info	./libbb/loop.c	/^} bb_loop_info;$/;"	t	typeref:struct:__anon8	file:
+bb_make_directory	./libbb/make_directory.c	/^int FAST_FUNC bb_make_directory(char *path, long mode, int flags)$/;"	f
+bb_makedev	./libbb/makedev.c	/^unsigned long long FAST_FUNC bb_makedev(unsigned major, unsigned minor)$/;"	f
+bb_mode_string	./libbb/mode_string.c	/^const char* FAST_FUNC bb_mode_string(mode_t mode)$/;"	f
+bb_null_long_options	./libbb/getopt32.c	/^static const struct option bb_null_long_options[1] = {$/;"	v	typeref:struct:option	file:
+bb_parse_mode	./libbb/parse_mode.c	/^int FAST_FUNC bb_parse_mode(const char *s, mode_t *current_mode)$/;"	f
+bb_perror_msg	./libbb/perror_msg.c	/^void FAST_FUNC bb_perror_msg(const char *s, ...)$/;"	f
+bb_perror_msg_and_die	./libbb/perror_msg.c	/^void FAST_FUNC bb_perror_msg_and_die(const char *s, ...)$/;"	f
+bb_perror_nomsg	./libbb/perror_nomsg.c	/^void FAST_FUNC bb_perror_nomsg(void)$/;"	f
+bb_perror_nomsg_and_die	./libbb/perror_nomsg_and_die.c	/^void FAST_FUNC bb_perror_nomsg_and_die(void)$/;"	f
+bb_process_escape_sequence	./libbb/process_escape_sequence.c	/^char FAST_FUNC bb_process_escape_sequence(const char **ptr)$/;"	f
+bb_progress_init	./libbb/progress.c	/^void FAST_FUNC bb_progress_init(bb_progress_t *p, const char *curfile)$/;"	f
+bb_progress_update	./libbb/progress.c	/^void FAST_FUNC bb_progress_update(bb_progress_t *p,$/;"	f
+bb_pstrcmp	./libbb/bb_qsort.c	/^int \/* not FAST_FUNC! *\/ bb_pstrcmp(const void *a, const void *b)$/;"	f
+bb_putchar	./libbb/xfuncs_printf.c	/^int FAST_FUNC bb_putchar(int ch)$/;"	f
+bb_putchar_stderr	./libbb/xfuncs.c	/^int FAST_FUNC bb_putchar_stderr(char ch)$/;"	f
+bb_sanitize_stdio	./libbb/vfork_daemon_rexec.c	/^void FAST_FUNC bb_sanitize_stdio(void)$/;"	f
+bb_show_usage	./libbb/appletlib.c	/^void FAST_FUNC bb_show_usage(void)$/;"	f
+bb_signals	./libbb/signals.c	/^void FAST_FUNC bb_signals(int sigs, void (*f)(int))$/;"	f
+bb_signals_recursive_norestart	./libbb/signals.c	/^void FAST_FUNC bb_signals_recursive_norestart(int sigs, void (*f)(int))$/;"	f
+bb_simple_perror_msg	./libbb/perror_msg.c	/^void FAST_FUNC bb_simple_perror_msg(const char *s)$/;"	f
+bb_simple_perror_msg_and_die	./libbb/perror_msg.c	/^void FAST_FUNC bb_simple_perror_msg_and_die(const char *s)$/;"	f
+bb_simplify_abs_path_inplace	./libbb/simplify_path.c	/^char* FAST_FUNC bb_simplify_abs_path_inplace(char *start)$/;"	f
+bb_simplify_path	./libbb/simplify_path.c	/^char* FAST_FUNC bb_simplify_path(const char *path)$/;"	f
+bb_strtoi	./libbb/bb_strtonum.c	/^int FAST_FUNC bb_strtoi(const char *arg, char **endp, int base)$/;"	f
+bb_strtol	./libbb/bb_strtonum.c	/^long FAST_FUNC bb_strtol(const char *arg, char **endp, int base)$/;"	f
+bb_strtoll	./libbb/bb_strtonum.c	/^long long FAST_FUNC bb_strtoll(const char *arg, char **endp, int base)$/;"	f
+bb_strtou	./libbb/bb_strtonum.c	/^unsigned FAST_FUNC bb_strtou(const char *arg, char **endp, int base)$/;"	f
+bb_strtoui	./libbb/xatonum.c	/^unsigned bb_strtoui(const char *str, char **end, int b)$/;"	f	file:
+bb_strtoul	./libbb/bb_strtonum.c	/^unsigned long FAST_FUNC bb_strtoul(const char *arg, char **endp, int base)$/;"	f
+bb_strtoull	./libbb/bb_strtonum.c	/^unsigned long long FAST_FUNC bb_strtoull(const char *arg, char **endp, int base)$/;"	f
+bb_unsetenv	./libbb/xfuncs_printf.c	/^void FAST_FUNC bb_unsetenv(const char *var)$/;"	f
+bb_unsetenv_and_free	./libbb/xfuncs_printf.c	/^void FAST_FUNC bb_unsetenv_and_free(char *var)$/;"	f
+bb_uuencode	./libbb/uuencode.c	/^void FAST_FUNC bb_uuencode(char *p, const void *src, int length, const char *tbl)$/;"	f
+bb_verror_msg	./libbb/verror_msg.c	/^void FAST_FUNC bb_verror_msg(const char *s, va_list p, const char* strerr)$/;"	f
+bb_warn_ignoring_args	./libbb/warn_ignoring_args.c	/^void FAST_FUNC bb_warn_ignoring_args(char *arg)$/;"	f
+bb_xioctl	./libbb/xfuncs_printf.c	/^int FAST_FUNC bb_xioctl(int fd, unsigned request, void *argp)$/;"	f
+bb_xioctl	./libbb/xfuncs_printf.c	/^int FAST_FUNC bb_xioctl(int fd, unsigned request, void *argp, const char *ioctl_name)$/;"	f
+bcj	./libarchive/unxz/xz_dec_stream.c	/^	struct xz_dec_bcj *bcj;$/;"	m	struct:xz_dec	typeref:struct:xz_dec::xz_dec_bcj	file:
+bcj_active	./libarchive/unxz/xz_dec_stream.c	/^	bool bcj_active;$/;"	m	struct:xz_dec	file:
+bcj_apply	./libarchive/unxz/xz_dec_bcj.c	/^static void XZ_FUNC bcj_apply(struct xz_dec_bcj *s,$/;"	f	file:
+bcj_arm	./libarchive/unxz/xz_dec_bcj.c	/^static noinline_for_stack size_t XZ_FUNC bcj_arm($/;"	f	file:
+bcj_armthumb	./libarchive/unxz/xz_dec_bcj.c	/^static noinline_for_stack size_t XZ_FUNC bcj_armthumb($/;"	f	file:
+bcj_flush	./libarchive/unxz/xz_dec_bcj.c	/^static void XZ_FUNC bcj_flush(struct xz_dec_bcj *s, struct xz_buf *b)$/;"	f	file:
+bcj_ia64	./libarchive/unxz/xz_dec_bcj.c	/^static noinline_for_stack size_t XZ_FUNC bcj_ia64($/;"	f	file:
+bcj_powerpc	./libarchive/unxz/xz_dec_bcj.c	/^static noinline_for_stack size_t XZ_FUNC bcj_powerpc($/;"	f	file:
+bcj_sparc	./libarchive/unxz/xz_dec_bcj.c	/^static noinline_for_stack size_t XZ_FUNC bcj_sparc($/;"	f	file:
+bcj_x86	./libarchive/unxz/xz_dec_bcj.c	/^static noinline_for_stack size_t XZ_FUNC bcj_x86($/;"	f	file:
+bcj_x86_test_msbyte	./libarchive/unxz/xz_dec_bcj.c	/^static inline int bcj_x86_test_msbyte(uint8_t b)$/;"	f	file:
+bd	./libarchive/decompress_gunzip.c	490;"	d	file:
+bd	./libarchive/decompress_gunzip.c	630;"	d	file:
+beep	./libbb/lineedit.c	/^static void beep(void)$/;"	f	file:
+beg_and_transferred	./libbb/progress.c	169;"	d	file:
+best3	./libarchive/lzo1x_9x.c	/^	uint16_t best3[SWD_N + SWD_F];$/;"	m	struct:lzo_swd	file:
+best_off	./libarchive/lzo1x_9x.c	/^	unsigned best_off[SWD_BEST_OFF];$/;"	m	struct:lzo_swd	file:
+best_pos	./libarchive/lzo1x_9x.c	/^	unsigned best_pos[SWD_BEST_OFF];$/;"	m	struct:lzo_swd	file:
+better_match	./libarchive/lzo1x_9x.c	/^static void better_match(const lzo_swd_p swd,$/;"	f	file:
+bin2hex	./libbb/xfuncs.c	/^char* FAST_FUNC bin2hex(char *p, const char *cp, int count)$/;"	f
+bits32	./libbb/pw_encrypt_des.c	/^static const uint32_t bits32[32] =$/;"	v	file:
+bits8	./libbb/pw_encrypt_des.c	/^static const uint8_t bits8[8] = { 0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01 };$/;"	v	file:
+bkm_suffixes	./libbb/xatonum.c	/^const struct suffix_mult bkm_suffixes[] = {$/;"	v	typeref:struct:suffix_mult
+bl	./libarchive/decompress_gunzip.c	489;"	d	file:
+bl	./libarchive/decompress_gunzip.c	629;"	d	file:
+block	./libarchive/bz/bzlib_private.h	/^	uint8_t  *block;$/;"	m	struct:EState
+block	./libarchive/unxz/xz_dec_stream.c	/^	} block;$/;"	m	struct:xz_dec	typeref:struct:xz_dec::__anon16	file:
+blockCRC	./libarchive/bz/bzlib_private.h	/^	uint32_t blockCRC;$/;"	m	struct:EState
+blockNo	./libarchive/bz/bzlib_private.h	/^	int32_t  blockNo;$/;"	m	struct:EState
+blockSize100k	./libarchive/bz/bzlib_private.h	/^	int32_t  blockSize100k;$/;"	m	struct:EState
+block_header	./libarchive/unxz/xz_dec_stream.c	/^	} block_header;$/;"	m	struct:xz_dec	typeref:struct:xz_dec::__anon15	file:
+blocksize	./libbb/dump.c	/^	int blocksize;$/;"	m	struct:priv_dumper_t	file:
+bound	./libarchive/decompress_unlzma.c	/^	uint32_t bound;$/;"	m	struct:__anon23	file:
+bp	./libarchive/lzo1x_9x.c	/^	const uint8_t *bp;$/;"	m	struct:__anon28	file:
+bp	./libarchive/lzo1x_9x.c	/^	unsigned bp;                \/* buffer pointer *\/$/;"	m	struct:lzo_swd	file:
+bpad	./libbb/dump.c	/^static void bpad(PR *pr)$/;"	f	file:
+bsBuff	./libarchive/bz/bzlib_private.h	/^	uint32_t bsBuff;$/;"	m	struct:EState
+bsFinishWrite	./libarchive/bz/compress.c	/^void bsFinishWrite(EState* s)$/;"	f	file:
+bsLive	./libarchive/bz/bzlib_private.h	/^	int32_t  bsLive;$/;"	m	struct:EState
+bsPutU16	./libarchive/bz/compress.c	/^void bsPutU16(EState* s, unsigned u)$/;"	f	file:
+bsPutU32	./libarchive/bz/compress.c	/^void bsPutU32(EState* s, unsigned u)$/;"	f	file:
+bsW	./libarchive/bz/compress.c	/^void bsW(EState* s, int32_t n, uint32_t v)$/;"	f	file:
+buf	./libarchive/unxz/xz_dec_bcj.c	/^		uint8_t buf[16];$/;"	m	struct:xz_dec_bcj::__anon21	file:
+buf	./libarchive/unxz/xz_dec_lzma2.c	/^		uint8_t buf[3 * LZMA_IN_REQUIRED];$/;"	m	struct:xz_dec_lzma2::__anon22	file:
+buf	./libarchive/unxz/xz_dec_lzma2.c	/^	uint8_t *buf;$/;"	m	struct:dictionary	file:
+buf	./libarchive/unxz/xz_dec_stream.c	/^		uint8_t buf[1024];$/;"	m	struct:xz_dec::__anon19	file:
+buffer_end	./libarchive/decompress_unlzma.c	/^	uint8_t *buffer_end;$/;"	m	struct:__anon23	file:
+buffer_read_le_u16	./libarchive/decompress_gunzip.c	/^static uint16_t buffer_read_le_u16(STATE_PARAM_ONLY)$/;"	f	file:
+buffer_read_le_u32	./libarchive/decompress_gunzip.c	/^static uint32_t buffer_read_le_u32(STATE_PARAM_ONLY)$/;"	f	file:
+build_match_prefix	./libbb/lineedit.c	/^static NOINLINE int build_match_prefix(char *match_buf)$/;"	f	file:
+bunzip_data	./libarchive/decompress_bunzip2.c	/^struct bunzip_data {$/;"	s	file:
+bunzip_errors	./libarchive/decompress_bunzip2.c	/^static char *const bunzip_errors[] = {$/;"	v	file:
+busybox_main	./libbb/appletlib.c	/^static int busybox_main(char **argv)$/;"	f	file:
+bytebuffer	./libarchive/decompress_gunzip.c	/^	unsigned char *bytebuffer;      \/* buffer itself *\/$/;"	m	struct:state_t	file:
+bytebuffer	./libarchive/decompress_gunzip.c	134;"	d	file:
+bytebuffer_max	./libarchive/decompress_gunzip.c	133;"	d	file:
+bytebuffer_offset	./libarchive/decompress_gunzip.c	/^	unsigned bytebuffer_offset;     \/* buffer position *\/$/;"	m	struct:state_t	file:
+bytebuffer_offset	./libarchive/decompress_gunzip.c	135;"	d	file:
+bytebuffer_size	./libarchive/decompress_gunzip.c	/^	unsigned bytebuffer_size;       \/* how much data is there (size <= max) *\/$/;"	m	struct:state_t	file:
+bytebuffer_size	./libarchive/decompress_gunzip.c	136;"	d	file:
+bz_assert_fail	./libarchive/bz/bzlib.c	/^void bz_assert_fail(int errcode)$/;"	f	file:
+bz_stream	./libarchive/bz/bzlib.h	/^typedef struct bz_stream {$/;"	s
+bz_stream	./libarchive/bz/bzlib.h	/^} bz_stream;$/;"	t	typeref:struct:bz_stream
+c	./libarchive/lzo1x_9x.c	/^	lzo1x_999_t *c;$/;"	m	struct:lzo_swd	file:
+cache	./libbb/procps.c	/^	id_to_name_map_t *cache;$/;"	m	struct:cache_t	file:
+cache_t	./libbb/procps.c	/^typedef struct cache_t {$/;"	s	file:
+cache_t	./libbb/procps.c	/^} cache_t;$/;"	t	typeref:struct:cache_t	file:
+calculate_gunzip_crc	./libarchive/decompress_gunzip.c	/^static void calculate_gunzip_crc(STATE_PARAM_ONLY)$/;"	f	file:
+cfsetspeed	./libbb/cfsetspeed.c	/^cfsetspeed (struct termios *termios_p, speed_t speed)$/;"	f
+change_identity	./libbb/change_identity.c	/^void FAST_FUNC change_identity(const struct passwd *pw)$/;"	f
+check_errors_in_children	./libarchive/open_transformer.c	/^void check_errors_in_children(int signo)$/;"	f
+check_header_gzip	./libarchive/decompress_gunzip.c	/^static int check_header_gzip(STATE_PARAM transformer_aux_data_t *aux)$/;"	f	file:
+check_selinux_update_passwd	./libbb/update_passwd.c	/^static void check_selinux_update_passwd(const char *username)$/;"	f	file:
+check_selinux_update_passwd	./libbb/update_passwd.c	40;"	d	file:
+check_signature16	./libarchive/open_transformer.c	/^int FAST_FUNC check_signature16(transformer_aux_data_t *aux, int src_fd, unsigned magic16)$/;"	f
+check_sizes	./libarchive/unxz/xz_dec_stream.c	/^static const uint8_t check_sizes[16] = {$/;"	v	file:
+check_skip	./libarchive/unxz/xz_dec_stream.c	/^static bool XZ_FUNC check_skip(struct xz_dec *s, struct xz_buf *b)$/;"	f	file:
+check_suid	./libbb/appletlib.c	/^static void check_suid(int applet_no)$/;"	f	file:
+check_suid	./libbb/appletlib.c	562;"	d	file:
+check_type	./libarchive/unxz/xz_dec_stream.c	/^	enum xz_check check_type;$/;"	m	struct:xz_dec	typeref:enum:xz_dec::xz_check	file:
+choice	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t choice;$/;"	m	struct:lzma_len_dec	file:
+choice2	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t choice2;$/;"	m	struct:lzma_len_dec	file:
+chomp	./libbb/chomp.c	/^void FAST_FUNC chomp(char *s)$/;"	f
+clear_cache	./libbb/procps.c	/^static void clear_cache(cache_t *cp)$/;"	f	file:
+clear_tab_prefixof	./libarchive/decompress_uncompress.c	67;"	d	file:
+clear_username_cache	./libbb/procps.c	/^void FAST_FUNC clear_username_cache(void)$/;"	f
+close_on_exec_on	./libbb/xfuncs.c	/^void FAST_FUNC close_on_exec_on(int fd)$/;"	f
+cmdedit_prmt_len	./libbb/lineedit.c	/^	unsigned cmdedit_prmt_len; \/* length of prompt (without colors etc) *\/$/;"	m	struct:lineedit_statics	file:
+cmdedit_prmt_len	./libbb/lineedit.c	175;"	d	file:
+cmdedit_prompt	./libbb/lineedit.c	/^	const char *cmdedit_prompt;$/;"	m	struct:lineedit_statics	file:
+cmdedit_prompt	./libbb/lineedit.c	179;"	d	file:
+cmdedit_setwidth	./libbb/lineedit.c	/^static void cmdedit_setwidth(unsigned w, int redraw_flg)$/;"	f	file:
+cmdedit_termw	./libbb/lineedit.c	/^	volatile unsigned cmdedit_termw; \/* = 80; *\/ \/* actual terminal width *\/$/;"	m	struct:lineedit_statics	file:
+cmdedit_termw	./libbb/lineedit.c	171;"	d	file:
+cmdedit_x	./libbb/lineedit.c	/^	unsigned cmdedit_x;        \/* real x (col) terminal position *\/$/;"	m	struct:lineedit_statics	file:
+cmdedit_x	./libbb/lineedit.c	173;"	d	file:
+cmdedit_y	./libbb/lineedit.c	/^	unsigned cmdedit_y;        \/* pseudoreal y (row) terminal position *\/$/;"	m	struct:lineedit_statics	file:
+cmdedit_y	./libbb/lineedit.c	174;"	d	file:
+code	./libarchive/bz/compress.c	265;"	d	file:
+code	./libarchive/bz/compress.c	599;"	d	file:
+code	./libarchive/decompress_unlzma.c	/^	uint32_t code;$/;"	m	struct:__anon23	file:
+code	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t code;$/;"	m	struct:rc_dec	file:
+code_match	./libarchive/lzo1x_9x.c	/^static uint8_t *code_match(lzo1x_999_t *c,$/;"	f	file:
+code_run	./libarchive/lzo1x_9x.c	/^static uint8_t *code_run(lzo1x_999_t *c, uint8_t *op, const uint8_t *ii,$/;"	f	file:
+codetabof	./libarchive/decompress_uncompress.c	63;"	d	file:
+combinedCRC	./libarchive/bz/bzlib_private.h	/^	uint32_t combinedCRC;$/;"	m	struct:EState
+comm_match	./libbb/find_pid_by_name.c	/^static int comm_match(procps_status_t *p, const char *procName)$/;"	f	file:
+command	./libbb/lineedit.c	2298;"	d	file:
+command	./libbb/lineedit.c	2786;"	d	file:
+command_len	./libbb/lineedit.c	/^	int command_len; \/* must be signed *\/$/;"	m	struct:lineedit_statics	file:
+command_len	./libbb/lineedit.c	177;"	d	file:
+command_ps	./libbb/lineedit.c	/^	CHAR_T *command_ps;$/;"	m	struct:lineedit_statics	file:
+command_ps	./libbb/lineedit.c	178;"	d	file:
+common64_end	./libbb/hash_md5_sha.c	/^static void FAST_FUNC common64_end(md5_ctx_t *ctx, int swap_needed)$/;"	f	file:
+common64_hash	./libbb/hash_md5_sha.c	/^static void FAST_FUNC common64_hash(md5_ctx_t *ctx, const void *buffer, size_t len)$/;"	f	file:
+comp_maskl	./libbb/pw_encrypt_des.c	/^	uint32_t comp_maskl[8][128], comp_maskr[8][128]; \/* 9 times each *\/$/;"	m	struct:des_ctx	file:
+comp_maskl	./libbb/pw_encrypt_des.c	348;"	d	file:
+comp_maskl	./libbb/pw_encrypt_des.c	818;"	d	file:
+comp_maskr	./libbb/pw_encrypt_des.c	/^	uint32_t comp_maskl[8][128], comp_maskr[8][128]; \/* 9 times each *\/$/;"	m	struct:des_ctx	file:
+comp_maskr	./libbb/pw_encrypt_des.c	349;"	d	file:
+comp_maskr	./libbb/pw_encrypt_des.c	819;"	d	file:
+comp_perm	./libbb/pw_encrypt_des.c	/^static const uint8_t comp_perm[48] = {$/;"	v	file:
+complete_cmd_dir_file	./libbb/lineedit.c	/^static NOINLINE unsigned complete_cmd_dir_file(const char *command, int type)$/;"	f	file:
+complete_username	./libbb/lineedit.c	/^static NOINLINE unsigned complete_username(const char *ud)$/;"	f	file:
+compressed	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t compressed;$/;"	m	struct:lzma2_dec	file:
+compressed	./libarchive/unxz/xz_dec_stream.c	/^		vli_type compressed;$/;"	m	struct:xz_dec::__anon15	file:
+compressed	./libarchive/unxz/xz_dec_stream.c	/^		vli_type compressed;$/;"	m	struct:xz_dec::__anon16	file:
+concat_path_file	./libbb/concat_path_file.c	/^char* FAST_FUNC concat_path_file(const char *path, const char *filename)$/;"	f
+concat_subpath_file	./libbb/concat_subpath_file.c	/^char* FAST_FUNC concat_subpath_file(const char *path, const char *f)$/;"	f
+config_close	./libbb/parse_config.c	/^void FAST_FUNC config_close(parser_t *parser)$/;"	f
+config_open	./libbb/parse_config.c	/^parser_t* FAST_FUNC config_open(const char *filename)$/;"	f
+config_open2	./libbb/parse_config.c	/^parser_t* FAST_FUNC config_open2(const char *filename, FILE* FAST_FUNC (*fopen_func)(const char *path))$/;"	f
+config_read	./libbb/parse_config.c	/^int FAST_FUNC config_read(parser_t *parser, char **tokens, unsigned flags, const char *delims)$/;"	f
+config_read	./libbb/parse_config.c	161;"	d	file:
+console_make_active	./libbb/get_console.c	/^void FAST_FUNC console_make_active(int fd, const int vt_num)$/;"	f
+const_ctx	./libbb/pw_encrypt_des.c	/^	const struct const_des_ctx *const_ctx;$/;"	m	struct:des_ctx	typeref:struct:des_ctx::const_des_ctx	file:
+const_ctx	./libbb/pw_encrypt_des.c	330;"	d	file:
+const_ctx	./libbb/pw_encrypt_des.c	800;"	d	file:
+const_des_ctx	./libbb/pw_encrypt_des.c	/^struct const_des_ctx {$/;"	s	file:
+const_des_init	./libbb/pw_encrypt_des.c	/^const_des_init(void)$/;"	f	file:
+const_int_0	./libbb/messages.c	/^const int const_int_0 = 0;$/;"	v
+const_int_1	./libbb/messages.c	/^const int const_int_1 = 1;$/;"	v
+conv_c	./libbb/dump.c	/^static void conv_c(PR *pr, unsigned char *p)$/;"	f	file:
+conv_u	./libbb/dump.c	/^static void conv_u(PR *pr, unsigned char *p)$/;"	f	file:
+copyEnd	./libarchive/bz/blocksort.c	744;"	d	file:
+copyEnd	./libarchive/bz/blocksort.c	996;"	d	file:
+copyStart	./libarchive/bz/blocksort.c	743;"	d	file:
+copyStart	./libarchive/bz/blocksort.c	995;"	d	file:
+copy_file	./libbb/copy_file.c	/^int FAST_FUNC copy_file(const char *source, const char *dest, int flags)$/;"	f
+copy_input_until_stop	./libarchive/bz/bzlib.c	/^void \/*Bool*\/ copy_input_until_stop(EState* s)$/;"	f	file:
+copy_output_until_stop	./libarchive/bz/bzlib.c	/^void \/*Bool*\/ copy_output_until_stop(EState* s)$/;"	f	file:
+count	./libarchive/unxz/xz_dec_stream.c	/^		vli_type count;$/;"	m	struct:xz_dec::__anon16	file:
+count	./libarchive/unxz/xz_dec_stream.c	/^		vli_type count;$/;"	m	struct:xz_dec::__anon17	file:
+counter	./libbb/getopt32.c	/^	int *counter;$/;"	m	struct:__anon12	file:
+crc32	./libarchive/unxz/xz_dec_stream.c	/^	uint32_t crc32;$/;"	m	struct:xz_dec	file:
+crc32	./libarchive/unxz/xz_dec_stream.c	/^	uint32_t crc32;$/;"	m	struct:xz_dec_hash	file:
+crc32	./libarchive/unxz/xz_stream.h	15;"	d
+crc32Table	./libarchive/decompress_bunzip2.c	/^	uint32_t crc32Table[256];$/;"	m	struct:bunzip_data	file:
+crc32_block_endian0	./libbb/crc32.c	/^uint32_t FAST_FUNC crc32_block_endian0(uint32_t val, const void *buf, unsigned len, uint32_t *crc_table)$/;"	f
+crc32_block_endian1	./libbb/crc32.c	/^uint32_t FAST_FUNC crc32_block_endian1(uint32_t val, const void *buf, unsigned len, uint32_t *crc_table)$/;"	f
+crc32_filltable	./libbb/crc32.c	/^uint32_t* FAST_FUNC crc32_filltable(uint32_t *crc_table, int endian)$/;"	f
+crc32_validate	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC crc32_validate(struct xz_dec *s, struct xz_buf *b)$/;"	f	file:
+crc32table	./libarchive/bz/bzlib_private.h	/^	uint32_t *crc32table;$/;"	m	struct:EState
+create_and_bind_dgram_or_die	./libbb/xconnect.c	/^int FAST_FUNC create_and_bind_dgram_or_die(const char *bindaddr, int port)$/;"	f
+create_and_bind_or_die	./libbb/xconnect.c	/^static int create_and_bind_or_die(const char *bindaddr, int port, int sock_type)$/;"	f	file:
+create_and_bind_stream_or_die	./libbb/xconnect.c	/^int FAST_FUNC create_and_bind_stream_or_die(const char *bindaddr, int port)$/;"	f
+create_and_connect_stream_or_die	./libbb/xconnect.c	/^int FAST_FUNC create_and_connect_stream_or_die(const char *peer, int port)$/;"	f
+crypt_make_pw_salt	./libbb/pw_encrypt.c	/^char* FAST_FUNC crypt_make_pw_salt(char salt[MAX_PW_SALT_LEN], const char *algo)$/;"	f
+crypt_make_salt	./libbb/pw_encrypt.c	/^int FAST_FUNC crypt_make_salt(char *p, int cnt \/*, int x *\/)$/;"	f
+ctrl_left	./libbb/lineedit.c	/^static void ctrl_left(void)$/;"	f	file:
+ctrl_right	./libbb/lineedit.c	/^static void ctrl_right(void)$/;"	f	file:
+ctx	./libbb/pw_encrypt_sha.c	284;"	d	file:
+ctx	./libbb/pw_encrypt_sha.c	43;"	d	file:
+current_sid	./libbb/run_shell.c	/^static security_context_t current_sid;$/;"	v	file:
+cursor	./libbb/lineedit.c	/^	unsigned cursor;$/;"	m	struct:lineedit_statics	file:
+cursor	./libbb/lineedit.c	176;"	d	file:
+data_align	./libarchive/data_align.c	/^void FAST_FUNC data_align(archive_handle_t *archive_handle, unsigned boundary)$/;"	f
+data_extract_all	./libarchive/data_extract_all.c	/^void FAST_FUNC data_extract_all(archive_handle_t *archive_handle)$/;"	f
+data_extract_to_command	./libarchive/data_extract_to_command.c	/^void FAST_FUNC data_extract_to_command(archive_handle_t *archive_handle)$/;"	f
+data_extract_to_stdout	./libarchive/data_extract_to_stdout.c	/^void FAST_FUNC data_extract_to_stdout(archive_handle_t *archive_handle)$/;"	f
+data_skip	./libarchive/data_skip.c	/^void FAST_FUNC data_skip(archive_handle_t *archive_handle)$/;"	f
+dbg	./libarchive/decompress_bunzip2.c	48;"	d	file:
+dbg_bmp	./libbb/lineedit.c	846;"	d	file:
+dbuf	./libarchive/decompress_bunzip2.c	/^	uint32_t *dbuf;$/;"	m	struct:bunzip_data	file:
+dbufSize	./libarchive/decompress_bunzip2.c	/^	unsigned dbufSize;$/;"	m	struct:bunzip_data	file:
+dd	./libarchive/decompress_gunzip.c	492;"	d	file:
+dd	./libarchive/decompress_gunzip.c	632;"	d	file:
+de_keysl	./libbb/pw_encrypt_des.c	/^	uint32_t de_keysl[16], de_keysr[16]; \/* 2 times each *\/$/;"	m	struct:des_ctx	file:
+de_keysl	./libbb/pw_encrypt_des.c	340;"	d	file:
+de_keysl	./libbb/pw_encrypt_des.c	810;"	d	file:
+de_keysr	./libbb/pw_encrypt_des.c	/^	uint32_t de_keysl[16], de_keysr[16]; \/* 2 times each *\/$/;"	m	struct:des_ctx	file:
+de_keysr	./libbb/pw_encrypt_des.c	341;"	d	file:
+de_keysr	./libbb/pw_encrypt_des.c	811;"	d	file:
+de_stack	./libarchive/decompress_uncompress.c	66;"	d	file:
+dealloc_bunzip	./libarchive/decompress_bunzip2.c	/^void FAST_FUNC dealloc_bunzip(bunzip_data *bd)$/;"	f
+dealloc_usage_messages	./libbb/appletlib.c	87;"	d	file:
+dealloc_usage_messages	./libbb/appletlib.c	92;"	d	file:
+dec2env	./libarchive/data_extract_to_command.c	/^static void dec2env(char *env[], int idx, unsigned long long val)$/;"	f	file:
+dec_block	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC dec_block(struct xz_dec *s, struct xz_buf *b)$/;"	f	file:
+dec_block_header	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC dec_block_header(struct xz_dec *s)$/;"	f	file:
+dec_index	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC dec_index(struct xz_dec *s, struct xz_buf *b)$/;"	f	file:
+dec_main	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC dec_main(struct xz_dec *s, struct xz_buf *b)$/;"	f	file:
+dec_stream_footer	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC dec_stream_footer(struct xz_dec *s)$/;"	f	file:
+dec_stream_header	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC dec_stream_header(struct xz_dec *s)$/;"	f	file:
+dec_vli	./libarchive/unxz/xz_dec_stream.c	/^static enum xz_ret XZ_FUNC dec_vli(struct xz_dec *s,$/;"	f	file:
+decode_base64	./libbb/uuencode.c	/^const char* FAST_FUNC decode_base64(char **pp_dst, const char *src)$/;"	f
+decode_name	./libbb/mntent_r.c	/^decode_name (char *buf)$/;"	f	file:
+deinit_S	./libbb/lineedit.c	/^static void deinit_S(void)$/;"	f	file:
+del_loop	./libbb/loop.c	/^int FAST_FUNC del_loop(const char *device)$/;"	f
+delbuf	./libbb/lineedit.c	/^	CHAR_T delbuf[DELBUFSIZ];  \/* a place to store deleted characters *\/$/;"	m	struct:lineedit_statics	file:
+delbuf	./libbb/lineedit.c	186;"	d	file:
+delptr	./libbb/lineedit.c	/^	CHAR_T *delptr;$/;"	m	struct:lineedit_statics	file:
+delptr	./libbb/lineedit.c	184;"	d	file:
+des_cctx	./libbb/pw_encrypt.c	/^static struct const_des_ctx *des_cctx;$/;"	v	typeref:struct:const_des_ctx	file:
+des_crypt	./libbb/pw_encrypt_des.c	/^des_crypt(struct des_ctx *ctx, char output[DES_OUT_BUFSIZE],$/;"	f	file:
+des_ctx	./libbb/pw_encrypt.c	/^static struct des_ctx *des_ctx;$/;"	v	typeref:struct:des_ctx	file:
+des_ctx	./libbb/pw_encrypt_des.c	/^struct des_ctx {$/;"	s	file:
+des_init	./libbb/pw_encrypt_des.c	/^des_init(struct des_ctx *ctx, const struct const_des_ctx *cctx)$/;"	f	file:
+des_setkey	./libbb/pw_encrypt_des.c	/^des_setkey(struct des_ctx *ctx, const char *key)$/;"	f	file:
+dev	./libbb/find_root_device.c	/^	dev_t dev;$/;"	m	struct:arena	file:
+dev	./libbb/inode_hash.c	/^	dev_t dev;$/;"	m	struct:ino_dev_hash_bucket_struct	file:
+device_open	./libbb/device_open.c	/^int FAST_FUNC device_open(const char *device, int mode)$/;"	f
+devpath	./libbb/find_root_device.c	/^	char devpath[DEVNAME_MAX];$/;"	m	struct:arena	file:
+dict	./libarchive/unxz/xz_dec_lzma2.c	/^	struct dictionary dict;$/;"	m	struct:xz_dec_lzma2	typeref:struct:xz_dec_lzma2::dictionary	file:
+dict_flush	./libarchive/unxz/xz_dec_lzma2.c	/^static uint32_t XZ_FUNC dict_flush(struct dictionary *dict, struct xz_buf *b)$/;"	f	file:
+dict_get	./libarchive/unxz/xz_dec_lzma2.c	/^static __always_inline uint32_t XZ_FUNC dict_get($/;"	f	file:
+dict_has_space	./libarchive/unxz/xz_dec_lzma2.c	/^static __always_inline bool XZ_FUNC dict_has_space(const struct dictionary *dict)$/;"	f	file:
+dict_limit	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC dict_limit(struct dictionary *dict, size_t out_max)$/;"	f	file:
+dict_put	./libarchive/unxz/xz_dec_lzma2.c	/^static inline void XZ_FUNC dict_put(struct dictionary *dict, uint8_t byte)$/;"	f	file:
+dict_repeat	./libarchive/unxz/xz_dec_lzma2.c	/^static bool XZ_FUNC dict_repeat($/;"	f	file:
+dict_reset	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC dict_reset(struct dictionary *dict, struct xz_buf *b)$/;"	f	file:
+dict_size	./libarchive/decompress_unlzma.c	/^	uint32_t dict_size;$/;"	m	struct:__anon24	file:
+dict_uncompressed	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC dict_uncompressed($/;"	f	file:
+dictionary	./libarchive/unxz/xz_dec_lzma2.c	/^struct dictionary {$/;"	s	file:
+die_if_bad_username	./libbb/die_if_bad_username.c	/^void FAST_FUNC die_if_bad_username(const char *name)$/;"	f
+die_if_ferror	./libbb/xfuncs_printf.c	/^void FAST_FUNC die_if_ferror(FILE *fp, const char *fn)$/;"	f
+die_if_ferror_stdout	./libbb/xfuncs_printf.c	/^void FAST_FUNC die_if_ferror_stdout(void)$/;"	f
+die_jmp	./libbb/vfork_daemon_rexec.c	/^	jmp_buf die_jmp;$/;"	m	struct:nofork_save_area	file:
+die_jmp	./libbb/xfunc_die.c	/^jmp_buf die_jmp;$/;"	v
+die_sleep	./libbb/vfork_daemon_rexec.c	/^	int die_sleep;$/;"	m	struct:nofork_save_area	file:
+die_sleep	./libbb/xfunc_die.c	/^int die_sleep;$/;"	v
+display	./libbb/dump.c	/^static void display(priv_dumper_t* dumper)$/;"	f	file:
+dist_align	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t dist_align[ALIGN_SIZE];$/;"	m	struct:lzma_dec	file:
+dist_slot	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t dist_slot[DIST_STATES][DIST_SLOTS];$/;"	m	struct:lzma_dec	file:
+dist_special	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t dist_special[FULL_DISTANCES - DIST_MODEL_END];$/;"	m	struct:lzma_dec	file:
+do_compress	./libarchive/lzo1x_c.c	/^do_compress(const uint8_t* in, unsigned in_len,$/;"	f	file:
+do_des	./libbb/pw_encrypt_des.c	/^do_des(struct des_ctx *ctx, \/*uint32_t l_in, uint32_t r_in,*\/ uint32_t *l_out, uint32_t *r_out, int count)$/;"	f	file:
+do_skip	./libbb/dump.c	/^static void do_skip(priv_dumper_t *dumper, const char *fname, int statok)$/;"	f	file:
+dprintf	./libbb/platform.c	/^int dprintf(int fd, const char *format, ...)$/;"	f
+dst_size	./libarchive/decompress_unlzma.c	/^	uint64_t dst_size;$/;"	m	struct:__anon24	file:
+dumper	./libbb/dump.c	673;"	d	file:
+e	./libarchive/decompress_gunzip.c	/^	unsigned char e;	\/* number of extra bits or operation *\/$/;"	m	struct:huft_t	file:
+eaddress	./libbb/dump.c	/^	off_t eaddress;          \/* end address *\/$/;"	m	struct:priv_dumper_t	file:
+en_keysl	./libbb/pw_encrypt_des.c	/^	uint32_t en_keysl[16], en_keysr[16]; \/* 2 times each *\/$/;"	m	struct:des_ctx	file:
+en_keysl	./libbb/pw_encrypt_des.c	338;"	d	file:
+en_keysl	./libbb/pw_encrypt_des.c	808;"	d	file:
+en_keysr	./libbb/pw_encrypt_des.c	/^	uint32_t en_keysl[16], en_keysr[16]; \/* 2 times each *\/$/;"	m	struct:des_ctx	file:
+en_keysr	./libbb/pw_encrypt_des.c	339;"	d	file:
+en_keysr	./libbb/pw_encrypt_des.c	809;"	d	file:
+encode_name	./libbb/mntent_r.c	190;"	d	file:
+end	./libarchive/unxz/xz_dec_lzma2.c	/^	size_t end;$/;"	m	struct:dictionary	file:
+end_reached	./libarchive/decompress_gunzip.c	/^	smallint end_reached;$/;"	m	struct:state_t	file:
+end_reached	./libarchive/decompress_gunzip.c	151;"	d	file:
+endfu	./libbb/dump.c	/^	FU *endfu;$/;"	m	struct:priv_dumper_t	file:
+endmntent	./libbb/mntent_r.c	/^int endmntent (FILE *stream)$/;"	f
+endofname	./libbb/endofname.c	/^endofname(const char *name)$/;"	f
+erase_mtab	./libbb/mtab.c	/^void FAST_FUNC erase_mtab(const char *name)$/;"	f
+error_jmp	./libarchive/decompress_gunzip.c	/^	jmp_buf error_jmp;$/;"	m	struct:state_t	file:
+error_jmp	./libarchive/decompress_gunzip.c	157;"	d	file:
+error_msg	./libarchive/decompress_gunzip.c	/^	const char *error_msg;$/;"	m	struct:state_t	file:
+error_msg	./libarchive/decompress_gunzip.c	156;"	d	file:
+execable_file	./libbb/execable.c	/^int FAST_FUNC execable_file(const char *name)$/;"	f
+exists_execable	./libbb/execable.c	/^int FAST_FUNC exists_execable(const char *filename)$/;"	f
+exit_char	./libbb/uuencode.c	165;"	d	file:
+exitval	./libbb/dump.c	/^	smallint exitval;        \/* final exit value *\/$/;"	m	struct:priv_dumper_t	file:
+fallbackQSort3	./libarchive/bz/blocksort.c	/^void fallbackQSort3(uint32_t* fmap,$/;"	f	file:
+fallbackSimpleSort	./libarchive/bz/blocksort.c	/^void fallbackSimpleSort(uint32_t* fmap,$/;"	f	file:
+fallbackSort	./libarchive/bz/blocksort.c	/^void fallbackSort(uint32_t* fmap,$/;"	f	file:
+fast_strtol_10	./libbb/procps.c	/^static long fast_strtol_10(char **endptr)$/;"	f	file:
+fast_strtoul_10	./libbb/procps.c	/^static unsigned long fast_strtoul_10(char **endptr)$/;"	f	file:
+fast_strtoul_16	./libbb/procps.c	/^static unsigned long fast_strtoul_16(char **endptr)$/;"	f	file:
+fclose_if_not_stdin	./libbb/fclose_nonstdin.c	/^int FAST_FUNC fclose_if_not_stdin(FILE *f)$/;"	f
+fd	./libarchive/decompress_unlzma.c	/^	int fd;$/;"	m	struct:__anon23	file:
+fdlength	./libbb/xfuncs.c	/^off_t FAST_FUNC fdlength(int fd)$/;"	f
+fflush_all	./libbb/xfuncs_printf.c	/^int FAST_FUNC fflush_all(void)$/;"	f
+fflush_stdout_and_exit	./libbb/fflush_stdout_and_exit.c	/^void FAST_FUNC fflush_stdout_and_exit(int retval)$/;"	f
+fill_bitbuffer	./libarchive/decompress_gunzip.c	/^static unsigned fill_bitbuffer(STATE_PARAM unsigned bitbuffer, unsigned *current, const unsigned required)$/;"	f	file:
+fill_temp	./libarchive/unxz/xz_dec_stream.c	/^static bool XZ_FUNC fill_temp(struct xz_dec *s, struct xz_buf *b)$/;"	f	file:
+filter_accept_all	./libarchive/filter_accept_all.c	/^char FAST_FUNC filter_accept_all(archive_handle_t *archive_handle)$/;"	f
+filter_accept_list	./libarchive/filter_accept_list.c	/^char FAST_FUNC filter_accept_list(archive_handle_t *archive_handle)$/;"	f
+filter_accept_list_reassign	./libarchive/filter_accept_list_reassign.c	/^char FAST_FUNC filter_accept_list_reassign(archive_handle_t *archive_handle)$/;"	f
+filter_accept_reject_list	./libarchive/filter_accept_reject_list.c	/^char FAST_FUNC filter_accept_reject_list(archive_handle_t *archive_handle)$/;"	f
+filtered	./libarchive/unxz/xz_dec_bcj.c	/^		size_t filtered;$/;"	m	struct:xz_dec_bcj::__anon21	file:
+final_perm	./libbb/pw_encrypt_des.c	/^	uint8_t	final_perm[64]; \/* 2 times *\/$/;"	m	struct:const_des_ctx	file:
+final_perm	./libbb/pw_encrypt_des.c	235;"	d	file:
+final_perm	./libbb/pw_encrypt_des.c	797;"	d	file:
+find_applet_by_name	./libbb/appletlib.c	/^int FAST_FUNC find_applet_by_name(const char *name)$/;"	f
+find_block_device	./libbb/find_root_device.c	/^char* FAST_FUNC find_block_device(const char *path)$/;"	f
+find_block_device_in_dir	./libbb/find_root_device.c	/^static char *find_block_device_in_dir(struct arena *ap)$/;"	f	file:
+find_execable	./libbb/execable.c	/^char* FAST_FUNC find_execable(const char *filename, char **PATHp)$/;"	f
+find_list_entry	./libarchive/find_list_entry.c	/^const llist_t* FAST_FUNC find_list_entry(const llist_t *list, const char *filename)$/;"	f
+find_list_entry2	./libarchive/find_list_entry.c	/^const llist_t* FAST_FUNC find_list_entry2(const llist_t *list, const char *filename)$/;"	f
+find_match	./libarchive/lzo1x_9x.c	/^static int find_match(lzo1x_999_t *c, lzo_swd_p s,$/;"	f	file:
+find_mount_point	./libbb/find_mount_point.c	/^struct mntent* FAST_FUNC find_mount_point(const char *name, int subdir_too)$/;"	f
+find_pid_by_name	./libbb/find_pid_by_name.c	/^pid_t* FAST_FUNC find_pid_by_name(const char *procName)$/;"	f
+first	./libbb/unicode.c	/^	uint16_t first;$/;"	m	struct:interval	file:
+first_rp	./libarchive/lzo1x_9x.c	/^	unsigned first_rp;$/;"	m	struct:lzo_swd	file:
+flush_RL	./libarchive/bz/bzlib.c	/^void flush_RL(EState* s)$/;"	f	file:
+fopen_for_read	./libbb/wfopen.c	/^FILE* FAST_FUNC fopen_for_read(const char *path)$/;"	f
+fopen_for_write	./libbb/wfopen.c	/^FILE* FAST_FUNC fopen_for_write(const char *path)$/;"	f
+fopen_or_warn	./libbb/wfopen.c	/^FILE* FAST_FUNC fopen_or_warn(const char *path, const char *mode)$/;"	f
+fopen_or_warn_stdin	./libbb/wfopen_input.c	/^FILE* FAST_FUNC fopen_or_warn_stdin(const char *filename)$/;"	f
+fork_or_rexec	./libbb/vfork_daemon_rexec.c	/^pid_t FAST_FUNC fork_or_rexec(char **argv)$/;"	f
+fp_maskl	./libbb/pw_encrypt_des.c	/^	uint32_t fp_maskl[8][256], fp_maskr[8][256]; \/* 9 times each *\/$/;"	m	struct:des_ctx	file:
+fp_maskl	./libbb/pw_encrypt_des.c	344;"	d	file:
+fp_maskl	./libbb/pw_encrypt_des.c	814;"	d	file:
+fp_maskr	./libbb/pw_encrypt_des.c	/^	uint32_t fp_maskl[8][256], fp_maskr[8][256]; \/* 9 times each *\/$/;"	m	struct:des_ctx	file:
+fp_maskr	./libbb/pw_encrypt_des.c	345;"	d	file:
+fp_maskr	./libbb/pw_encrypt_des.c	815;"	d	file:
+fpop	./libarchive/bz/blocksort.c	101;"	d	file:
+fpop	./libarchive/bz/blocksort.c	204;"	d	file:
+fpush	./libarchive/bz/blocksort.c	203;"	d	file:
+fpush	./libarchive/bz/blocksort.c	95;"	d	file:
+fputc_printable	./libbb/printable.c	/^void FAST_FUNC fputc_printable(int ch, FILE *file)$/;"	f
+free_line_input_t	./libbb/lineedit.c	/^static void free_line_input_t(line_input_t *n)$/;"	f	file:
+free_procps_scan	./libbb/procps.c	/^void FAST_FUNC free_procps_scan(procps_status_t* sp)$/;"	f
+free_tab_completion_data	./libbb/lineedit.c	/^static void free_tab_completion_data(void)$/;"	f	file:
+ftab	./libarchive/bz/bzlib_private.h	/^	uint32_t *ftab;$/;"	m	struct:EState
+full	./libarchive/unxz/xz_dec_lzma2.c	/^	size_t full;$/;"	m	struct:dictionary	file:
+full_read	./libbb/read.c	/^ssize_t FAST_FUNC full_read(int fd, void *buf, size_t len)$/;"	f
+full_write	./libbb/full_write.c	/^ssize_t FAST_FUNC full_write(int fd, const void *buf, size_t len)$/;"	f
+full_write1_str	./libbb/xfuncs.c	/^ssize_t FAST_FUNC full_write1_str(const char *str)$/;"	f
+full_write2_str	./libbb/xfuncs.c	/^ssize_t FAST_FUNC full_write2_str(const char *str)$/;"	f
+generateMTFValues	./libarchive/bz/compress.c	/^void generateMTFValues(EState* s)$/;"	f	file:
+generate_uuid	./libbb/xfuncs_printf.c	/^void FAST_FUNC generate_uuid(uint8_t *buf)$/;"	f
+get	./libbb/dump.c	/^static unsigned char *get(priv_dumper_t *dumper)$/;"	f	file:
+getOctal	./libarchive/get_header_tar.c	/^static unsigned long long getOctal(char *str, int len)$/;"	f	file:
+get__ateof	./libbb/dump.c	/^	smallint get__ateof; \/\/ = 1;$/;"	m	struct:priv_dumper_t	file:
+get__curp	./libbb/dump.c	/^	unsigned char *get__curp;$/;"	m	struct:priv_dumper_t	file:
+get__savp	./libbb/dump.c	/^	unsigned char *get__savp;$/;"	m	struct:priv_dumper_t	file:
+get_bits	./libarchive/decompress_bunzip2.c	/^static unsigned get_bits(bunzip_data *bd, int bits_wanted)$/;"	f	file:
+get_cached	./libbb/procps.c	/^static char* get_cached(cache_t *cp, uid_t id,$/;"	f	file:
+get_cached_groupname	./libbb/procps.c	/^const char* FAST_FUNC get_cached_groupname(gid_t gid)$/;"	f
+get_cached_username	./libbb/procps.c	/^const char* FAST_FUNC get_cached_username(uid_t uid)$/;"	f
+get_console_fd_or_die	./libbb/get_console.c	/^int FAST_FUNC get_console_fd_or_die(void)$/;"	f
+get_cpu_count	./libbb/get_cpu_count.c	/^unsigned FAST_FUNC get_cpu_count(void)$/;"	f
+get_header_ar	./libarchive/get_header_ar.c	/^char FAST_FUNC get_header_ar(archive_handle_t *archive_handle)$/;"	f
+get_header_cpio	./libarchive/get_header_cpio.c	/^char FAST_FUNC get_header_cpio(archive_handle_t *archive_handle)$/;"	f
+get_header_tar	./libarchive/get_header_tar.c	/^char FAST_FUNC get_header_tar(archive_handle_t *archive_handle)$/;"	f
+get_header_tar_bz2	./libarchive/get_header_tar_bz2.c	/^char FAST_FUNC get_header_tar_bz2(archive_handle_t *archive_handle)$/;"	f
+get_header_tar_gz	./libarchive/get_header_tar_gz.c	/^char FAST_FUNC get_header_tar_gz(archive_handle_t *archive_handle)$/;"	f
+get_header_tar_lzma	./libarchive/get_header_tar_lzma.c	/^char FAST_FUNC get_header_tar_lzma(archive_handle_t *archive_handle)$/;"	f
+get_le32	./libarchive/unxz/xz_config.h	120;"	d
+get_le32	./libarchive/unxz/xz_private.h	24;"	d
+get_line_with_continuation	./libbb/parse_config.c	/^static int get_line_with_continuation(parser_t *parser)$/;"	f	file:
+get_linux_version_code	./libbb/kernel_version.c	/^int FAST_FUNC get_linux_version_code(void)$/;"	f
+get_lsa	./libbb/xconnect.c	/^static len_and_sockaddr* get_lsa(int fd, int (*get_name)(int fd, struct sockaddr *addr, socklen_t *addrlen))$/;"	f	file:
+get_mono	./libbb/time.c	/^static void get_mono(struct timespec *ts)$/;"	f	file:
+get_next_block	./libarchive/decompress_bunzip2.c	/^static int get_next_block(bunzip_data *bd)$/;"	f	file:
+get_next_history	./libbb/lineedit.c	/^static int get_next_history(void)$/;"	f	file:
+get_nport	./libbb/xconnect.c	/^int FAST_FUNC get_nport(const struct sockaddr *sa)$/;"	f
+get_peer_lsa	./libbb/xconnect.c	/^len_and_sockaddr* FAST_FUNC get_peer_lsa(int fd)$/;"	f
+get_previous_history	./libbb/lineedit.c	/^static int get_previous_history(void)$/;"	f	file:
+get_shell_name	./libbb/get_shell_name.c	/^const char* FAST_FUNC get_shell_name(void)$/;"	f
+get_signame	./libbb/u_signal_names.c	/^const char* FAST_FUNC get_signame(int number)$/;"	f
+get_signum	./libbb/u_signal_names.c	/^int FAST_FUNC get_signum(const char *name)$/;"	f
+get_sock_lsa	./libbb/xconnect.c	/^len_and_sockaddr* FAST_FUNC get_sock_lsa(int fd)$/;"	f
+get_terminal_width_height	./libbb/xfuncs.c	/^int FAST_FUNC get_terminal_width_height(int fd, unsigned *width, unsigned *height)$/;"	f
+get_trimmed_slice	./libbb/appletlib.c	/^static char *get_trimmed_slice(char *s, char *e)$/;"	f	file:
+get_tty2_width	./libbb/progress.c	/^static unsigned int get_tty2_width(void)$/;"	f	file:
+get_ug_id	./libbb/bb_pwd.c	/^unsigned long FAST_FUNC get_ug_id(const char *s,$/;"	f
+get_unaligned_be32	./libarchive/decompress_unxz.c	32;"	d	file:
+get_unaligned_be32	./libarchive/unxz/xz_config.h	/^static inline uint32_t XZ_FUNC get_unaligned_be32(const uint8_t *buf)$/;"	f
+get_unaligned_le32	./libarchive/decompress_unxz.c	31;"	d	file:
+get_unaligned_le32	./libarchive/unxz/xz_config.h	/^static inline uint32_t XZ_FUNC get_unaligned_le32(const uint8_t *buf)$/;"	f
+get_volume_size_in_bytes	./libbb/get_volsize.c	/^uoff_t FAST_FUNC get_volume_size_in_bytes(int fd,$/;"	f
+getbyte	./libarchive/lzo1x_9x.c	77;"	d	file:
+getline	./libbb/platform.c	/^ssize_t FAST_FUNC getline(char **lineptr, size_t *n, FILE *stream)$/;"	f
+getmntent	./libbb/mntent_r.c	/^struct mntent *getmntent (FILE *stream)$/;"	f
+getmntent_r	./libbb/mntent_r.c	/^struct mntent *getmntent_r (FILE *stream, struct mntent *mp, char *buffer, int bufsiz)$/;"	f
+getopt32	./libbb/getopt32.c	/^getopt32(char **argv, const char *applet_opts, ...)$/;"	f
+getsid	./libbb/missing_syscalls.c	/^pid_t getsid(pid_t pid)$/;"	f
+gid	./libarchive/get_header_cpio.c	/^	int gid  ;$/;"	m	struct:hardlinks_t	file:
+gid2group	./libbb/bb_pwd.c	/^char* FAST_FUNC gid2group(gid_t gid)$/;"	f
+gid2group_utoa	./libbb/bb_pwd.c	/^char* FAST_FUNC gid2group_utoa(gid_t gid)$/;"	f
+global_crc32_table	./libbb/crc32.c	/^uint32_t *global_crc32_table;$/;"	v
+goto_new_line	./libbb/lineedit.c	/^static void goto_new_line(void)$/;"	f	file:
+group_data	./libarchive/decompress_bunzip2.c	/^struct group_data {$/;"	s	file:
+groupname	./libbb/procps.c	/^static cache_t username, groupname;$/;"	v	file:
+groups	./libarchive/decompress_bunzip2.c	/^	struct group_data groups[MAX_GROUPS];  \/* Huffman coding tables *\/$/;"	m	struct:bunzip_data	typeref:struct:bunzip_data::group_data	file:
+gunzip_bb	./libarchive/decompress_gunzip.c	/^	unsigned gunzip_bb; \/* bit buffer *\/$/;"	m	struct:state_t	file:
+gunzip_bb	./libarchive/decompress_gunzip.c	128;"	d	file:
+gunzip_bk	./libarchive/decompress_gunzip.c	/^	unsigned char gunzip_bk; \/* bits in bit buffer *\/$/;"	m	struct:state_t	file:
+gunzip_bk	./libarchive/decompress_gunzip.c	129;"	d	file:
+gunzip_bytes_out	./libarchive/decompress_gunzip.c	/^	off_t gunzip_bytes_out; \/* number of output bytes *\/$/;"	m	struct:state_t	file:
+gunzip_bytes_out	./libarchive/decompress_gunzip.c	122;"	d	file:
+gunzip_crc	./libarchive/decompress_gunzip.c	/^	uint32_t gunzip_crc;$/;"	m	struct:state_t	file:
+gunzip_crc	./libarchive/decompress_gunzip.c	123;"	d	file:
+gunzip_crc_table	./libarchive/decompress_gunzip.c	/^	uint32_t *gunzip_crc_table;$/;"	m	struct:state_t	file:
+gunzip_crc_table	./libarchive/decompress_gunzip.c	127;"	d	file:
+gunzip_outbuf_count	./libarchive/decompress_gunzip.c	/^	unsigned gunzip_outbuf_count; \/* bytes in output buffer *\/$/;"	m	struct:state_t	file:
+gunzip_outbuf_count	./libarchive/decompress_gunzip.c	125;"	d	file:
+gunzip_src_fd	./libarchive/decompress_gunzip.c	/^	int gunzip_src_fd;$/;"	m	struct:state_t	file:
+gunzip_src_fd	./libarchive/decompress_gunzip.c	124;"	d	file:
+gunzip_window	./libarchive/decompress_gunzip.c	/^	unsigned char *gunzip_window;$/;"	m	struct:state_t	file:
+gunzip_window	./libarchive/decompress_gunzip.c	126;"	d	file:
+handle_compress	./libarchive/bz/bzlib.c	/^void \/*Bool*\/ handle_compress(bz_stream *strm)$/;"	f	file:
+handle_errors	./libbb/bb_strtonum.c	/^static unsigned long long handle_errors(unsigned long long v, char **endp)$/;"	f	file:
+hardlinks_t	./libarchive/get_header_cpio.c	/^typedef struct hardlinks_t {$/;"	s	file:
+hardlinks_t	./libarchive/get_header_cpio.c	/^} hardlinks_t;$/;"	t	typeref:struct:hardlinks_t	file:
+hash	./libarchive/unxz/xz_dec_stream.c	/^		struct xz_dec_hash hash;$/;"	m	struct:xz_dec::__anon16	typeref:struct:xz_dec::__anon16::xz_dec_hash	file:
+hash	./libarchive/unxz/xz_dec_stream.c	/^		struct xz_dec_hash hash;$/;"	m	struct:xz_dec::__anon17	typeref:struct:xz_dec::__anon17::xz_dec_hash	file:
+hash_inode	./libbb/inode_hash.c	21;"	d	file:
+hasmntopt	./libbb/mntent_r.c	/^char *hasmntopt (const struct mntent *mnt, const char *opt)$/;"	f
+head2	./libarchive/lzo1x_9x.c	/^	uint16_t head2[65536L];$/;"	m	struct:lzo_swd	file:
+head3	./libarchive/lzo1x_9x.c	/^	uint16_t head3[SWD_HSIZE];$/;"	m	struct:lzo_swd	file:
+headerCRC	./libarchive/decompress_bunzip2.c	/^	uint32_t headerCRC, totalCRC, writeCRC;$/;"	m	struct:bunzip_data	file:
+header_list	./libarchive/header_list.c	/^void FAST_FUNC header_list(const file_header_t *file_header)$/;"	f
+header_skip	./libarchive/header_skip.c	/^void FAST_FUNC header_skip(const file_header_t *file_header UNUSED_PARAM)$/;"	f
+header_verbose_list	./libarchive/header_verbose_list.c	/^void FAST_FUNC header_verbose_list(const file_header_t *file_header)$/;"	f
+heap	./libarchive/bz/huffman.c	119;"	d	file:
+heap	./libarchive/bz/huffman.c	198;"	d	file:
+hex2bin	./libbb/xfuncs.c	/^char* FAST_FUNC hex2bin(char *dst, const char *str, int count)$/;"	f
+hex_to_bin	./libbb/percent_decode.c	/^static unsigned hex_to_bin(unsigned char c)$/;"	f	file:
+high	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t high[LEN_HIGH_SYMBOLS];$/;"	m	struct:lzma_len_dec	file:
+home_pwd_buf	./libbb/lineedit.c	/^	char *home_pwd_buf; \/* = (char*)null_str; *\/$/;"	m	struct:lineedit_statics	file:
+home_pwd_buf	./libbb/lineedit.c	181;"	d	file:
+host2sockaddr	./libbb/xconnect.c	/^len_and_sockaddr* FAST_FUNC host2sockaddr(const char *host, int port)$/;"	f
+host_and_af2sockaddr	./libbb/xconnect.c	/^len_and_sockaddr* FAST_FUNC host_and_af2sockaddr(const char *host, int port, sa_family_t af)$/;"	f
+htabof	./libarchive/decompress_uncompress.c	62;"	d	file:
+huft_build	./libarchive/decompress_gunzip.c	/^static int huft_build(const unsigned *b, const unsigned n,$/;"	f	file:
+huft_free	./libarchive/decompress_gunzip.c	/^static void huft_free(huft_t *p)$/;"	f	file:
+huft_free_all	./libarchive/decompress_gunzip.c	/^static void huft_free_all(STATE_PARAM_ONLY)$/;"	f	file:
+huft_t	./libarchive/decompress_gunzip.c	/^typedef struct huft_t {$/;"	s	file:
+huft_t	./libarchive/decompress_gunzip.c	/^} huft_t;$/;"	t	typeref:struct:huft_t	file:
+i64c	./libbb/pw_encrypt.c	/^static int i64c(int i)$/;"	f	file:
+id	./libbb/procps.c	/^	uid_t id;$/;"	m	struct:id_to_name_map_t	file:
+id_to_name_map_t	./libbb/procps.c	/^typedef struct id_to_name_map_t {$/;"	s	file:
+id_to_name_map_t	./libbb/procps.c	/^} id_to_name_map_t;$/;"	t	typeref:struct:id_to_name_map_t	file:
+in	./libarchive/lzo1x_9x.c	/^	const uint8_t *in;$/;"	m	struct:__anon28	file:
+in	./libarchive/unxz/xz.h	/^	const uint8_t *in;$/;"	m	struct:xz_buf
+in	./libarchive/unxz/xz_dec_lzma2.c	/^	const uint8_t *in;$/;"	m	struct:rc_dec	file:
+in_end	./libarchive/lzo1x_9x.c	/^	const uint8_t *in_end;$/;"	m	struct:__anon28	file:
+in_ether	./libbb/in_ether.c	/^int FAST_FUNC in_ether(const char *bufp, struct sockaddr *sap)$/;"	f
+in_fd	./libarchive/decompress_bunzip2.c	/^	int in_fd, out_fd, inbufCount, inbufPos \/*, outbufPos*\/;$/;"	m	struct:bunzip_data	file:
+in_interval_table	./libbb/unicode.c	/^static int in_interval_table(unsigned ucs, const struct interval *table, unsigned max)$/;"	f	file:
+in_limit	./libarchive/unxz/xz_dec_lzma2.c	/^	size_t in_limit;$/;"	m	struct:rc_dec	file:
+in_pos	./libarchive/unxz/xz.h	/^	size_t in_pos;$/;"	m	struct:xz_buf
+in_pos	./libarchive/unxz/xz_dec_lzma2.c	/^	size_t in_pos;$/;"	m	struct:rc_dec	file:
+in_size	./libarchive/unxz/xz.h	/^	size_t in_size;$/;"	m	struct:xz_buf
+in_start	./libarchive/unxz/xz_dec_stream.c	/^	size_t in_start;$/;"	m	struct:xz_dec	file:
+in_uint16_table	./libbb/unicode.c	/^static int in_uint16_table(unsigned ucs, const uint16_t *table, unsigned max)$/;"	f	file:
+inbuf	./libarchive/decompress_bunzip2.c	/^	uint8_t *inbuf \/*,*outbuf*\/;$/;"	m	struct:bunzip_data	file:
+inbufBitCount	./libarchive/decompress_bunzip2.c	/^	unsigned inbufBitCount, inbufBits;$/;"	m	struct:bunzip_data	file:
+inbufBits	./libarchive/decompress_bunzip2.c	/^	unsigned inbufBitCount, inbufBits;$/;"	m	struct:bunzip_data	file:
+inbufCount	./libarchive/decompress_bunzip2.c	/^	int in_fd, out_fd, inbufCount, inbufPos \/*, outbufPos*\/;$/;"	m	struct:bunzip_data	file:
+inbufPos	./libarchive/decompress_bunzip2.c	/^	int in_fd, out_fd, inbufCount, inbufPos \/*, outbufPos*\/;$/;"	m	struct:bunzip_data	file:
+incongruously	./libbb/getopt32.c	/^	unsigned incongruously;$/;"	m	struct:__anon12	file:
+incs	./libarchive/bz/blocksort.c	/^const int32_t incs[14] = {$/;"	v	file:
+index	./libarchive/unxz/xz_dec_stream.c	/^	} index;$/;"	m	struct:xz_dec	typeref:struct:xz_dec::__anon17	file:
+index_in_str_array	./libbb/compare_string_array.c	/^int FAST_FUNC index_in_str_array(const char *const string_array[], const char *key)$/;"	f
+index_in_strings	./libbb/compare_string_array.c	/^int FAST_FUNC index_in_strings(const char *strings, const char *key)$/;"	f
+index_in_substr_array	./libbb/compare_string_array.c	/^int FAST_FUNC index_in_substr_array(const char *const string_array[], const char *key)$/;"	f
+index_in_substrings	./libbb/compare_string_array.c	/^int FAST_FUNC index_in_substrings(const char *strings, const char *key)$/;"	f
+index_update	./libarchive/unxz/xz_dec_stream.c	/^static void XZ_FUNC index_update(struct xz_dec *s, const struct xz_buf *b)$/;"	f	file:
+inet_cksum	./libbb/inet_cksum.c	/^uint16_t FAST_FUNC inet_cksum(uint16_t *addr, int nleft)$/;"	f
+inflate_block	./libarchive/decompress_gunzip.c	/^static int inflate_block(STATE_PARAM smallint *e)$/;"	f	file:
+inflate_codes	./libarchive/decompress_gunzip.c	/^static NOINLINE int inflate_codes(STATE_PARAM_ONLY)$/;"	f	file:
+inflate_codes_bb	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_bb; \/* bit buffer *\/$/;"	m	struct:state_t	file:
+inflate_codes_bb	./libarchive/decompress_gunzip.c	139;"	d	file:
+inflate_codes_bd	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_bd;$/;"	m	struct:state_t	file:
+inflate_codes_bd	./libarchive/decompress_gunzip.c	145;"	d	file:
+inflate_codes_bl	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_bl;$/;"	m	struct:state_t	file:
+inflate_codes_bl	./libarchive/decompress_gunzip.c	144;"	d	file:
+inflate_codes_dd	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_dd;$/;"	m	struct:state_t	file:
+inflate_codes_dd	./libarchive/decompress_gunzip.c	147;"	d	file:
+inflate_codes_k	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_k; \/* number of bits in bit buffer *\/$/;"	m	struct:state_t	file:
+inflate_codes_k	./libarchive/decompress_gunzip.c	140;"	d	file:
+inflate_codes_md	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_md; \/* masks for bl and bd bits *\/$/;"	m	struct:state_t	file:
+inflate_codes_md	./libarchive/decompress_gunzip.c	138;"	d	file:
+inflate_codes_ml	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_ml; \/* masks for bl and bd bits *\/$/;"	m	struct:state_t	file:
+inflate_codes_ml	./libarchive/decompress_gunzip.c	137;"	d	file:
+inflate_codes_nn	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_nn; \/* length and index for copy *\/$/;"	m	struct:state_t	file:
+inflate_codes_nn	./libarchive/decompress_gunzip.c	146;"	d	file:
+inflate_codes_setup	./libarchive/decompress_gunzip.c	/^static void inflate_codes_setup(STATE_PARAM unsigned my_bl, unsigned my_bd)$/;"	f	file:
+inflate_codes_td	./libarchive/decompress_gunzip.c	/^	huft_t *inflate_codes_td;$/;"	m	struct:state_t	file:
+inflate_codes_td	./libarchive/decompress_gunzip.c	143;"	d	file:
+inflate_codes_tl	./libarchive/decompress_gunzip.c	/^	huft_t *inflate_codes_tl;$/;"	m	struct:state_t	file:
+inflate_codes_tl	./libarchive/decompress_gunzip.c	142;"	d	file:
+inflate_codes_w	./libarchive/decompress_gunzip.c	/^	unsigned inflate_codes_w; \/* current gunzip_window position *\/$/;"	m	struct:state_t	file:
+inflate_codes_w	./libarchive/decompress_gunzip.c	141;"	d	file:
+inflate_get_next_window	./libarchive/decompress_gunzip.c	/^static int inflate_get_next_window(STATE_PARAM_ONLY)$/;"	f	file:
+inflate_stored	./libarchive/decompress_gunzip.c	/^static int inflate_stored(STATE_PARAM_ONLY)$/;"	f	file:
+inflate_stored_b	./libarchive/decompress_gunzip.c	/^	unsigned inflate_stored_b;$/;"	m	struct:state_t	file:
+inflate_stored_b	./libarchive/decompress_gunzip.c	153;"	d	file:
+inflate_stored_k	./libarchive/decompress_gunzip.c	/^	unsigned inflate_stored_k;$/;"	m	struct:state_t	file:
+inflate_stored_k	./libarchive/decompress_gunzip.c	154;"	d	file:
+inflate_stored_n	./libarchive/decompress_gunzip.c	/^	unsigned inflate_stored_n;$/;"	m	struct:state_t	file:
+inflate_stored_n	./libarchive/decompress_gunzip.c	152;"	d	file:
+inflate_stored_setup	./libarchive/decompress_gunzip.c	/^static void inflate_stored_setup(STATE_PARAM int my_n, int my_b, int my_k)$/;"	f	file:
+inflate_stored_w	./libarchive/decompress_gunzip.c	/^	unsigned inflate_stored_w;$/;"	m	struct:state_t	file:
+inflate_stored_w	./libarchive/decompress_gunzip.c	155;"	d	file:
+inflate_unzip	./libarchive/decompress_gunzip.c	/^inflate_unzip(transformer_aux_data_t *aux, int in, int out)$/;"	f
+inflate_unzip_internal	./libarchive/decompress_gunzip.c	/^inflate_unzip_internal(STATE_PARAM int in, int out)$/;"	f
+ingroup	./libbb/appletlib.c	/^static int ingroup(uid_t u, gid_t g)$/;"	f	file:
+init	./libarchive/lzo1x_9x.c	/^	int init;$/;"	m	struct:__anon28	file:
+init256	./libbb/hash_md5_sha.c	/^static const uint32_t init256[] = {$/;"	v	file:
+init512_lo	./libbb/hash_md5_sha.c	/^static const uint32_t init512_lo[] = {$/;"	v	file:
+init_RL	./libarchive/bz/bzlib.c	/^void init_RL(EState* s)$/;"	f	file:
+init_bytes_left	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t init_bytes_left;$/;"	m	struct:rc_dec	file:
+init_handle	./libarchive/init_handle.c	/^archive_handle_t* FAST_FUNC init_handle(void)$/;"	f
+init_match	./libarchive/lzo1x_9x.c	/^static int init_match(lzo1x_999_t *c, lzo_swd_p s, uint32_t use_best_off)$/;"	f	file:
+init_perm	./libbb/pw_encrypt_des.c	/^	uint8_t	init_perm[64]; \/* referenced 2 times *\/$/;"	m	struct:const_des_ctx	file:
+init_perm	./libbb/pw_encrypt_des.c	234;"	d	file:
+init_perm	./libbb/pw_encrypt_des.c	796;"	d	file:
+init_transformer_aux_data	./libarchive/open_transformer.c	/^void FAST_FUNC init_transformer_aux_data(transformer_aux_data_t *aux)$/;"	f
+init_unicode	./libbb/unicode.c	/^void FAST_FUNC init_unicode(void)$/;"	f
+ino	./libbb/inode_hash.c	/^	ino_t ino;$/;"	m	struct:ino_dev_hash_bucket_struct	file:
+ino_dev_hash_bucket_struct	./libbb/inode_hash.c	/^typedef struct ino_dev_hash_bucket_struct {$/;"	s	file:
+ino_dev_hashtable	./libbb/inode_hash.c	/^static ino_dev_hashtable_bucket_t **ino_dev_hashtable;$/;"	v	file:
+ino_dev_hashtable_bucket_t	./libbb/inode_hash.c	/^} ino_dev_hashtable_bucket_t;$/;"	t	typeref:struct:ino_dev_hash_bucket_struct	file:
+inode	./libarchive/get_header_cpio.c	/^	int inode; \/* TODO: must match maj\/min too! *\/$/;"	m	struct:hardlinks_t	file:
+input_backspace	./libbb/lineedit.c	/^static void input_backspace(void)$/;"	f	file:
+input_backward	./libbb/lineedit.c	/^static void input_backward(unsigned num)$/;"	f	file:
+input_delete	./libbb/lineedit.c	/^static void input_delete(void)$/;"	f	file:
+input_delete	./libbb/lineedit.c	547;"	d	file:
+input_forward	./libbb/lineedit.c	/^static void input_forward(void)$/;"	f	file:
+input_tab	./libbb/lineedit.c	/^static NOINLINE void input_tab(smallint *lastWasTab)$/;"	f	file:
+install_dir	./libbb/appletlib.c	/^static const char *const install_dir[] = {$/;"	v	file:
+install_links	./libbb/appletlib.c	/^static void install_links(const char *busybox, int use_symbolic_links,$/;"	f	file:
+install_links	./libbb/appletlib.c	609;"	d	file:
+internal	./libbb/cfsetspeed.c	/^  speed_t internal;$/;"	m	struct:speed_struct	file:
+interval	./libbb/unicode.c	/^struct interval {$/;"	s	file:
+inv_comp_perm	./libbb/pw_encrypt_des.c	/^	uint8_t	inv_comp_perm[56]; \/* 3 times *\/$/;"	m	struct:des_ctx	file:
+inv_comp_perm	./libbb/pw_encrypt_des.c	336;"	d	file:
+inv_comp_perm	./libbb/pw_encrypt_des.c	806;"	d	file:
+inv_key_perm	./libbb/pw_encrypt_des.c	/^	uint8_t	inv_key_perm[64]; \/* 3 times *\/$/;"	m	struct:des_ctx	file:
+inv_key_perm	./libbb/pw_encrypt_des.c	337;"	d	file:
+inv_key_perm	./libbb/pw_encrypt_des.c	807;"	d	file:
+ioctl_or_perror	./libbb/xfuncs_printf.c	/^int FAST_FUNC ioctl_or_perror(int fd, unsigned request, void *argp, const char *fmt,...)$/;"	f
+ioctl_or_perror_and_die	./libbb/xfuncs_printf.c	/^int FAST_FUNC ioctl_or_perror_and_die(int fd, unsigned request, void *argp, const char *fmt,...)$/;"	f
+ip	./libarchive/lzo1x_9x.c	/^	const uint8_t *ip;$/;"	m	struct:__anon28	file:
+ip	./libarchive/lzo1x_9x.c	/^	unsigned ip;                \/* input pointer (lookahead) *\/$/;"	m	struct:lzo_swd	file:
+ip_maskl	./libbb/pw_encrypt_des.c	/^	uint32_t ip_maskl[8][256], ip_maskr[8][256]; \/* 9 times each *\/$/;"	m	struct:des_ctx	file:
+ip_maskl	./libbb/pw_encrypt_des.c	342;"	d	file:
+ip_maskl	./libbb/pw_encrypt_des.c	812;"	d	file:
+ip_maskr	./libbb/pw_encrypt_des.c	/^	uint32_t ip_maskl[8][256], ip_maskr[8][256]; \/* 9 times each *\/$/;"	m	struct:des_ctx	file:
+ip_maskr	./libbb/pw_encrypt_des.c	343;"	d	file:
+ip_maskr	./libbb/pw_encrypt_des.c	813;"	d	file:
+is_directory	./libbb/isdirectory.c	/^int FAST_FUNC is_directory(const char *fileName, int followLinks)$/;"	f
+is_in_ino_dev_hashtable	./libbb/inode_hash.c	/^char* FAST_FUNC is_in_ino_dev_hashtable(const struct stat *statbuf)$/;"	f
+is_in_name	./libbb/endofname.c	14;"	d	file:
+is_match	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t is_match[STATES][POS_STATES_MAX];$/;"	m	struct:lzma_dec	file:
+is_name	./libbb/endofname.c	13;"	d	file:
+is_rep	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t is_rep[STATES];$/;"	m	struct:lzma_dec	file:
+is_rep0	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t is_rep0[STATES];$/;"	m	struct:lzma_dec	file:
+is_rep0_long	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t is_rep0_long[STATES][POS_STATES_MAX];$/;"	m	struct:lzma_dec	file:
+is_rep1	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t is_rep1[STATES];$/;"	m	struct:lzma_dec	file:
+is_rep2	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t is_rep2[STATES];$/;"	m	struct:lzma_dec	file:
+is_special_char	./libbb/lineedit.c	/^static const char *is_special_char(char c)$/;"	f	file:
+isalnum	./libbb/lineedit.c	87;"	d	file:
+isalnum	./libbb/lineedit.c	91;"	d	file:
+isempty_RL	./libarchive/bz/bzlib.c	/^int isempty_RL(EState* s)$/;"	f	file:
+isprint	./libbb/lineedit.c	89;"	d	file:
+isprint	./libbb/lineedit.c	93;"	d	file:
+ispunct	./libbb/lineedit.c	88;"	d	file:
+ispunct	./libbb/lineedit.c	92;"	d	file:
+isrtl_str	./libbb/lineedit.c	/^static int isrtl_str(void)$/;"	f	file:
+isrtl_str	./libbb/lineedit.c	2087;"	d	file:
+isspace	./libbb/lineedit.c	86;"	d	file:
+isspace	./libbb/lineedit.c	90;"	d	file:
+iswalnum	./libbb/unicode.c	/^int FAST_FUNC iswalnum(wint_t wc)$/;"	f
+iswpunct	./libbb/unicode.c	/^int FAST_FUNC iswpunct(wint_t wc)$/;"	f
+iswspace	./libbb/unicode.c	/^int FAST_FUNC iswspace(wint_t wc)$/;"	f
+itoa	./libbb/xfuncs.c	/^char* FAST_FUNC itoa(int n)$/;"	f
+itoa_to_buf	./libbb/xfuncs.c	/^char* FAST_FUNC itoa_to_buf(int n, char *buf, unsigned buflen)$/;"	f
+jmpbuf	./libarchive/decompress_bunzip2.c	/^	jmp_buf jmpbuf;$/;"	m	struct:bunzip_data	file:
+k	./libarchive/decompress_gunzip.c	485;"	d	file:
+k	./libarchive/decompress_gunzip.c	625;"	d	file:
+key_perm	./libbb/pw_encrypt_des.c	/^static const uint8_t key_perm[56] = {$/;"	v	file:
+key_perm_maskl	./libbb/pw_encrypt_des.c	/^	uint32_t key_perm_maskl[8][128], key_perm_maskr[8][128]; \/* 9 times *\/$/;"	m	struct:des_ctx	file:
+key_perm_maskl	./libbb/pw_encrypt_des.c	346;"	d	file:
+key_perm_maskl	./libbb/pw_encrypt_des.c	816;"	d	file:
+key_perm_maskr	./libbb/pw_encrypt_des.c	/^	uint32_t key_perm_maskl[8][128], key_perm_maskr[8][128]; \/* 9 times *\/$/;"	m	struct:des_ctx	file:
+key_perm_maskr	./libbb/pw_encrypt_des.c	347;"	d	file:
+key_perm_maskr	./libbb/pw_encrypt_des.c	817;"	d	file:
+key_shifts	./libbb/pw_encrypt_des.c	/^static const uint8_t key_shifts[16] = {$/;"	v	file:
+kfree	./libarchive/unxz/xz_config.h	28;"	d
+kill_myself_with_sig	./libbb/signals.c	/^void FAST_FUNC kill_myself_with_sig(int sig)$/;"	f
+kmalloc	./libarchive/unxz/xz_config.h	27;"	d
+last	./libbb/unicode.c	/^	uint16_t last;$/;"	m	struct:interval	file:
+last_char_is	./libbb/last_char_is.c	/^char* FAST_FUNC last_char_is(const char *s, int c)$/;"	f
+lbb_main	./libbb/appletlib.c	/^int lbb_main(char **argv)$/;"	f
+lbb_prepare	./libbb/appletlib.c	/^void lbb_prepare(const char *applet$/;"	f
+lc	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t lc;$/;"	m	struct:lzma_dec	file:
+len	./libarchive/bz/bzlib_private.h	/^	uint8_t  len[BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:EState
+len	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t len;$/;"	m	struct:lzma_dec	file:
+len_of_coded_match	./libarchive/lzo1x_9x.c	/^static int len_of_coded_match(unsigned m_len, unsigned m_off, unsigned lit)$/;"	f	file:
+len_pack	./libarchive/bz/compress.c	267;"	d	file:
+len_pack	./libarchive/bz/compress.c	601;"	d	file:
+limit	./libarchive/decompress_bunzip2.c	/^	int limit[MAX_HUFCODE_BITS+1], base[MAX_HUFCODE_BITS], permute[MAX_SYMBOLS];$/;"	m	struct:group_data	file:
+limit	./libarchive/unxz/xz_dec_lzma2.c	/^	size_t limit;$/;"	m	struct:dictionary	file:
+lineedit_ptr_to_statics	./libbb/lineedit_ptr_hack.c	/^struct lineedit_statics *const lineedit_ptr_to_statics __attribute__ ((section (".data")));$/;"	v
+lineedit_ptr_to_statics	./libbb/lineedit_ptr_hack.c	/^struct lineedit_statics *lineedit_ptr_to_statics;$/;"	v	typeref:struct:lineedit_statics
+lineedit_read_key	./libbb/lineedit.c	/^static int lineedit_read_key(char *read_key_buffer, int timeout)$/;"	f	file:
+lineedit_statics	./libbb/lineedit.c	/^struct lineedit_statics {$/;"	s	file:
+literal	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t literal[LITERAL_CODERS_MAX][LITERAL_CODER_SIZE];$/;"	m	struct:lzma_dec	file:
+literal_pos_mask	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t literal_pos_mask; \/* (1 << lp) - 1 *\/$/;"	m	struct:lzma_dec	file:
+llen3	./libarchive/lzo1x_9x.c	/^	uint16_t llen3[SWD_HSIZE];$/;"	m	struct:lzo_swd	file:
+llist_add_to	./libbb/llist.c	/^void FAST_FUNC llist_add_to(llist_t **old_head, void *data)$/;"	f
+llist_add_to_end	./libbb/llist.c	/^void FAST_FUNC llist_add_to_end(llist_t **list_head, void *data)$/;"	f
+llist_find_str	./libbb/llist.c	/^llist_t* FAST_FUNC llist_find_str(llist_t *list, const char *str)$/;"	f
+llist_free	./libbb/llist.c	/^void FAST_FUNC llist_free(llist_t *elm, void (*freeit)(void *data))$/;"	f
+llist_pop	./libbb/llist.c	/^void* FAST_FUNC llist_pop(llist_t **head)$/;"	f
+llist_rev	./libbb/llist.c	/^llist_t* FAST_FUNC llist_rev(llist_t *list)$/;"	f
+llist_unlink	./libbb/llist.c	/^void FAST_FUNC llist_unlink(llist_t **head, llist_t *elm)$/;"	f
+lo_device	./libbb/loop.c	/^	__kernel_dev_t     lo_device;$/;"	m	struct:__anon8	file:
+lo_encrypt_key	./libbb/loop.c	/^	unsigned char      lo_encrypt_key[LO_KEY_SIZE];$/;"	m	struct:__anon8	file:
+lo_encrypt_key_size	./libbb/loop.c	/^	int                lo_encrypt_key_size;$/;"	m	struct:__anon8	file:
+lo_encrypt_type	./libbb/loop.c	/^	int                lo_encrypt_type;$/;"	m	struct:__anon8	file:
+lo_file_name	./libbb/loop.c	/^	char               lo_file_name[LO_NAME_SIZE];$/;"	m	struct:__anon8	file:
+lo_flags	./libbb/loop.c	/^	int                lo_flags;$/;"	m	struct:__anon8	file:
+lo_init	./libbb/loop.c	/^	unsigned long      lo_init[2];$/;"	m	struct:__anon8	file:
+lo_inode	./libbb/loop.c	/^	unsigned long      lo_inode;$/;"	m	struct:__anon8	file:
+lo_number	./libbb/loop.c	/^	int                lo_number;$/;"	m	struct:__anon8	file:
+lo_offset	./libbb/loop.c	/^	int                lo_offset;$/;"	m	struct:__anon8	file:
+lo_rdevice	./libbb/loop.c	/^	__kernel_dev_t     lo_rdevice;$/;"	m	struct:__anon8	file:
+load_history	./libbb/lineedit.c	/^static void load_history(line_input_t *st_parm)$/;"	f	file:
+load_history	./libbb/lineedit.c	1509;"	d	file:
+load_string	./libbb/lineedit.c	/^static size_t load_string(const char *src)$/;"	f	file:
+local_buf	./libbb/xfuncs.c	/^static char local_buf[sizeof(int) * 3];$/;"	v	file:
+logmode	./libbb/verror_msg.c	/^smallint logmode = LOGMODE_STDIO;$/;"	v
+look	./libarchive/lzo1x_9x.c	/^	unsigned look;          \/* bytes in lookahead buffer *\/$/;"	m	struct:__anon28	file:
+look	./libarchive/lzo1x_9x.c	/^	unsigned look;$/;"	m	struct:lzo_swd	file:
+low	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t low[POS_STATES_MAX][LEN_LOW_SYMBOLS];$/;"	m	struct:lzma_len_dec	file:
+lzma	./libarchive/unxz/xz_dec_lzma2.c	/^	struct lzma_dec lzma;$/;"	m	struct:xz_dec_lzma2	typeref:struct:xz_dec_lzma2::lzma_dec	file:
+lzma2	./libarchive/unxz/xz_dec_lzma2.c	/^	struct lzma2_dec lzma2;$/;"	m	struct:xz_dec_lzma2	typeref:struct:xz_dec_lzma2::lzma2_dec	file:
+lzma2	./libarchive/unxz/xz_dec_stream.c	/^	struct xz_dec_lzma2 *lzma2;$/;"	m	struct:xz_dec	typeref:struct:xz_dec::xz_dec_lzma2	file:
+lzma2_dec	./libarchive/unxz/xz_dec_lzma2.c	/^struct lzma2_dec {$/;"	s	file:
+lzma2_lzma	./libarchive/unxz/xz_dec_lzma2.c	/^static bool XZ_FUNC lzma2_lzma(struct xz_dec_lzma2 *s, struct xz_buf *b)$/;"	f	file:
+lzma2_seq	./libarchive/unxz/xz_dec_lzma2.c	/^	enum lzma2_seq {$/;"	g	struct:lzma2_dec	file:
+lzma_dec	./libarchive/unxz/xz_dec_lzma2.c	/^struct lzma_dec {$/;"	s	file:
+lzma_get_dist_state	./libarchive/unxz/xz_lzma2.h	/^static inline uint32_t XZ_FUNC lzma_get_dist_state(uint32_t len)$/;"	f
+lzma_header_t	./libarchive/decompress_unlzma.c	/^} PACKED lzma_header_t;$/;"	t	typeref:struct:__anon24	file:
+lzma_len	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC lzma_len(struct xz_dec_lzma2 *s, struct lzma_len_dec *l,$/;"	f	file:
+lzma_len_dec	./libarchive/unxz/xz_dec_lzma2.c	/^struct lzma_len_dec {$/;"	s	file:
+lzma_literal	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC lzma_literal(struct xz_dec_lzma2 *s)$/;"	f	file:
+lzma_literal_probs	./libarchive/unxz/xz_dec_lzma2.c	/^static uint16_t * XZ_FUNC lzma_literal_probs(struct xz_dec_lzma2 *s)$/;"	f	file:
+lzma_main	./libarchive/unxz/xz_dec_lzma2.c	/^static bool XZ_FUNC lzma_main(struct xz_dec_lzma2 *s)$/;"	f	file:
+lzma_match	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC lzma_match(struct xz_dec_lzma2 *s, uint32_t pos_state)$/;"	f	file:
+lzma_props	./libarchive/unxz/xz_dec_lzma2.c	/^static bool XZ_FUNC lzma_props(struct xz_dec_lzma2 *s, uint8_t props)$/;"	f	file:
+lzma_rep_match	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC lzma_rep_match(struct xz_dec_lzma2 *s, uint32_t pos_state)$/;"	f	file:
+lzma_reset	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC lzma_reset(struct xz_dec_lzma2 *s)$/;"	f	file:
+lzma_state	./libarchive/unxz/xz_lzma2.h	/^enum lzma_state {$/;"	g
+lzma_state_is_literal	./libarchive/unxz/xz_lzma2.h	/^static inline bool XZ_FUNC lzma_state_is_literal(enum lzma_state state)$/;"	f
+lzma_state_literal	./libarchive/unxz/xz_lzma2.h	/^static inline void XZ_FUNC lzma_state_literal(enum lzma_state *state)$/;"	f
+lzma_state_long_rep	./libarchive/unxz/xz_lzma2.h	/^static inline void XZ_FUNC lzma_state_long_rep(enum lzma_state *state)$/;"	f
+lzma_state_match	./libarchive/unxz/xz_lzma2.h	/^static inline void XZ_FUNC lzma_state_match(enum lzma_state *state)$/;"	f
+lzma_state_short_rep	./libarchive/unxz/xz_lzma2.h	/^static inline void XZ_FUNC lzma_state_short_rep(enum lzma_state *state)$/;"	f
+lzo1x_999_compress_internal	./libarchive/lzo1x_9x.c	/^static int lzo1x_999_compress_internal(const uint8_t *in, unsigned in_len,$/;"	f	file:
+lzo1x_999_compress_level	./libarchive/lzo1x_9x.c	/^int lzo1x_999_compress_level(const uint8_t *in, unsigned in_len,$/;"	f
+lzo1x_999_t	./libarchive/lzo1x_9x.c	/^} lzo1x_999_t;$/;"	t	typeref:struct:__anon28	file:
+lzo1x_decompress_safe	./libarchive/lzo1x_d.c	/^int lzo1x_decompress_safe(const uint8_t* in, unsigned in_len,$/;"	f
+lzo_swd	./libarchive/lzo1x_9x.c	/^typedef struct lzo_swd {$/;"	s	file:
+lzo_swd_p	./libarchive/lzo1x_9x.c	/^} lzo_swd_t, *lzo_swd_p;$/;"	t	typeref:struct:lzo_swd	file:
+lzo_swd_t	./libarchive/lzo1x_9x.c	/^} lzo_swd_t, *lzo_swd_p;$/;"	t	typeref:struct:lzo_swd	file:
+m_applet	./libbb/appletlib.c	/^	int m_applet;$/;"	m	struct:suid_config_t	file:
+m_len	./libarchive/lzo1x_9x.c	/^	unsigned m_len;$/;"	m	struct:__anon28	file:
+m_len	./libarchive/lzo1x_9x.c	/^	unsigned m_len;$/;"	m	struct:lzo_swd	file:
+m_mode	./libbb/appletlib.c	/^	mode_t m_mode;$/;"	m	struct:suid_config_t	file:
+m_next	./libbb/appletlib.c	/^	struct suid_config_t *m_next;$/;"	m	struct:suid_config_t	typeref:struct:suid_config_t::suid_config_t	file:
+m_off	./libarchive/lzo1x_9x.c	/^	unsigned m_off;$/;"	m	struct:__anon28	file:
+m_off	./libarchive/lzo1x_9x.c	/^	unsigned m_off;$/;"	m	struct:lzo_swd	file:
+m_pos	./libarchive/lzo1x_9x.c	/^	unsigned m_pos;$/;"	m	struct:lzo_swd	file:
+m_sbox	./libbb/pw_encrypt_des.c	/^	uint8_t	m_sbox[4][4096]; \/* 5 times *\/$/;"	m	struct:const_des_ctx	file:
+m_sbox	./libbb/pw_encrypt_des.c	236;"	d	file:
+m_sbox	./libbb/pw_encrypt_des.c	798;"	d	file:
+m_ugid	./libbb/appletlib.c	/^	struct bb_uidgid_t m_ugid;$/;"	m	struct:suid_config_t	typeref:struct:suid_config_t::bb_uidgid_t	file:
+main	./libarchive/decompress_bunzip2.c	/^int main(int argc, char **argv)$/;"	f
+main	./libbb/lineedit.c	/^int main(int argc, char **argv)$/;"	f
+main	./libbb/strrstr.c	/^int main(int argc, char **argv)$/;"	f
+main	./tar.cpp	/^int main(int argc,char * argv[])$/;"	f
+mainGtU	./libarchive/bz/blocksort.c	/^int mainGtU($/;"	f	file:
+mainQSort3	./libarchive/bz/blocksort.c	/^void mainQSort3(uint32_t* ptr,$/;"	f	file:
+mainSimpleSort	./libarchive/bz/blocksort.c	/^void mainSimpleSort(uint32_t* ptr,$/;"	f	file:
+mainSort	./libarchive/bz/blocksort.c	/^void mainSort(EState* state,$/;"	f	file:
+mainSort__copyEnd	./libarchive/bz/bzlib_private.h	/^	int32_t  mainSort__copyEnd[256];$/;"	m	struct:EState
+mainSort__copyStart	./libarchive/bz/bzlib_private.h	/^	int32_t  mainSort__copyStart[256];$/;"	m	struct:EState
+mainSort__runningOrder	./libarchive/bz/bzlib_private.h	/^	int32_t  mainSort__runningOrder[256];$/;"	m	struct:EState
+makeMaps_e	./libarchive/bz/compress.c	/^void makeMaps_e(EState* s)$/;"	f	file:
+make_human_readable_str	./libbb/human_readable.c	/^const char* FAST_FUNC make_human_readable_str(unsigned long long val,$/;"	f
+malloc_or_warn	./libbb/xfuncs_printf.c	/^void* FAST_FUNC malloc_or_warn(size_t size)$/;"	f
+match_fstype	./libbb/match_fstype.c	/^int FAST_FUNC match_fstype(const struct mntent *mt, const char *t_fstype)$/;"	f
+match_len_dec	./libarchive/unxz/xz_dec_lzma2.c	/^	struct lzma_len_dec match_len_dec;$/;"	m	struct:lzma_dec	typeref:struct:lzma_dec::lzma_len_dec	file:
+matches	./libbb/lineedit.c	/^	char **matches;$/;"	m	struct:lineedit_statics	file:
+matches	./libbb/lineedit.c	182;"	d	file:
+maxLen	./libarchive/decompress_bunzip2.c	/^	int minLen, maxLen;$/;"	m	struct:group_data	file:
+max_chain	./libarchive/lzo1x_9x.c	/^	unsigned max_chain;$/;"	m	struct:lzo_swd	file:
+maxsize	./libbb/lineedit.c	/^	int maxsize;$/;"	m	struct:lineedit_statics	file:
+mbstowc_internal	./libbb/unicode.c	/^static const char *mbstowc_internal(wchar_t *res, const char *src)$/;"	f	file:
+mbstowcs	./libbb/unicode.c	/^size_t FAST_FUNC mbstowcs(wchar_t *dest, const char *src, size_t n)$/;"	f
+md	./libarchive/decompress_gunzip.c	483;"	d	file:
+md	./libarchive/decompress_gunzip.c	623;"	d	file:
+md5_begin	./libbb/hash_md5_sha.c	/^void FAST_FUNC md5_begin(md5_ctx_t *ctx)$/;"	f
+md5_begin	./libbb/hash_md5prime.c	/^void FAST_FUNC md5_begin(md5_ctx_t *context)$/;"	f
+md5_crypt	./libbb/pw_encrypt_md5.c	/^md5_crypt(char result[MD5_OUT_BUFSIZE], const unsigned char *pw, const unsigned char *salt)$/;"	f	file:
+md5_end	./libbb/hash_md5_sha.c	/^void FAST_FUNC md5_end(md5_ctx_t *ctx, void *resbuf)$/;"	f
+md5_end	./libbb/hash_md5prime.c	/^void FAST_FUNC md5_end(void *digest, md5_ctx_t *context)$/;"	f
+md5_hash	./libbb/hash_md5_sha.c	/^void FAST_FUNC md5_hash(md5_ctx_t *ctx, const void *buffer, size_t len)$/;"	f
+md5_hash	./libbb/hash_md5prime.c	/^void FAST_FUNC md5_hash(const void *buffer, size_t inputLen, md5_ctx_t *context)$/;"	f
+md5_process_block64	./libbb/hash_md5_sha.c	/^static void FAST_FUNC md5_process_block64(md5_ctx_t *ctx)$/;"	f	file:
+md5_transform	./libbb/hash_md5prime.c	/^static void md5_transform(uint32_t state[4], const unsigned char block[64])$/;"	f	file:
+member	./libbb/update_passwd.c	76;"	d	file:
+memcpy32_cpu2le	./libbb/hash_md5prime.c	/^memcpy32_cpu2le(unsigned char *output, uint32_t *input, unsigned len)$/;"	f	file:
+memcpy32_cpu2le	./libbb/hash_md5prime.c	87;"	d	file:
+memcpy32_le2cpu	./libbb/hash_md5prime.c	/^memcpy32_le2cpu(uint32_t *output, const unsigned char *input, unsigned len)$/;"	f	file:
+memcpy32_le2cpu	./libbb/hash_md5prime.c	88;"	d	file:
+memeq	./libarchive/unxz/xz_config.h	32;"	d
+memeq	./libarchive/unxz/xz_private.h	19;"	d
+mempcpy	./libbb/platform.c	/^void *mempcpy(void *dest, const void *src, size_t n)$/;"	f
+memrchr	./libbb/platform.c	/^void* FAST_FUNC memrchr(const void *s, int c, size_t n)$/;"	f
+memzero	./libarchive/unxz/xz_config.h	33;"	d
+memzero	./libarchive/unxz/xz_private.h	20;"	d
+method	./libarchive/decompress_gunzip.c	/^	smallint method; \/* method == -1 for stored, -2 for codes *\/$/;"	m	struct:state_t	file:
+method	./libarchive/decompress_gunzip.c	149;"	d	file:
+mid	./libarchive/unxz/xz_dec_lzma2.c	/^	uint16_t mid[POS_STATES_MAX][LEN_MID_SYMBOLS];$/;"	m	struct:lzma_len_dec	file:
+min	./libarchive/unxz/xz_config.h	35;"	d
+min	./libarchive/unxz/xz_config.h	37;"	d
+minLen	./libarchive/decompress_bunzip2.c	/^	int minLen, maxLen;$/;"	m	struct:group_data	file:
+min_gain	./libarchive/lzo1x_9x.c	/^static int min_gain(unsigned ahead, unsigned lit1,$/;"	f	file:
+min_t	./libarchive/unxz/xz_config.h	36;"	d
+min_t	./libarchive/unxz/xz_config.h	38;"	d
+mkdtemp	./libbb/platform.c	/^char* FAST_FUNC mkdtemp(char *template)$/;"	f
+ml	./libarchive/decompress_gunzip.c	482;"	d	file:
+ml	./libarchive/decompress_gunzip.c	622;"	d	file:
+mmed3	./libarchive/bz/blocksort.c	/^uint8_t mmed3(uint8_t a, uint8_t b, uint8_t c)$/;"	f	file:
+mmin	./libarchive/bz/blocksort.c	/^int32_t mmin(int32_t a, int32_t b)$/;"	f	file:
+mnextsize	./libarchive/bz/blocksort.c	574;"	d	file:
+mnextsize	./libarchive/bz/blocksort.c	697;"	d	file:
+mnextswap	./libarchive/bz/blocksort.c	576;"	d	file:
+mnextswap	./libarchive/bz/blocksort.c	698;"	d	file:
+mode	./libarchive/bz/bzlib_private.h	/^	int32_t  mode;$/;"	m	struct:EState
+mode	./libarchive/get_header_cpio.c	/^	int mode ;$/;"	m	struct:hardlinks_t	file:
+mode	./libarchive/unxz/xz_dec_lzma2.c	/^	enum xz_mode mode;$/;"	m	struct:dictionary	typeref:enum:dictionary::xz_mode	file:
+mode	./libarchive/unxz/xz_dec_stream.c	/^	enum xz_mode mode;$/;"	m	struct:xz_dec	typeref:enum:xz_dec::xz_mode	file:
+mode_chars	./libbb/mode_string.c	/^static const char mode_chars[7] = "rwxSTst";$/;"	v	file:
+mode_flags	./libbb/mode_string.c	/^static const mode_t mode_flags[] = {$/;"	v	file:
+mode_t	./libbb/mode_string.c	34;"	d	file:
+mode_t	./libbb/mode_string.c	35;"	d	file:
+monotonic_ms	./libbb/time.c	/^unsigned long long FAST_FUNC monotonic_ms(void)$/;"	f
+monotonic_ns	./libbb/time.c	/^unsigned long long FAST_FUNC monotonic_ns(void)$/;"	f
+monotonic_sec	./libbb/time.c	/^unsigned FAST_FUNC monotonic_sec(void)$/;"	f
+monotonic_us	./libbb/time.c	/^unsigned long long FAST_FUNC monotonic_us(void)$/;"	f
+mpop	./libarchive/bz/blocksort.c	566;"	d	file:
+mpop	./libarchive/bz/blocksort.c	696;"	d	file:
+mpush	./libarchive/bz/blocksort.c	558;"	d	file:
+mpush	./libarchive/bz/blocksort.c	695;"	d	file:
+msg_eol	./libbb/verror_msg.c	/^const char *msg_eol = "\\n";$/;"	v
+msgc	./libbb/verror_msg.c	89;"	d	file:
+msgctl	./libbb/missing_syscalls.c	/^int msgctl(int msqid, int cmd, struct msqid_ds *buf)$/;"	f
+msgget	./libbb/missing_syscalls.c	/^int msgget(key_t key, int msgflg)$/;"	f
+msgptr	./libbb/verror_msg.c	90;"	d	file:
+msgv	./libbb/verror_msg.c	88;"	d	file:
+mswap	./libarchive/bz/blocksort.c	28;"	d	file:
+mtfFreq	./libarchive/bz/bzlib_private.h	/^	int32_t  mtfFreq    [BZ_MAX_ALPHA_SIZE];$/;"	m	struct:EState
+mtfv	./libarchive/bz/bzlib_private.h	/^	uint16_t *mtfv;$/;"	m	struct:EState
+mtime	./libarchive/get_header_cpio.c	/^	int mtime; \/* These three are useful only in corner case *\/$/;"	m	struct:hardlinks_t	file:
+mvswap	./libarchive/bz/blocksort.c	/^void mvswap(uint32_t* ptr, int32_t zzp1, int32_t zzp2, int32_t zzn)$/;"	f	file:
+my_crypt	./libbb/pw_encrypt.c	/^static char *my_crypt(const char *key, const char *salt)$/;"	f	file:
+my_crypt_cleanup	./libbb/pw_encrypt.c	/^static void my_crypt_cleanup(void)$/;"	f	file:
+n	./libarchive/decompress_gunzip.c	/^		unsigned short n;	\/* literal, length base, or distance base *\/$/;"	m	union:huft_t::__anon26	file:
+nInUse	./libarchive/bz/bzlib_private.h	/^	int32_t  nInUse;$/;"	m	struct:EState
+nMTF	./libarchive/bz/bzlib_private.h	/^	int32_t  nMTF;$/;"	m	struct:EState
+name	./libarchive/get_header_cpio.c	/^	char name[1];$/;"	m	struct:hardlinks_t	file:
+name	./libbb/inode_hash.c	/^	char name[1];$/;"	m	struct:ino_dev_hash_bucket_struct	file:
+name	./libbb/procps.c	/^	char name[USERNAME_MAX_SIZE];$/;"	m	struct:id_to_name_map_t	file:
+nblock	./libarchive/bz/bzlib_private.h	/^	int32_t  nblock;$/;"	m	struct:EState
+nblockMAX	./libarchive/bz/bzlib_private.h	/^	int32_t  nblockMAX;$/;"	m	struct:EState
+ndelay_off	./libbb/xfuncs.c	/^void FAST_FUNC ndelay_off(int fd)$/;"	f
+ndelay_on	./libbb/xfuncs.c	/^void FAST_FUNC ndelay_on(int fd)$/;"	f
+need_another_block	./libarchive/decompress_gunzip.c	/^	smallint need_another_block;$/;"	m	struct:state_t	file:
+need_another_block	./libarchive/decompress_gunzip.c	150;"	d	file:
+need_dict_reset	./libarchive/unxz/xz_dec_lzma2.c	/^	bool need_dict_reset;$/;"	m	struct:lzma2_dec	file:
+need_props	./libarchive/unxz/xz_dec_lzma2.c	/^	bool need_props;$/;"	m	struct:lzma2_dec	file:
+new_line_input_t	./libbb/lineedit.c	/^line_input_t* FAST_FUNC new_line_input_t(int flags)$/;"	f
+newdelflag	./libbb/lineedit.c	/^	smallint newdelflag;     \/* whether delbuf should be reused yet *\/$/;"	m	struct:lineedit_statics	file:
+newdelflag	./libbb/lineedit.c	185;"	d	file:
+next	./libarchive/get_header_cpio.c	/^	struct hardlinks_t *next;$/;"	m	struct:hardlinks_t	typeref:struct:hardlinks_t::hardlinks_t	file:
+next	./libbb/dump.c	/^static NOINLINE int next(priv_dumper_t *dumper)$/;"	f	file:
+next	./libbb/inode_hash.c	/^	struct ino_dev_hash_bucket_struct *next;$/;"	m	struct:ino_dev_hash_bucket_struct	typeref:struct:ino_dev_hash_bucket_struct::ino_dev_hash_bucket_struct	file:
+next__done	./libbb/dump.c	/^	smallint next__done;$/;"	m	struct:priv_dumper_t	file:
+next_in	./libarchive/bz/bzlib.h	/^	char *next_in;$/;"	m	struct:bz_stream
+next_out	./libarchive/bz/bzlib.h	/^	char *next_out;$/;"	m	struct:bz_stream
+next_sequence	./libarchive/unxz/xz_dec_lzma2.c	/^	enum lzma2_seq next_sequence;$/;"	m	struct:lzma2_dec	typeref:enum:lzma2_dec::lzma2_seq	file:
+nn	./libarchive/decompress_gunzip.c	491;"	d	file:
+nn	./libarchive/decompress_gunzip.c	631;"	d	file:
+node_count	./libarchive/lzo1x_9x.c	/^	unsigned node_count;$/;"	m	struct:lzo_swd	file:
+nofork_save_area	./libbb/vfork_daemon_rexec.c	/^struct nofork_save_area {$/;"	s	file:
+noinline_for_stack	./libarchive/unxz/xz_config.h	67;"	d
+noinline_for_stack	./libarchive/unxz/xz_config.h	69;"	d
+nonblock_immune_read	./libbb/read_printf.c	/^ssize_t FAST_FUNC nonblock_immune_read(int fd, void *buf, size_t count, int loop_on_EINTR)$/;"	f
+nth_string	./libbb/compare_string_array.c	/^const char* FAST_FUNC nth_string(const char *strings, int n)$/;"	f
+nuke_str	./libbb/nuke_str.c	/^void FAST_FUNC nuke_str(char *str)$/;"	f
+numZ	./libarchive/bz/bzlib_private.h	/^	int32_t  numZ;$/;"	m	struct:EState
+num_matches	./libbb/lineedit.c	/^	unsigned num_matches;$/;"	m	struct:lineedit_statics	file:
+num_matches	./libbb/lineedit.c	183;"	d	file:
+obscure	./libbb/obscure.c	/^int FAST_FUNC obscure(const char *old, const char *newval, const struct passwd *pw)$/;"	f
+obscure_msg	./libbb/obscure.c	/^static const char *obscure_msg(const char *old_p, const char *new_p, const struct passwd *pw)$/;"	f	file:
+oct2env	./libarchive/data_extract_to_command.c	/^static void oct2env(char *env[], int idx, unsigned long val)$/;"	f	file:
+old_rawkey0	./libbb/pw_encrypt_des.c	/^	uint32_t old_rawkey0, old_rawkey1; \/* 3 times each *\/$/;"	m	struct:des_ctx	file:
+old_rawkey0	./libbb/pw_encrypt_des.c	333;"	d	file:
+old_rawkey0	./libbb/pw_encrypt_des.c	803;"	d	file:
+old_rawkey1	./libbb/pw_encrypt_des.c	/^	uint32_t old_rawkey0, old_rawkey1; \/* 3 times each *\/$/;"	m	struct:des_ctx	file:
+old_rawkey1	./libbb/pw_encrypt_des.c	334;"	d	file:
+old_rawkey1	./libbb/pw_encrypt_des.c	804;"	d	file:
+old_salt	./libbb/pw_encrypt_des.c	/^	uint32_t old_salt; \/* 3 times *\/$/;"	m	struct:des_ctx	file:
+old_salt	./libbb/pw_encrypt_des.c	332;"	d	file:
+old_salt	./libbb/pw_encrypt_des.c	802;"	d	file:
+open3_or_warn	./libbb/xfuncs_printf.c	/^int FAST_FUNC open3_or_warn(const char *pathname, int flags, int mode)$/;"	f
+open_a_console	./libbb/get_console.c	/^static int open_a_console(const char *fnam)$/;"	f	file:
+open_or_warn	./libbb/xfuncs_printf.c	/^int FAST_FUNC open_or_warn(const char *pathname, int flags)$/;"	f
+open_or_warn_stdin	./libbb/wfopen_input.c	/^int FAST_FUNC open_or_warn_stdin(const char *filename)$/;"	f
+open_read_close	./libbb/read.c	/^ssize_t FAST_FUNC open_read_close(const char *filename, void *buf, size_t size)$/;"	f
+open_transformer	./libarchive/open_transformer.c	/^void FAST_FUNC open_transformer(int fd,$/;"	f
+open_zipped	./libarchive/open_transformer.c	/^int FAST_FUNC open_zipped(const char *fname)$/;"	f
+opt_char	./libbb/getopt32.c	/^	unsigned char opt_char;$/;"	m	struct:__anon12	file:
+opt_complementary	./libbb/getopt32.c	/^const char *opt_complementary;$/;"	v
+optarg	./libbb/getopt32.c	/^	void **optarg;  \/* char**, llist_t** or int *. *\/$/;"	m	struct:__anon12	file:
+option_mask32	./libbb/getopt32.c	/^uint32_t option_mask32;$/;"	v
+option_mask32	./libbb/vfork_daemon_rexec.c	/^	uint32_t option_mask32;$/;"	m	struct:nofork_save_area	file:
+origPtr	./libarchive/bz/bzlib_private.h	/^	int32_t  origPtr;$/;"	m	struct:EState
+out	./libarchive/lzo1x_9x.c	/^	uint8_t *out;$/;"	m	struct:__anon28	file:
+out	./libarchive/unxz/xz.h	/^	uint8_t *out;$/;"	m	struct:xz_buf
+out	./libarchive/unxz/xz_dec_bcj.c	/^	uint8_t *out;$/;"	m	struct:xz_dec_bcj	file:
+out_fd	./libarchive/decompress_bunzip2.c	/^	int in_fd, out_fd, inbufCount, inbufPos \/*, outbufPos*\/;$/;"	m	struct:bunzip_data	file:
+out_pos	./libarchive/unxz/xz.h	/^	size_t out_pos;$/;"	m	struct:xz_buf
+out_pos	./libarchive/unxz/xz_dec_bcj.c	/^	size_t out_pos;$/;"	m	struct:xz_dec_bcj	file:
+out_size	./libarchive/unxz/xz.h	/^	size_t out_size;$/;"	m	struct:xz_buf
+out_size	./libarchive/unxz/xz_dec_bcj.c	/^	size_t out_size;$/;"	m	struct:xz_dec_bcj	file:
+out_start	./libarchive/unxz/xz_dec_stream.c	/^	size_t out_start;$/;"	m	struct:xz_dec	file:
+overlapping_strcpy	./libbb/safe_strncpy.c	/^void FAST_FUNC overlapping_strcpy(char *dst, const char *src)$/;"	f
+p_bytes	./libbb/pw_encrypt_sha.c	144;"	d	file:
+p_bytes	./libbb/pw_encrypt_sha.c	278;"	d	file:
+p_linkname	./libarchive/get_header_tar.c	175;"	d	file:
+p_longname	./libarchive/get_header_tar.c	174;"	d	file:
+param_type	./libbb/getopt32.c	/^	smallint param_type;$/;"	m	struct:__anon12	file:
+parent	./libarchive/bz/huffman.c	121;"	d	file:
+parent	./libarchive/bz/huffman.c	200;"	d	file:
+parse_and_put_prompt	./libbb/lineedit.c	/^static void parse_and_put_prompt(const char *prmt_ptr)$/;"	f	file:
+parse_config_file	./libbb/appletlib.c	/^static void parse_config_file(void)$/;"	f	file:
+parse_datestr	./libbb/time.c	/^void FAST_FUNC parse_datestr(const char *date_str, struct tm *ptm)$/;"	f
+parse_main	./libbb/parse_config.c	/^int parse_main(int argc UNUSED_PARAM, char **argv)$/;"	f
+path_parse	./libbb/lineedit.c	/^static int path_parse(char ***p)$/;"	f	file:
+pbox	./libbb/pw_encrypt_des.c	/^static const uint8_t pbox[32] = {$/;"	v	file:
+pd	./libarchive/liblzo.h	74;"	d
+percent_decode_in_place	./libbb/percent_decode.c	/^char* FAST_FUNC percent_decode_in_place(char *str, int strict)$/;"	f
+permute	./libarchive/decompress_bunzip2.c	/^	int limit[MAX_HUFCODE_BITS+1], base[MAX_HUFCODE_BITS], permute[MAX_SYMBOLS];$/;"	m	struct:group_data	file:
+pidlist_reverse	./libbb/find_pid_by_name.c	/^pid_t* FAST_FUNC pidlist_reverse(pid_t *pidList)$/;"	f
+pivot_root	./libbb/missing_syscalls.c	/^int pivot_root(const char *new_root, const char *put_old)$/;"	f
+pos	./libarchive/decompress_unlzma.c	/^	uint8_t pos;$/;"	m	struct:__anon24	file:
+pos	./libarchive/unxz/xz_dec_bcj.c	/^	uint32_t pos;$/;"	m	struct:xz_dec_bcj	file:
+pos	./libarchive/unxz/xz_dec_lzma2.c	/^	size_t pos;$/;"	m	struct:dictionary	file:
+pos	./libarchive/unxz/xz_dec_stream.c	/^		size_t pos;$/;"	m	struct:xz_dec::__anon19	file:
+pos	./libarchive/unxz/xz_dec_stream.c	/^	uint32_t pos;$/;"	m	struct:xz_dec	file:
+pos_mask	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t pos_mask;         \/* (1 << pb) - 1 *\/$/;"	m	struct:lzma_dec	file:
+prepare_new_block	./libarchive/bz/bzlib.c	/^void prepare_new_block(EState* s)$/;"	f	file:
+previous_SIGWINCH_handler	./libbb/lineedit.c	/^	sighandler_t previous_SIGWINCH_handler;$/;"	m	struct:lineedit_statics	file:
+previous_SIGWINCH_handler	./libbb/lineedit.c	172;"	d	file:
+print_flags	./libbb/print_flags.c	/^int FAST_FUNC print_flags(const masks_labels_t *ml, int flags)$/;"	f
+print_flags_separated	./libbb/print_flags.c	/^int FAST_FUNC print_flags_separated(const int *masks, const char *labels, int flags, const char *separator)$/;"	f
+print_login_issue	./libbb/login.c	/^void FAST_FUNC print_login_issue(const char *issue_file, const char *tty)$/;"	f
+print_login_prompt	./libbb/login.c	/^void FAST_FUNC print_login_prompt(void)$/;"	f
+print_signames	./libbb/u_signal_names.c	/^void FAST_FUNC print_signames(void)$/;"	f
+printable_string	./libbb/printable_string.c	/^const char* FAST_FUNC printable_string(uni_stat_t *stats, const char *str)$/;"	f
+priv_dumper_t	./libbb/dump.c	/^typedef struct priv_dumper_t {$/;"	s	file:
+priv_dumper_t	./libbb/dump.c	/^} priv_dumper_t;$/;"	t	typeref:struct:priv_dumper_t	file:
+prob_len	./libarchive/decompress_unlzma.c	315;"	d	file:
+process_pax_hdr	./libarchive/get_header_tar.c	/^static void process_pax_hdr(archive_handle_t *archive_handle, unsigned sz, int global)$/;"	f	file:
+procps_read_smaps	./libbb/procps.c	/^int FAST_FUNC procps_read_smaps(pid_t pid, struct smaprec *total,$/;"	f
+procps_scan	./libbb/procps.c	/^procps_status_t* FAST_FUNC procps_scan(procps_status_t* sp, int flags)$/;"	f
+psbox	./libbb/pw_encrypt_des.c	/^	uint32_t psbox[4][256]; \/* 5 times *\/$/;"	m	struct:des_ctx	file:
+psbox	./libbb/pw_encrypt_des.c	350;"	d	file:
+psbox	./libbb/pw_encrypt_des.c	820;"	d	file:
+ptr	./libarchive/bz/bzlib_private.h	/^	uint32_t *ptr;$/;"	m	struct:EState
+ptr	./libarchive/decompress_unlzma.c	/^	uint8_t *ptr;$/;"	m	struct:__anon23	file:
+ptr_to_globals	./libbb/ptr_to_globals.c	/^struct globals *const ptr_to_globals __attribute__ ((section (".data")));$/;"	v
+ptr_to_globals	./libbb/ptr_to_globals.c	/^struct globals *ptr_to_globals;$/;"	v	typeref:struct:globals
+pub	./libbb/dump.c	/^	dumper_t pub;$/;"	m	struct:priv_dumper_t	file:
+put	./libbb/lineedit.c	/^static void put(void)$/;"	f	file:
+put_cur_glyph_and_inc_cursor	./libbb/lineedit.c	/^static void put_cur_glyph_and_inc_cursor(void)$/;"	f	file:
+put_prompt	./libbb/lineedit.c	/^static void put_prompt(void)$/;"	f	file:
+put_till_end_and_adv_cursor	./libbb/lineedit.c	/^static void put_till_end_and_adv_cursor(void)$/;"	f	file:
+put_unaligned_be32	./libarchive/decompress_unxz.c	34;"	d	file:
+put_unaligned_be32	./libarchive/unxz/xz_config.h	/^static inline void XZ_FUNC put_unaligned_be32(uint32_t val, uint8_t *buf)$/;"	f
+put_unaligned_le32	./libarchive/decompress_unxz.c	33;"	d	file:
+put_unaligned_le32	./libarchive/unxz/xz_config.h	/^static inline void XZ_FUNC put_unaligned_le32(uint32_t val, uint8_t *buf)$/;"	f
+pw_encrypt	./libbb/pw_encrypt.c	/^char* FAST_FUNC pw_encrypt(const char *clear, const char *salt, int cleanup)$/;"	f
+qsort_string_vector	./libbb/bb_qsort.c	/^void FAST_FUNC qsort_string_vector(char **sv, unsigned count)$/;"	f
+query_loop	./libbb/loop.c	/^char* FAST_FUNC query_loop(const char *device)$/;"	f
+quote_special_chars	./libbb/lineedit.c	/^static char *quote_special_chars(char *found)$/;"	f	file:
+r1_lit	./libarchive/lzo1x_9x.c	/^	unsigned r1_lit;$/;"	m	struct:__anon28	file:
+range	./libarchive/decompress_unlzma.c	/^	uint32_t range;$/;"	m	struct:__anon23	file:
+range	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t range;$/;"	m	struct:rc_dec	file:
+rc	./libarchive/unxz/xz_dec_lzma2.c	/^	struct rc_dec rc;$/;"	m	struct:xz_dec_lzma2	typeref:struct:xz_dec_lzma2::rc_dec	file:
+rc_bit	./libarchive/unxz/xz_dec_lzma2.c	/^static __always_inline int XZ_FUNC rc_bit(struct rc_dec *rc, uint16_t *prob)$/;"	f	file:
+rc_bit_tree_decode	./libarchive/decompress_unlzma.c	/^rc_bit_tree_decode(rc_t *rc, uint16_t *p, int num_levels, int *symbol)$/;"	f	file:
+rc_bittree	./libarchive/unxz/xz_dec_lzma2.c	/^static __always_inline uint32_t XZ_FUNC rc_bittree($/;"	f	file:
+rc_bittree_reverse	./libarchive/unxz/xz_dec_lzma2.c	/^static __always_inline void XZ_FUNC rc_bittree_reverse(struct rc_dec *rc,$/;"	f	file:
+rc_dec	./libarchive/unxz/xz_dec_lzma2.c	/^struct rc_dec {$/;"	s	file:
+rc_direct	./libarchive/unxz/xz_dec_lzma2.c	/^static inline void XZ_FUNC rc_direct($/;"	f	file:
+rc_direct_bit	./libarchive/decompress_unlzma.c	/^static ALWAYS_INLINE int rc_direct_bit(rc_t *rc)$/;"	f	file:
+rc_do_normalize	./libarchive/decompress_unlzma.c	/^static void rc_do_normalize(rc_t *rc)$/;"	f	file:
+rc_free	./libarchive/decompress_unlzma.c	/^static ALWAYS_INLINE void rc_free(rc_t *rc)$/;"	f	file:
+rc_get_bit	./libarchive/decompress_unlzma.c	/^static ALWAYS_INLINE int rc_get_bit(rc_t *rc, uint16_t *p, int *symbol)$/;"	f	file:
+rc_init	./libarchive/decompress_unlzma.c	/^static ALWAYS_INLINE rc_t* rc_init(int fd) \/*, int buffer_size) *\/$/;"	f	file:
+rc_is_bit_1	./libarchive/decompress_unlzma.c	/^static speed_inline int rc_is_bit_1(rc_t *rc, uint16_t *p)$/;"	f	file:
+rc_is_finished	./libarchive/unxz/xz_dec_lzma2.c	/^static inline bool XZ_FUNC rc_is_finished(const struct rc_dec *rc)$/;"	f	file:
+rc_limit_exceeded	./libarchive/unxz/xz_dec_lzma2.c	/^static inline bool XZ_FUNC rc_limit_exceeded(const struct rc_dec *rc)$/;"	f	file:
+rc_normalize	./libarchive/decompress_unlzma.c	/^static ALWAYS_INLINE void rc_normalize(rc_t *rc)$/;"	f	file:
+rc_normalize	./libarchive/unxz/xz_dec_lzma2.c	/^static __always_inline void XZ_FUNC rc_normalize(struct rc_dec *rc)$/;"	f	file:
+rc_read	./libarchive/decompress_unlzma.c	/^static void rc_read(rc_t *rc)$/;"	f	file:
+rc_read_init	./libarchive/unxz/xz_dec_lzma2.c	/^static bool XZ_FUNC rc_read_init(struct rc_dec *rc, struct xz_buf *b)$/;"	f	file:
+rc_reset	./libarchive/unxz/xz_dec_lzma2.c	/^static void XZ_FUNC rc_reset(struct rc_dec *rc)$/;"	f	file:
+rc_t	./libarchive/decompress_unlzma.c	/^} rc_t;$/;"	t	typeref:struct:__anon23	file:
+re_exec	./libbb/vfork_daemon_rexec.c	/^void FAST_FUNC re_exec(char **argv)$/;"	f
+re_execed	./libbb/appletlib.c	/^bool re_execed;$/;"	v
+read_base64	./libbb/uuencode.c	/^void FAST_FUNC read_base64(FILE *src_stream, FILE *dst_stream, int flags)$/;"	f
+read_bunzip	./libarchive/decompress_bunzip2.c	/^int FAST_FUNC read_bunzip(bunzip_data *bd, char *outbuf, int len)$/;"	f
+read_close	./libbb/read.c	/^ssize_t FAST_FUNC read_close(int fd, void *buf, size_t size)$/;"	f
+read_cmdline	./libbb/procps.c	/^void FAST_FUNC read_cmdline(char *buf, int col, unsigned pid, const char *comm)$/;"	f
+read_key	./libbb/read_key.c	/^int64_t FAST_FUNC read_key(int fd, char *buffer, int timeout)$/;"	f
+read_key_ungets	./libbb/read_key.c	/^void FAST_FUNC read_key_ungets(char *buffer, const char *str, unsigned len)$/;"	f
+read_line_input	./libbb/lineedit.c	/^int FAST_FUNC read_line_input(const char* prompt, char* command, int maxsize)$/;"	f
+read_line_input	./libbb/lineedit.c	/^int FAST_FUNC read_line_input(line_input_t *st, const char *prompt, char *command, int maxsize, int timeout)$/;"	f
+read_line_input	./libbb/lineedit.c	2822;"	d	file:
+read_num	./libarchive/get_header_ar.c	/^static unsigned read_num(char *str, int base, int len)$/;"	f	file:
+read_to_buf	./libbb/procps.c	/^static int read_to_buf(const char *filename, void *buf)$/;"	f	file:
+readahead	./libbb/missing_syscalls.c	/^ssize_t readahead(int fd, off64_t offset, size_t count)$/;"	f
+record_signo	./libbb/signals.c	/^void record_signo(int signo)$/;"	f
+recursive_action	./libbb/recursive_action.c	/^int FAST_FUNC recursive_action(const char *fileName,$/;"	f
+recv_from_to	./libbb/udp_io.c	/^recv_from_to(int fd, void *buf, size_t len, int flags,$/;"	f
+redraw	./libbb/lineedit.c	/^static void redraw(int y, int back_cursor)$/;"	f	file:
+regcomp_or_errmsg	./libbb/xregcomp.c	/^char* FAST_FUNC regcomp_or_errmsg(regex_t *preg, const char *regex, int cflags)$/;"	f
+reinit_unicode	./libbb/unicode.c	/^void FAST_FUNC reinit_unicode(const char *LANG)$/;"	f
+remember_in_history	./libbb/lineedit.c	/^static void remember_in_history(char *str)$/;"	f	file:
+remember_in_history	./libbb/lineedit.c	1552;"	d	file:
+remove_chunk	./libbb/lineedit.c	/^static void remove_chunk(int16_t *int_buf, int beg, int end)$/;"	f	file:
+remove_file	./libbb/remove_file.c	/^int FAST_FUNC remove_file(const char *path, int flags)$/;"	f
+rename_or_warn	./libbb/xfuncs_printf.c	/^int FAST_FUNC rename_or_warn(const char *oldpath, const char *newpath)$/;"	f
+renew_current_security_context	./libbb/run_shell.c	/^void FAST_FUNC renew_current_security_context(void)$/;"	f
+rep0	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t rep0;$/;"	m	struct:lzma_dec	file:
+rep1	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t rep1;$/;"	m	struct:lzma_dec	file:
+rep2	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t rep2;$/;"	m	struct:lzma_dec	file:
+rep3	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t rep3;$/;"	m	struct:lzma_dec	file:
+rep_len_dec	./libarchive/unxz/xz_dec_lzma2.c	/^	struct lzma_len_dec rep_len_dec;$/;"	m	struct:lzma_dec	typeref:struct:lzma_dec::lzma_len_dec	file:
+requires	./libbb/getopt32.c	/^	unsigned requires;$/;"	m	struct:__anon12	file:
+reserved	./libbb/loop.c	/^	char               reserved[4];$/;"	m	struct:__anon8	file:
+reset_ino_dev_hashtable	./libbb/inode_hash.c	/^void FAST_FUNC reset_ino_dev_hashtable(void)$/;"	f
+restore_nofork_data	./libbb/vfork_daemon_rexec.c	/^static void restore_nofork_data(struct nofork_save_area *save)$/;"	f	file:
+resume_copy	./libarchive/decompress_gunzip.c	/^	smallint resume_copy;$/;"	m	struct:state_t	file:
+resume_copy	./libarchive/decompress_gunzip.c	148;"	d	file:
+ret	./libarchive/unxz/xz_dec_bcj.c	/^	enum xz_ret ret;$/;"	m	struct:xz_dec_bcj	typeref:enum:xz_dec_bcj::xz_ret	file:
+ret_ERANGE	./libbb/bb_strtonum.c	/^static unsigned long long ret_ERANGE(void)$/;"	f	file:
+reverse_i_search	./libbb/lineedit.c	/^static int32_t reverse_i_search(void)$/;"	f	file:
+rewrite	./libbb/dump.c	/^static NOINLINE void rewrite(priv_dumper_t *dumper, FS *fs)$/;"	f	file:
+rfreq	./libarchive/bz/compress.c	266;"	d	file:
+rfreq	./libarchive/bz/compress.c	600;"	d	file:
+rotl32	./libbb/hash_md5_sha.c	/^static ALWAYS_INLINE uint32_t rotl32(uint32_t x, unsigned n)$/;"	f	file:
+rotl32	./libbb/hash_md5prime.c	124;"	d	file:
+rotl64	./libbb/hash_md5_sha.c	/^static ALWAYS_INLINE uint64_t rotl64(uint64_t x, unsigned n)$/;"	f	file:
+rotr32	./libbb/hash_md5_sha.c	/^static ALWAYS_INLINE uint32_t rotr32(uint32_t x, unsigned n)$/;"	f	file:
+rotr64	./libbb/hash_md5_sha.c	/^static ALWAYS_INLINE uint64_t rotr64(uint64_t x, unsigned n)$/;"	f	file:
+rp	./libarchive/lzo1x_9x.c	/^	unsigned rp;                \/* remove pointer *\/$/;"	m	struct:lzo_swd	file:
+rtc_adjtime_is_utc	./libbb/rtc.c	/^int FAST_FUNC rtc_adjtime_is_utc(void)$/;"	f
+rtc_read_tm	./libbb/rtc.c	/^void FAST_FUNC rtc_read_tm(struct tm *ptm, int fd)$/;"	f
+rtc_tm2time	./libbb/rtc.c	/^time_t FAST_FUNC rtc_tm2time(struct tm *ptm, int utc)$/;"	f
+rtc_xopen	./libbb/rtc.c	/^int FAST_FUNC rtc_xopen(const char **default_rtc, int flags)$/;"	f
+run_applet_and_exit	./libbb/appletlib.c	/^void FAST_FUNC run_applet_and_exit(const char *name, char **argv)$/;"	f
+run_applet_no_and_exit	./libbb/appletlib.c	/^void FAST_FUNC run_applet_no_and_exit(int applet_no, char **argv)$/;"	f
+run_nofork_applet	./libbb/vfork_daemon_rexec.c	/^int FAST_FUNC run_nofork_applet(int applet_no, char **argv)$/;"	f
+run_shell	./libbb/run_shell.c	/^void FAST_FUNC run_shell(const char *shell, int loginshell, const char *command, const char **additional_args)$/;"	f
+runningOrder	./libarchive/bz/blocksort.c	742;"	d	file:
+runningOrder	./libarchive/bz/blocksort.c	994;"	d	file:
+s_bytes	./libbb/pw_encrypt_sha.c	162;"	d	file:
+s_bytes	./libbb/pw_encrypt_sha.c	279;"	d	file:
+s_get_head3	./libarchive/lzo1x_9x.c	151;"	d	file:
+s_get_head3	./libarchive/lzo1x_9x.c	429;"	d	file:
+safe_gethostname	./libbb/safe_gethostname.c	/^char* FAST_FUNC safe_gethostname(void)$/;"	f
+safe_poll	./libbb/safe_poll.c	/^int FAST_FUNC safe_poll(struct pollfd *ufds, nfds_t nfds, int timeout)$/;"	f
+safe_read	./libbb/read.c	/^ssize_t FAST_FUNC safe_read(int fd, void *buf, size_t count)$/;"	f
+safe_strncpy	./libbb/safe_strncpy.c	/^char* FAST_FUNC safe_strncpy(char *dst, const char *src, size_t size)$/;"	f
+safe_waitpid	./libbb/xfuncs.c	/^pid_t FAST_FUNC safe_waitpid(pid_t pid, int *wstat, int options)$/;"	f
+safe_write	./libbb/safe_write.c	/^ssize_t FAST_FUNC safe_write(int fd, const void *buf, size_t count)$/;"	f
+saltbits	./libbb/pw_encrypt_des.c	/^	uint32_t saltbits; \/* referenced 5 times *\/$/;"	m	struct:des_ctx	file:
+saltbits	./libbb/pw_encrypt_des.c	331;"	d	file:
+saltbits	./libbb/pw_encrypt_des.c	801;"	d	file:
+sanitize_env_if_suid	./libbb/login.c	/^int FAST_FUNC sanitize_env_if_suid(void)$/;"	f
+savaddress	./libbb/dump.c	/^	off_t savaddress;        \/* saved address\/offset in stream *\/$/;"	m	struct:priv_dumper_t	file:
+save_command_ps_at_cur_history	./libbb/lineedit.c	/^static void save_command_ps_at_cur_history(void)$/;"	f	file:
+save_history	./libbb/lineedit.c	/^static void save_history(char *str)$/;"	f	file:
+save_history	./libbb/lineedit.c	/^void save_history(line_input_t *st)$/;"	f
+save_history	./libbb/lineedit.c	1510;"	d	file:
+save_nofork_data	./libbb/vfork_daemon_rexec.c	/^static void save_nofork_data(struct nofork_save_area *save)$/;"	f	file:
+save_string	./libbb/lineedit.c	/^static unsigned save_string(char *dst, unsigned maxsize)$/;"	f	file:
+save_string	./libbb/lineedit.c	/^static void save_string(char *dst, unsigned maxsize)$/;"	f	file:
+sbox	./libbb/pw_encrypt_des.c	/^static const uint8_t sbox[8][64] = {$/;"	v	file:
+sd_listen_fds	./libbb/systemd_support.c	/^int sd_listen_fds(void)$/;"	f
+seek_by_jump	./libarchive/seek_by_jump.c	/^void FAST_FUNC seek_by_jump(int fd, off_t amount)$/;"	f
+seek_by_read	./libarchive/seek_by_read.c	/^void FAST_FUNC seek_by_read(int fd, off_t amount)$/;"	f
+selector	./libarchive/bz/bzlib_private.h	/^	uint8_t  selector   [BZ_MAX_SELECTORS];$/;"	m	struct:EState
+selectorMtf	./libarchive/bz/bzlib_private.h	/^	uint8_t  selectorMtf[BZ_MAX_SELECTORS];$/;"	m	struct:EState
+selectors	./libarchive/decompress_bunzip2.c	/^	uint8_t selectors[32768];  \/* nSelectors=15 bits *\/$/;"	m	struct:bunzip_data	file:
+selinux_or_die	./libbb/xfuncs_printf.c	/^void FAST_FUNC selinux_or_die(void)$/;"	f
+selinux_preserve_fcontext	./libbb/selinux_common.c	/^void FAST_FUNC selinux_preserve_fcontext(int fdesc)$/;"	f
+semctl	./libbb/semctl.c	/^int semctl(int semid, int semnum, int cmd, ...) {$/;"	f
+semget	./libbb/missing_syscalls.c	/^int semget(key_t key, int nsems, int semflg)$/;"	f
+semop	./libbb/missing_syscalls.c	/^int semop(int semid, struct sembuf *sops, unsigned nsops)$/;"	f
+sendMTFValues	./libarchive/bz/compress.c	/^void sendMTFValues(EState* s)$/;"	f	file:
+sendMTFValues__code	./libarchive/bz/bzlib_private.h	/^	int32_t  sendMTFValues__code [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:EState
+sendMTFValues__len_pack	./libarchive/bz/bzlib_private.h	/^	uint32_t sendMTFValues__len_pack[BZ_MAX_ALPHA_SIZE][4];$/;"	m	struct:EState
+sendMTFValues__rfreq	./libarchive/bz/bzlib_private.h	/^	int32_t  sendMTFValues__rfreq[BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:EState
+send_to_from	./libbb/udp_io.c	/^send_to_from(int fd, void *buf, size_t len, int flags,$/;"	f
+sent_ESC_br6n	./libbb/lineedit.c	/^	smallint sent_ESC_br6n;$/;"	m	struct:lineedit_statics	file:
+sequence	./libarchive/unxz/xz_dec_lzma2.c	/^	} sequence;$/;"	m	struct:lzma2_dec	typeref:enum:lzma2_dec::lzma2_seq	file:
+sequence	./libarchive/unxz/xz_dec_stream.c	/^		} sequence;$/;"	m	struct:xz_dec::__anon17	typeref:enum:xz_dec::__anon17::__anon18	file:
+sequence	./libarchive/unxz/xz_dec_stream.c	/^	} sequence;$/;"	m	struct:xz_dec	typeref:enum:xz_dec::__anon14	file:
+set_current_security_context	./libbb/run_shell.c	/^void FAST_FUNC set_current_security_context(security_context_t sid)$/;"	f
+set_loop	./libbb/loop.c	/^int FAST_FUNC set_loop(char **device, const char *file, unsigned long long offset, int ro)$/;"	f
+set_nport	./libbb/xconnect.c	/^void FAST_FUNC set_nport(struct sockaddr *sa, unsigned port)$/;"	f
+set_security_context_component	./libbb/selinux_common.c	/^context_t FAST_FUNC set_security_context_component(security_context_t cur_context,$/;"	f
+setfscreatecon_or_die	./libbb/selinux_common.c	/^void FAST_FUNC setfscreatecon_or_die(security_context_t scontext)$/;"	f
+sethostname	./libbb/missing_syscalls.c	/^int sethostname(const char *name, size_t len)$/;"	f
+setmntent	./libbb/mntent_r.c	/^FILE *setmntent (const char *file, const char *mode)$/;"	f
+setsockopt_bindtodevice	./libbb/xconnect.c	/^int FAST_FUNC setsockopt_bindtodevice(int fd UNUSED_PARAM,$/;"	f
+setsockopt_bindtodevice	./libbb/xconnect.c	/^int FAST_FUNC setsockopt_bindtodevice(int fd, const char *iface)$/;"	f
+setsockopt_broadcast	./libbb/xconnect.c	/^int FAST_FUNC setsockopt_broadcast(int fd)$/;"	f
+setsockopt_reuseaddr	./libbb/xconnect.c	/^void FAST_FUNC setsockopt_reuseaddr(int fd)$/;"	f
+setup_environment	./libbb/setup_environment.c	/^void FAST_FUNC setup_environment(const char *shell, int flags, const struct passwd *pw)$/;"	f
+setup_salt	./libbb/pw_encrypt_des.c	/^setup_salt(struct des_ctx *ctx, uint32_t salt)$/;"	f	file:
+setup_unzip_on_fd	./libarchive/open_transformer.c	/^int FAST_FUNC setup_unzip_on_fd(int fd, int fail_if_not_detected)$/;"	f
+sha1_begin	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha1_begin(sha1_ctx_t *ctx)$/;"	f
+sha1_end	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha1_end(sha1_ctx_t *ctx, void *resbuf)$/;"	f
+sha1_process_block64	./libbb/hash_md5_sha.c	/^static void FAST_FUNC sha1_process_block64(sha1_ctx_t *ctx)$/;"	f	file:
+sha256_begin	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha256_begin(sha256_ctx_t *ctx)$/;"	f
+sha256_process_block64	./libbb/hash_md5_sha.c	/^static void FAST_FUNC sha256_process_block64(sha256_ctx_t *ctx)$/;"	f	file:
+sha3_begin	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha3_begin(sha3_ctx_t *ctx)$/;"	f
+sha3_end	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha3_end(sha3_ctx_t *ctx, void *resbuf)$/;"	f
+sha3_hash	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha3_hash(sha3_ctx_t *ctx, const void *buffer, size_t len)$/;"	f
+sha3_process_block72	./libbb/hash_md5_sha.c	/^static void sha3_process_block72(uint64_t *state)$/;"	f	file:
+sha512_begin	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha512_begin(sha512_ctx_t *ctx)$/;"	f
+sha512_end	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha512_end(sha512_ctx_t *ctx, void *resbuf)$/;"	f
+sha512_hash	./libbb/hash_md5_sha.c	/^void FAST_FUNC sha512_hash(sha512_ctx_t *ctx, const void *buffer, size_t len)$/;"	f
+sha512_process_block128	./libbb/hash_md5_sha.c	/^static void FAST_FUNC sha512_process_block128(sha512_ctx_t *ctx)$/;"	f	file:
+sha_K	./libbb/hash_md5_sha.c	/^static const uint64_t sha_K[80] = {$/;"	v	file:
+sha_crypt	./libbb/pw_encrypt_sha.c	/^sha_crypt(\/*const*\/ char *key_data, \/*const*\/ char *salt_data)$/;"	f	file:
+shmat	./libbb/missing_syscalls.c	/^void *shmat(int shmid, const void *shmaddr, int shmflg)$/;"	f
+shmctl	./libbb/missing_syscalls.c	/^int shmctl(int shmid, int cmd, struct shmid_ds *buf)$/;"	f
+shmdt	./libbb/missing_syscalls.c	/^int shmdt(const void *shmaddr)$/;"	f
+shmget	./libbb/missing_syscalls.c	/^int shmget(key_t key, size_t size, int shmflg)$/;"	f
+show_history	./libbb/lineedit.c	/^void FAST_FUNC show_history(const line_input_t *st)$/;"	f
+showfiles	./libbb/lineedit.c	/^static void showfiles(void)$/;"	f	file:
+sig_block	./libbb/signals.c	/^void FAST_FUNC sig_block(int sig)$/;"	f
+sig_unblock	./libbb/signals.c	/^void FAST_FUNC sig_unblock(int sig)$/;"	f
+sigaction_set	./libbb/signals.c	/^int FAST_FUNC sigaction_set(int signum, const struct sigaction *act)$/;"	f
+signal_SA_RESTART_empty_mask	./libbb/signals.c	/^void FAST_FUNC signal_SA_RESTART_empty_mask(int sig, void (*handler)(int))$/;"	f
+signal_no_SA_RESTART_empty_mask	./libbb/signals.c	/^void FAST_FUNC signal_no_SA_RESTART_empty_mask(int sig, void (*handler)(int))$/;"	f
+signals	./libbb/u_signal_names.c	/^static const char signals[][7] = {$/;"	v	file:
+sigprocmask_allsigs	./libbb/signals.c	/^int FAST_FUNC sigprocmask_allsigs(int how)$/;"	f
+single_argv	./libbb/single_argv.c	/^char* FAST_FUNC single_argv(char **argv)$/;"	f
+single_call	./libarchive/unxz/xz_dec_bcj.c	/^	bool single_call;$/;"	m	struct:xz_dec_bcj	file:
+size	./libarchive/unxz/xz_dec_bcj.c	/^		size_t size;$/;"	m	struct:xz_dec_bcj::__anon21	file:
+size	./libarchive/unxz/xz_dec_lzma2.c	/^		uint32_t size;$/;"	m	struct:xz_dec_lzma2::__anon22	file:
+size	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t size;$/;"	m	struct:dictionary	file:
+size	./libarchive/unxz/xz_dec_stream.c	/^		size_t size;$/;"	m	struct:xz_dec::__anon19	file:
+size	./libarchive/unxz/xz_dec_stream.c	/^		uint32_t size;$/;"	m	struct:xz_dec::__anon15	file:
+size	./libarchive/unxz/xz_dec_stream.c	/^		vli_type size;$/;"	m	struct:xz_dec::__anon17	file:
+size	./libbb/procps.c	/^	int size;$/;"	m	struct:cache_t	file:
+size_from_HISTFILESIZE	./libbb/lineedit.c	/^unsigned FAST_FUNC size_from_HISTFILESIZE(const char *hp)$/;"	f
+size_inline	./libarchive/decompress_unlzma.c	16;"	d	file:
+size_inline	./libarchive/decompress_unlzma.c	19;"	d	file:
+size_max	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t size_max;$/;"	m	struct:dictionary	file:
+skip_dev_pfx	./libbb/skip_whitespace.c	/^char* FAST_FUNC skip_dev_pfx(const char *tty_name)$/;"	f
+skip_fields	./libbb/procps.c	/^static char *skip_fields(char *str, int count)$/;"	f	file:
+skip_non_whitespace	./libbb/skip_whitespace.c	/^char* FAST_FUNC skip_non_whitespace(const char *s)$/;"	f
+skip_whitespace	./libbb/skip_whitespace.c	/^char* FAST_FUNC skip_whitespace(const char *s)$/;"	f
+smart_ulltoa4	./libbb/human_readable.c	/^char* FAST_FUNC smart_ulltoa4(unsigned long long ul, char buf[4], const char *scale)$/;"	f
+smart_ulltoa5	./libbb/human_readable.c	/^char* FAST_FUNC smart_ulltoa5(unsigned long long ul, char buf[5], const char *scale)$/;"	f
+sockaddr2str	./libbb/xconnect.c	/^static char* FAST_FUNC sockaddr2str(const struct sockaddr *sa, int flags)$/;"	f	file:
+socket_want_pktinfo	./libbb/udp_io.c	/^socket_want_pktinfo(int fd UNUSED_PARAM)$/;"	f
+spawn	./libbb/vfork_daemon_rexec.c	/^pid_t FAST_FUNC spawn(char **argv)$/;"	f
+spawn_and_wait	./libbb/vfork_daemon_rexec.c	/^int FAST_FUNC spawn_and_wait(char **argv)$/;"	f
+speed	./libbb/speed_table.c	/^	unsigned speed;$/;"	m	struct:speed_map	file:
+speed_inline	./libarchive/decompress_unlzma.c	15;"	d	file:
+speed_inline	./libarchive/decompress_unlzma.c	18;"	d	file:
+speed_map	./libbb/speed_table.c	/^struct speed_map {$/;"	s	file:
+speed_struct	./libbb/cfsetspeed.c	/^struct speed_struct$/;"	s	file:
+speeds	./libbb/cfsetspeed.c	/^static const struct speed_struct speeds[] =$/;"	v	typeref:struct:speed_struct	file:
+speeds	./libbb/speed_table.c	/^static const struct speed_map speeds[] = {$/;"	v	typeref:struct:speed_map	file:
+st	./libbb/find_root_device.c	/^	struct stat st;$/;"	m	struct:arena	typeref:struct:arena::stat	file:
+start	./libarchive/unxz/xz_dec_lzma2.c	/^	size_t start;$/;"	m	struct:dictionary	file:
+start_bunzip	./libarchive/decompress_bunzip2.c	/^int FAST_FUNC start_bunzip(bunzip_data **bdp, int in_fd,$/;"	f
+starts_with_cpu	./libbb/get_cpu_count.c	/^int FAST_FUNC starts_with_cpu(const char *str)$/;"	f
+state	./libarchive/bz/bzlib.h	/^	void *state;$/;"	m	struct:bz_stream
+state	./libarchive/bz/bzlib_private.h	/^	int32_t  state;$/;"	m	struct:EState
+state	./libarchive/decompress_gunzip.c	/^static state_t state;$/;"	v	file:
+state	./libarchive/unxz/xz_dec_lzma2.c	/^	enum lzma_state state;$/;"	m	struct:lzma_dec	typeref:enum:lzma_dec::lzma_state	file:
+state	./libbb/lineedit.c	/^	line_input_t *state;$/;"	m	struct:lineedit_statics	file:
+state	./libbb/lineedit.c	170;"	d	file:
+state_in_ch	./libarchive/bz/bzlib_private.h	/^	uint32_t state_in_ch;$/;"	m	struct:EState
+state_in_len	./libarchive/bz/bzlib_private.h	/^	int32_t  state_in_len;$/;"	m	struct:EState
+state_out_pos	./libarchive/bz/bzlib_private.h	/^	int32_t  state_out_pos;$/;"	m	struct:EState
+state_t	./libarchive/decompress_gunzip.c	/^typedef struct state_t {$/;"	s	file:
+state_t	./libarchive/decompress_gunzip.c	/^} state_t;$/;"	t	typeref:struct:state_t	file:
+stime	./libbb/missing_syscalls.c	/^int stime(const time_t *t)$/;"	f
+stpcpy	./libbb/platform.c	/^char* FAST_FUNC stpcpy(char *p, const char *to_add)$/;"	f
+str2env	./libarchive/data_extract_to_command.c	/^static void str2env(char *env[], int idx, const char *str)$/;"	f	file:
+str2sockaddr	./libbb/xconnect.c	/^static len_and_sockaddr* str2sockaddr($/;"	f	file:
+str2sockaddr	./libbb/xconnect.c	295;"	d	file:
+str_tolower	./libbb/str_tolower.c	/^char* FAST_FUNC str_tolower(char *str)$/;"	f
+strcasestr	./libbb/platform.c	/^char* FAST_FUNC strcasestr(const char *s, const char *pattern)$/;"	f
+strchrnul	./libbb/platform.c	/^char* FAST_FUNC strchrnul(const char *s, int c)$/;"	f
+strcpy_and_process_escape_sequences	./libbb/process_escape_sequence.c	/^char* FAST_FUNC strcpy_and_process_escape_sequences(char *dst, const char *src)$/;"	f
+strftime_HHMMSS	./libbb/time.c	/^char* FAST_FUNC strftime_HHMMSS(char *buf, unsigned len, time_t *tp)$/;"	f
+strftime_YYYYMMDDHHMMSS	./libbb/time.c	/^char* FAST_FUNC strftime_YYYYMMDDHHMMSS(char *buf, unsigned len, time_t *tp)$/;"	f
+strftime_fmt	./libbb/time.c	/^static char* strftime_fmt(char *buf, unsigned len, time_t *tp, const char *fmt)$/;"	f	file:
+string_checker	./libbb/obscure.c	/^static int string_checker(const char *p1, const char *p2)$/;"	f	file:
+string_checker_helper	./libbb/obscure.c	/^static int string_checker_helper(const char *p1, const char *p2)$/;"	f	file:
+strip_unsafe_prefix	./libarchive/get_header_tar.c	/^const char* FAST_FUNC strip_unsafe_prefix(const char *str)$/;"	f
+strm	./libarchive/bz/bzlib_private.h	/^	bz_stream *strm;$/;"	m	struct:EState
+strncpy_IFNAMSIZ	./libbb/xfuncs.c	/^char* FAST_FUNC strncpy_IFNAMSIZ(char *dst, const char *src)$/;"	f
+strrstr	./libbb/strrstr.c	/^char* FAST_FUNC strrstr(const char *haystack, const char *needle)$/;"	f
+strsep	./libbb/platform.c	/^char* FAST_FUNC strsep(char **stringp, const char *delim)$/;"	f
+succ3	./libarchive/lzo1x_9x.c	/^	uint16_t succ3[SWD_N + SWD_F];$/;"	m	struct:lzo_swd	file:
+suid_cfg_readable	./libbb/appletlib.c	/^static bool suid_cfg_readable;$/;"	v	file:
+suid_config	./libbb/appletlib.c	/^} *suid_config;$/;"	v	typeref:struct:suid_config_t	file:
+suid_config_t	./libbb/appletlib.c	/^static struct suid_config_t {$/;"	s	file:
+swapoff	./libbb/missing_syscalls.c	/^int swapoff(const char *path)$/;"	f
+swapon	./libbb/missing_syscalls.c	/^int swapon(const char *path, int swapflags)$/;"	f
+swd_accept	./libarchive/lzo1x_9x.c	/^static void swd_accept(lzo_swd_p s, unsigned n)$/;"	f	file:
+swd_findbest	./libarchive/lzo1x_9x.c	/^static void swd_findbest(lzo_swd_p s)$/;"	f	file:
+swd_getbyte	./libarchive/lzo1x_9x.c	/^static void swd_getbyte(lzo_swd_p s)$/;"	f	file:
+swd_init	./libarchive/lzo1x_9x.c	/^static int swd_init(lzo_swd_p s)$/;"	f	file:
+swd_pos2off	./libarchive/lzo1x_9x.c	195;"	d	file:
+swd_remove_node	./libarchive/lzo1x_9x.c	/^static void swd_remove_node(lzo_swd_p s, unsigned node)$/;"	f	file:
+swd_search	./libarchive/lzo1x_9x.c	/^static void swd_search(lzo_swd_p s, unsigned node, unsigned cnt)$/;"	f	file:
+swd_search2	./libarchive/lzo1x_9x.c	/^static int swd_search2(lzo_swd_p s)$/;"	f	file:
+switch_off	./libbb/getopt32.c	/^	unsigned switch_off;$/;"	m	struct:__anon12	file:
+switch_on	./libbb/getopt32.c	/^	unsigned switch_on;$/;"	m	struct:__anon12	file:
+t	./libarchive/decompress_gunzip.c	/^		struct huft_t *t;	\/* pointer to next level of table *\/$/;"	m	union:huft_t::__anon26	typeref:struct:huft_t::__anon26::huft_t	file:
+t_complementary	./libbb/getopt32.c	/^} t_complementary;$/;"	t	typeref:struct:__anon12	file:
+tab_prefixof	./libarchive/decompress_uncompress.c	64;"	d	file:
+tab_suffixof	./libarchive/decompress_uncompress.c	65;"	d	file:
+tar_var	./libarchive/data_extract_to_command.c	/^static const char *const tar_var[] = {$/;"	v	file:
+tcsetattr_stdin_TCSANOW	./libbb/xfuncs.c	/^int FAST_FUNC tcsetattr_stdin_TCSANOW(const struct termios *tp)$/;"	f
+td	./libarchive/decompress_gunzip.c	488;"	d	file:
+td	./libarchive/decompress_gunzip.c	628;"	d	file:
+temp	./libarchive/unxz/xz_dec_bcj.c	/^	} temp;$/;"	m	struct:xz_dec_bcj	typeref:struct:xz_dec_bcj::__anon21	file:
+temp	./libarchive/unxz/xz_dec_lzma2.c	/^	} temp;$/;"	m	struct:xz_dec_lzma2	typeref:struct:xz_dec_lzma2::__anon22	file:
+temp	./libarchive/unxz/xz_dec_stream.c	/^	} temp;$/;"	m	struct:xz_dec	typeref:struct:xz_dec::__anon19	file:
+temp_result	./libbb/pw_encrypt_sha.c	283;"	d	file:
+temp_result	./libbb/pw_encrypt_sha.c	42;"	d	file:
+tl	./libarchive/decompress_gunzip.c	487;"	d	file:
+tl	./libarchive/decompress_gunzip.c	627;"	d	file:
+to64	./libbb/pw_encrypt.c	/^to64(char *s, unsigned v, int n)$/;"	f	file:
+to64_msb_first	./libbb/pw_encrypt_des.c	/^to64_msb_first(char *s, unsigned v)$/;"	f	file:
+to_read	./libarchive/decompress_gunzip.c	/^	off_t to_read;			\/* compressed bytes to read (unzip only, -1 for gunzip) *\/$/;"	m	struct:state_t	file:
+to_read	./libarchive/decompress_gunzip.c	130;"	d	file:
+top_up	./libarchive/decompress_gunzip.c	/^static int top_up(STATE_PARAM unsigned n)$/;"	f	file:
+totalCRC	./libarchive/decompress_bunzip2.c	/^	uint32_t headerCRC, totalCRC, writeCRC;$/;"	m	struct:bunzip_data	file:
+total_out	./libarchive/bz/bzlib.h	/^	unsigned long long total_out;$/;"	m	struct:bz_stream
+touch	./libbb/utmp.c	/^static void touch(const char *filename)$/;"	f	file:
+trim	./libbb/trim.c	/^void FAST_FUNC trim(char *s)$/;"	f
+true_action	./libbb/recursive_action.c	/^static int FAST_FUNC true_action(const char *fileName UNUSED_PARAM,$/;"	f	file:
+tty_baud_to_value	./libbb/speed_table.c	/^unsigned FAST_FUNC tty_baud_to_value(speed_t speed)$/;"	f
+tty_value_to_baud	./libbb/speed_table.c	/^speed_t FAST_FUNC tty_value_to_baud(unsigned int value)$/;"	f
+type	./libarchive/unxz/xz_dec_bcj.c	/^	} type;$/;"	m	struct:xz_dec_bcj	typeref:enum:xz_dec_bcj::__anon20	file:
+type	./libbb/xatonum.c	12;"	d	file:
+type	./libbb/xatonum.c	24;"	d	file:
+type	./libbb/xatonum.c	47;"	d	file:
+type	./libbb/xatonum_template.c	187;"	d	file:
+type_chars	./libbb/mode_string.c	/^static const char type_chars[16] = "?pc?d?b?-?l?s???";$/;"	v	file:
+u_sbox	./libbb/pw_encrypt_des.c	/^static const uint8_t u_sbox[8][32] = {$/;"	v	file:
+uid	./libarchive/get_header_cpio.c	/^	int uid  ; \/* of hardlinks with zero size body *\/$/;"	m	struct:hardlinks_t	file:
+uid2uname	./libbb/bb_pwd.c	/^char* FAST_FUNC uid2uname(uid_t uid)$/;"	f
+uid2uname_utoa	./libbb/bb_pwd.c	/^char* FAST_FUNC uid2uname_utoa(uid_t uid)$/;"	f
+un_pbox	./libbb/pw_encrypt_des.c	/^	uint8_t	un_pbox[32]; \/* 2 times *\/$/;"	m	struct:des_ctx	file:
+un_pbox	./libbb/pw_encrypt_des.c	335;"	d	file:
+un_pbox	./libbb/pw_encrypt_des.c	805;"	d	file:
+uncompressed	./libarchive/unxz/xz_dec_lzma2.c	/^	uint32_t uncompressed;$/;"	m	struct:lzma2_dec	file:
+uncompressed	./libarchive/unxz/xz_dec_stream.c	/^		vli_type uncompressed;$/;"	m	struct:xz_dec::__anon15	file:
+uncompressed	./libarchive/unxz/xz_dec_stream.c	/^		vli_type uncompressed;$/;"	m	struct:xz_dec::__anon16	file:
+uncompressed	./libarchive/unxz/xz_dec_stream.c	/^	vli_type uncompressed;$/;"	m	struct:xz_dec_hash	file:
+unicode_bidi_is_neutral_wchar	./libbb/unicode.c	/^int FAST_FUNC unicode_bidi_is_neutral_wchar(wint_t wc)$/;"	f
+unicode_bidi_isrtl	./libbb/unicode.c	/^int FAST_FUNC unicode_bidi_isrtl(wint_t wc)$/;"	f
+unicode_conv_to_printable	./libbb/unicode.c	/^char* FAST_FUNC unicode_conv_to_printable(uni_stat_t *stats, const char *src)$/;"	f
+unicode_conv_to_printable2	./libbb/unicode.c	/^static char* FAST_FUNC unicode_conv_to_printable2(uni_stat_t *stats, const char *src, unsigned width, int flags)$/;"	f	file:
+unicode_conv_to_printable_fixedwidth	./libbb/unicode.c	/^char* FAST_FUNC unicode_conv_to_printable_fixedwidth(\/*uni_stat_t *stats,*\/ const char *src, unsigned width)$/;"	f
+unicode_conv_to_printable_maxwidth	./libbb/unicode.c	/^char* FAST_FUNC unicode_conv_to_printable_maxwidth(uni_stat_t *stats, const char *src, unsigned maxwidth)$/;"	f
+unicode_is_raw_byte	./libbb/lineedit.c	103;"	d	file:
+unicode_is_raw_byte	./libbb/lineedit.c	105;"	d	file:
+unicode_mark_raw_byte	./libbb/lineedit.c	102;"	d	file:
+unicode_padding_to_width	./libbb/unicode.c	/^unsigned FAST_FUNC unicode_padding_to_width(unsigned width, const char *src)$/;"	f
+unicode_status	./libbb/unicode.c	/^uint8_t unicode_status;$/;"	v
+unicode_strlen	./libbb/unicode.c	/^size_t FAST_FUNC unicode_strlen(const char *string)$/;"	f
+unicode_strwidth	./libbb/unicode.c	/^size_t FAST_FUNC unicode_strwidth(const char *string)$/;"	f
+unpack_Z_stream	./libarchive/decompress_uncompress.c	/^unpack_Z_stream(transformer_aux_data_t *aux, int src_fd, int dst_fd)$/;"	f
+unpack_ar_archive	./libarchive/unpack_ar_archive.c	/^void FAST_FUNC unpack_ar_archive(archive_handle_t *ar_archive)$/;"	f
+unpack_bz2_stream	./libarchive/decompress_bunzip2.c	/^unpack_bz2_stream(transformer_aux_data_t *aux, int src_fd, int dst_fd)$/;"	f
+unpack_gz_stream	./libarchive/decompress_gunzip.c	/^unpack_gz_stream(transformer_aux_data_t *aux, int src_fd, int dst_fd)$/;"	f
+unpack_lzma_stream	./libarchive/decompress_unlzma.c	/^unpack_lzma_stream(transformer_aux_data_t *aux UNUSED_PARAM, int src_fd, int dst_fd)$/;"	f
+unpack_usage_messages	./libbb/appletlib.c	/^static const char *unpack_usage_messages(void)$/;"	f	file:
+unpack_usage_messages	./libbb/appletlib.c	91;"	d	file:
+unpack_xz_stream	./libarchive/decompress_unxz.c	/^unpack_xz_stream(transformer_aux_data_t *aux, int src_fd, int dst_fd)$/;"	f
+unpadded	./libarchive/unxz/xz_dec_stream.c	/^	vli_type unpadded;$/;"	m	struct:xz_dec_hash	file:
+unseqToSeq	./libarchive/bz/bzlib_private.h	/^	uint8_t  unseqToSeq[256];$/;"	m	struct:EState
+update_passwd	./libbb/update_passwd.c	/^int FAST_FUNC update_passwd(const char *filename,$/;"	f
+update_utmp	./libbb/utmp.c	/^void FAST_FUNC update_utmp(pid_t pid, int new_type, const char *tty_name, const char *username, const char *hostname)$/;"	f
+usage_messages	./libbb/appletlib.c	59;"	d	file:
+use_best_off	./libarchive/lzo1x_9x.c	/^	int use_best_off;$/;"	m	struct:lzo_swd	file:
+used	./libbb/verror_msg.c	87;"	d	file:
+user_buf	./libbb/lineedit.c	/^	char *user_buf;$/;"	m	struct:lineedit_statics	file:
+user_buf	./libbb/lineedit.c	180;"	d	file:
+username	./libbb/procps.c	/^static cache_t username, groupname;$/;"	v	file:
+username_path_completion	./libbb/lineedit.c	/^static char *username_path_completion(char *ud)$/;"	f	file:
+utoa	./libbb/xfuncs.c	/^char* FAST_FUNC utoa(unsigned n)$/;"	f
+utoa_to_buf	./libbb/xfuncs.c	/^char* FAST_FUNC utoa_to_buf(unsigned n, char *buf, unsigned buflen)$/;"	f
+uu_style_end	./libbb/uuencode.c	166;"	d	file:
+v	./libarchive/decompress_gunzip.c	/^	} v;$/;"	m	struct:huft_t	typeref:union:huft_t::__anon26	file:
+validate_tm_time	./libbb/time.c	/^time_t FAST_FUNC validate_tm_time(const char *date_str, struct tm *ptm)$/;"	f
+value	./libbb/cfsetspeed.c	/^  speed_t value;$/;"	m	struct:speed_struct	file:
+value	./libbb/speed_table.c	/^	unsigned short value;$/;"	m	struct:speed_map	file:
+vasprintf	./libbb/platform.c	/^int FAST_FUNC vasprintf(char **string_ptr, const char *format, va_list p)$/;"	f
+vdprintf	./libbb/vdprintf.c	/^int FAST_FUNC vdprintf(int d, const char *format, va_list ap)$/;"	f
+vfree	./libarchive/unxz/xz_config.h	30;"	d
+vi_Back_motion	./libbb/lineedit.c	/^vi_Back_motion(void)$/;"	f	file:
+vi_End_motion	./libbb/lineedit.c	/^vi_End_motion(void)$/;"	f	file:
+vi_Word_motion	./libbb/lineedit.c	/^vi_Word_motion(int eat)$/;"	f	file:
+vi_back_motion	./libbb/lineedit.c	/^vi_back_motion(void)$/;"	f	file:
+vi_case	./libbb/lineedit.c	2092;"	d	file:
+vi_end_motion	./libbb/lineedit.c	/^vi_end_motion(void)$/;"	f	file:
+vi_word_motion	./libbb/lineedit.c	/^vi_word_motion(int eat)$/;"	f	file:
+visible	./libbb/printable.c	/^void FAST_FUNC visible(unsigned ch, char *buf, int flags)$/;"	f
+vli	./libarchive/unxz/xz_dec_stream.c	/^	vli_type vli;$/;"	m	struct:xz_dec	file:
+vli_type	./libarchive/unxz/xz_stream.h	/^typedef uint64_t vli_type;$/;"	t
+vmalloc	./libarchive/unxz/xz_config.h	29;"	d
+w	./libarchive/decompress_gunzip.c	486;"	d	file:
+w	./libarchive/decompress_gunzip.c	626;"	d	file:
+wait4pid	./libbb/xfuncs.c	/^int FAST_FUNC wait4pid(pid_t pid)$/;"	f
+wait_any_nohang	./libbb/xfuncs.c	/^pid_t FAST_FUNC wait_any_nohang(int *wstat)$/;"	f
+wait_for_any_sig	./libbb/signals.c	/^void FAST_FUNC wait_for_any_sig(void)$/;"	f
+warn_opendir	./libbb/xfuncs_printf.c	/^DIR* FAST_FUNC warn_opendir(const char *path)$/;"	f
+wcrtomb	./libbb/unicode.c	/^size_t FAST_FUNC wcrtomb(char *s, wchar_t wc, mbstate_t *ps UNUSED_PARAM)$/;"	f
+wcrtomb_internal	./libbb/unicode.c	/^static size_t wcrtomb_internal(char *s, wchar_t wc)$/;"	f	file:
+wcstombs	./libbb/unicode.c	/^size_t FAST_FUNC wcstombs(char *dest, const wchar_t *src, size_t n)$/;"	f
+wcwidth	./libbb/unicode.c	/^int FAST_FUNC wcwidth(unsigned ucs)$/;"	f
+weight	./libarchive/bz/huffman.c	120;"	d	file:
+weight	./libarchive/bz/huffman.c	199;"	d	file:
+wh_helper	./libbb/xfuncs.c	/^static int wh_helper(int value, int def_val, const char *env_name, int *err)$/;"	f	file:
+win_changed	./libbb/lineedit.c	/^static void win_changed(int nsig)$/;"	f	file:
+writeCRC	./libarchive/decompress_bunzip2.c	/^	uint32_t headerCRC, totalCRC, writeCRC;$/;"	m	struct:bunzip_data	file:
+writeCopies	./libarchive/decompress_bunzip2.c	/^	int writeCopies, writePos, writeRunCountdown, writeCount;$/;"	m	struct:bunzip_data	file:
+writeCount	./libarchive/decompress_bunzip2.c	/^	int writeCopies, writePos, writeRunCountdown, writeCount;$/;"	m	struct:bunzip_data	file:
+writeCurrent	./libarchive/decompress_bunzip2.c	/^	int writeCurrent; \/* actually a uint8_t *\/$/;"	m	struct:bunzip_data	file:
+writePos	./libarchive/decompress_bunzip2.c	/^	int writeCopies, writePos, writeRunCountdown, writeCount;$/;"	m	struct:bunzip_data	file:
+writeRunCountdown	./libarchive/decompress_bunzip2.c	/^	int writeCopies, writePos, writeRunCountdown, writeCount;$/;"	m	struct:bunzip_data	file:
+write_new_utmp	./libbb/utmp.c	/^void FAST_FUNC write_new_utmp(pid_t pid, int new_type, const char *tty_name, const char *username, const char *hostname)$/;"	f
+write_pidfile	./libbb/pidfile.c	/^void FAST_FUNC write_pidfile(const char *path)$/;"	f
+wrote_pidfile	./libbb/pidfile.c	/^smallint wrote_pidfile;$/;"	v
+x86_prev_mask	./libarchive/unxz/xz_dec_bcj.c	/^	uint32_t x86_prev_mask;$/;"	m	struct:xz_dec_bcj	file:
+xasprintf	./libbb/xfuncs_printf.c	/^char* FAST_FUNC xasprintf(const char *format, ...)$/;"	f
+xato	./libbb/xatonum.c	16;"	d	file:
+xato	./libbb/xatonum.c	28;"	d	file:
+xato	./libbb/xatonum.c	51;"	d	file:
+xato	./libbb/xatonum_template.c	/^type FAST_FUNC xato()(const char *numstr)$/;"	f
+xato	./libbb/xatonum_template.c	191;"	d	file:
+xatoi_positive	./libbb/xatonum.c	/^int FAST_FUNC xatoi_positive(const char *numstr)$/;"	f
+xatou	./libbb/xatonum.c	15;"	d	file:
+xatou	./libbb/xatonum.c	27;"	d	file:
+xatou	./libbb/xatonum.c	50;"	d	file:
+xatou	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xatou()(const char *numstr)$/;"	f
+xatou	./libbb/xatonum_template.c	190;"	d	file:
+xatou16	./libbb/xatonum.c	/^uint16_t FAST_FUNC xatou16(const char *numstr)$/;"	f
+xbind	./libbb/xfuncs_printf.c	/^void FAST_FUNC xbind(int sockfd, struct sockaddr *my_addr, socklen_t addrlen)$/;"	f
+xchdir	./libbb/xfuncs_printf.c	/^void FAST_FUNC xchdir(const char *path)$/;"	f
+xchroot	./libbb/xfuncs_printf.c	/^void FAST_FUNC xchroot(const char *path)$/;"	f
+xclose	./libbb/xfuncs_printf.c	/^void FAST_FUNC xclose(int fd)$/;"	f
+xconnect	./libbb/xconnect.c	/^void FAST_FUNC xconnect(int s, const struct sockaddr *s_addr, socklen_t addrlen)$/;"	f
+xconnect_stream	./libbb/xconnect.c	/^int FAST_FUNC xconnect_stream(const len_and_sockaddr *lsa)$/;"	f
+xdotted2sockaddr	./libbb/xconnect.c	/^len_and_sockaddr* FAST_FUNC xdotted2sockaddr(const char *host, int port)$/;"	f
+xdup2	./libbb/xfuncs_printf.c	/^void FAST_FUNC xdup2(int from, int to)$/;"	f
+xfdopen_for_read	./libbb/wfopen.c	/^FILE* FAST_FUNC xfdopen_for_read(int fd)$/;"	f
+xfdopen_for_write	./libbb/wfopen.c	/^FILE* FAST_FUNC xfdopen_for_write(int fd)$/;"	f
+xfdopen_helper	./libbb/wfopen.c	/^static FILE* xfdopen_helper(unsigned fd_and_rw_bit)$/;"	f	file:
+xfopen	./libbb/xfuncs_printf.c	/^FILE* FAST_FUNC xfopen(const char *path, const char *mode)$/;"	f
+xfopen_for_read	./libbb/wfopen.c	/^FILE* FAST_FUNC xfopen_for_read(const char *path)$/;"	f
+xfopen_for_write	./libbb/wfopen.c	/^FILE* FAST_FUNC xfopen_for_write(const char *path)$/;"	f
+xfopen_stdin	./libbb/wfopen_input.c	/^FILE* FAST_FUNC xfopen_stdin(const char *filename)$/;"	f
+xfork	./libbb/xfuncs_printf.c	/^pid_t FAST_FUNC xfork(void)$/;"	f
+xfstat	./libbb/xfuncs_printf.c	/^void FAST_FUNC xfstat(int fd, struct stat *stat_buf, const char *errmsg)$/;"	f
+xfunc_die	./libbb/xfunc_die.c	/^void FAST_FUNC xfunc_die(void)$/;"	f
+xfunc_error_retval	./libbb/default_error_retval.c	/^uint8_t xfunc_error_retval = EXIT_FAILURE;$/;"	v
+xfunc_error_retval	./libbb/vfork_daemon_rexec.c	/^	uint8_t xfunc_error_retval;$/;"	m	struct:nofork_save_area	file:
+xgetgrgid	./libbb/bb_pwd.c	/^struct group* FAST_FUNC xgetgrgid(gid_t gid)$/;"	f
+xgetgrnam	./libbb/bb_pwd.c	/^struct group* FAST_FUNC xgetgrnam(const char *name)$/;"	f
+xgethostbyname	./libbb/xgethostbyname.c	/^struct hostent* FAST_FUNC xgethostbyname(const char *name)$/;"	f
+xgetpty	./libbb/getpty.c	/^int FAST_FUNC xgetpty(char *line)$/;"	f
+xgetpwnam	./libbb/bb_pwd.c	/^struct passwd* FAST_FUNC xgetpwnam(const char *name)$/;"	f
+xgetpwuid	./libbb/bb_pwd.c	/^struct passwd* FAST_FUNC xgetpwuid(uid_t uid)$/;"	f
+xgid2group	./libbb/bb_pwd.c	/^char* FAST_FUNC xgid2group(gid_t gid)$/;"	f
+xgroup2gid	./libbb/bb_pwd.c	/^long FAST_FUNC xgroup2gid(const char *name)$/;"	f
+xhost2sockaddr	./libbb/xconnect.c	/^len_and_sockaddr* FAST_FUNC xhost2sockaddr(const char *host, int port)$/;"	f
+xhost_and_af2sockaddr	./libbb/xconnect.c	/^len_and_sockaddr* FAST_FUNC xhost_and_af2sockaddr(const char *host, int port, sa_family_t af)$/;"	f
+xlisten	./libbb/xfuncs_printf.c	/^void FAST_FUNC xlisten(int s, int backlog)$/;"	f
+xlseek	./libbb/xfuncs_printf.c	/^off_t FAST_FUNC xlseek(int fd, off_t offset, int whence)$/;"	f
+xmalloc	./libbb/xfuncs_printf.c	/^void* FAST_FUNC xmalloc(size_t size)$/;"	f
+xmalloc_fgetline	./libbb/get_line_from_file.c	/^char* FAST_FUNC xmalloc_fgetline(FILE *file)$/;"	f
+xmalloc_fgetline_str	./libbb/fgets_str.c	/^char* FAST_FUNC xmalloc_fgetline_str(FILE *file, const char *terminating_string)$/;"	f
+xmalloc_fgets	./libbb/get_line_from_file.c	/^char* FAST_FUNC xmalloc_fgets(FILE *file)$/;"	f
+xmalloc_fgets_internal	./libbb/fgets_str.c	/^static char *xmalloc_fgets_internal(FILE *file, const char *terminating_string, int chop_off, size_t *maxsz_p)$/;"	f	file:
+xmalloc_fgets_str	./libbb/fgets_str.c	/^char* FAST_FUNC xmalloc_fgets_str(FILE *file, const char *terminating_string)$/;"	f
+xmalloc_fgets_str_len	./libbb/fgets_str.c	/^char* FAST_FUNC xmalloc_fgets_str_len(FILE *file, const char *terminating_string, size_t *maxsz_p)$/;"	f
+xmalloc_follow_symlinks	./libbb/xreadlink.c	/^char* FAST_FUNC xmalloc_follow_symlinks(const char *path)$/;"	f
+xmalloc_open_read_close	./libbb/read_printf.c	/^void* FAST_FUNC xmalloc_open_read_close(const char *filename, size_t *maxsz_p)$/;"	f
+xmalloc_open_zipped_read_close	./libarchive/open_transformer.c	/^void* FAST_FUNC xmalloc_open_zipped_read_close(const char *fname, size_t *maxsz_p)$/;"	f
+xmalloc_read	./libbb/read_printf.c	/^void* FAST_FUNC xmalloc_read(int fd, size_t *maxsz_p)$/;"	f
+xmalloc_readlink	./libbb/xreadlink.c	/^char* FAST_FUNC xmalloc_readlink(const char *path)$/;"	f
+xmalloc_readlink_or_warn	./libbb/xreadlink.c	/^char* FAST_FUNC xmalloc_readlink_or_warn(const char *path)$/;"	f
+xmalloc_reads	./libbb/read_printf.c	/^char* FAST_FUNC xmalloc_reads(int fd, size_t *maxsz_p)$/;"	f
+xmalloc_realpath	./libbb/xreadlink.c	/^char* FAST_FUNC xmalloc_realpath(const char *path)$/;"	f
+xmalloc_sockaddr2dotted	./libbb/xconnect.c	/^char* FAST_FUNC xmalloc_sockaddr2dotted(const struct sockaddr *sa)$/;"	f
+xmalloc_sockaddr2dotted_noport	./libbb/xconnect.c	/^char* FAST_FUNC xmalloc_sockaddr2dotted_noport(const struct sockaddr *sa)$/;"	f
+xmalloc_sockaddr2host	./libbb/xconnect.c	/^char* FAST_FUNC xmalloc_sockaddr2host(const struct sockaddr *sa)$/;"	f
+xmalloc_sockaddr2host_noport	./libbb/xconnect.c	/^char* FAST_FUNC xmalloc_sockaddr2host_noport(const struct sockaddr *sa)$/;"	f
+xmalloc_sockaddr2hostonly_noport	./libbb/xconnect.c	/^char* FAST_FUNC xmalloc_sockaddr2hostonly_noport(const struct sockaddr *sa)$/;"	f
+xmalloc_ttyname	./libbb/xfuncs_printf.c	/^char* FAST_FUNC xmalloc_ttyname(int fd)$/;"	f
+xmalloc_xopen_read_close	./libbb/read_printf.c	/^void* FAST_FUNC xmalloc_xopen_read_close(const char *filename, size_t *maxsz_p)$/;"	f
+xmkstemp	./libbb/xfuncs_printf.c	/^int FAST_FUNC xmkstemp(char *template)$/;"	f
+xmove_fd	./libbb/xfuncs_printf.c	/^void FAST_FUNC xmove_fd(int from, int to)$/;"	f
+xopen	./libbb/xfuncs_printf.c	/^int FAST_FUNC xopen(const char *pathname, int flags)$/;"	f
+xopen3	./libbb/xfuncs_printf.c	/^int FAST_FUNC xopen3(const char *pathname, int flags, int mode)$/;"	f
+xopen_as_uid_gid	./libbb/xfuncs_printf.c	/^int FAST_FUNC xopen_as_uid_gid(const char *pathname, int flags, uid_t u, gid_t g)$/;"	f
+xopen_nonblocking	./libbb/xfuncs_printf.c	/^int FAST_FUNC xopen_nonblocking(const char *pathname)$/;"	f
+xopen_stdin	./libbb/wfopen_input.c	/^int FAST_FUNC xopen_stdin(const char *filename)$/;"	f
+xopen_xwrite_close	./libbb/write.c	/^void FAST_FUNC xopen_xwrite_close(const char* file, const char* str)$/;"	f
+xopendir	./libbb/xfuncs_printf.c	/^DIR* FAST_FUNC xopendir(const char *path)$/;"	f
+xpipe	./libbb/xfuncs_printf.c	/^void FAST_FUNC xpipe(int filedes[2])$/;"	f
+xprint_and_close_file	./libbb/xfuncs_printf.c	/^void FAST_FUNC xprint_and_close_file(FILE *file)$/;"	f
+xputenv	./libarchive/data_extract_to_command.c	/^static void xputenv(char *str)$/;"	f	file:
+xread	./libbb/read_printf.c	/^void FAST_FUNC xread(int fd, void *buf, size_t count)$/;"	f
+xread_char	./libbb/read_printf.c	/^unsigned char FAST_FUNC xread_char(int fd)$/;"	f
+xrealloc	./libbb/xfuncs_printf.c	/^void* FAST_FUNC xrealloc(void *ptr, size_t size)$/;"	f
+xrealloc_getcwd_or_warn	./libbb/xgetcwd.c	/^xrealloc_getcwd_or_warn(char *cwd)$/;"	f
+xrealloc_vector_helper	./libbb/xrealloc_vector.c	/^void* FAST_FUNC xrealloc_vector_helper(void *vector, unsigned sizeof_and_shift, int idx)$/;"	f
+xregcomp	./libbb/xregcomp.c	/^void FAST_FUNC xregcomp(regex_t *preg, const char *regex, int cflags)$/;"	f
+xrename	./libbb/xfuncs_printf.c	/^void FAST_FUNC xrename(const char *oldpath, const char *newpath)$/;"	f
+xsendto	./libbb/xfuncs_printf.c	/^ssize_t FAST_FUNC xsendto(int s, const void *buf, size_t len, const struct sockaddr *to,$/;"	f
+xsetegid	./libbb/xfuncs_printf.c	/^void FAST_FUNC xsetegid(gid_t egid)$/;"	f
+xsetenv	./libbb/xfuncs_printf.c	/^void FAST_FUNC xsetenv(const char *key, const char *value)$/;"	f
+xseteuid	./libbb/xfuncs_printf.c	/^void FAST_FUNC xseteuid(uid_t euid)$/;"	f
+xsetgid	./libbb/xfuncs_printf.c	/^void FAST_FUNC xsetgid(gid_t gid)$/;"	f
+xsetuid	./libbb/xfuncs_printf.c	/^void FAST_FUNC xsetuid(uid_t uid)$/;"	f
+xsocket	./libbb/xfuncs_printf.c	/^int FAST_FUNC xsocket(int domain, int type, int protocol)$/;"	f
+xsocket_stream	./libbb/xconnect.c	/^int FAST_FUNC xsocket_stream(len_and_sockaddr **lsap)$/;"	f
+xsocket_type	./libbb/xconnect.c	/^int FAST_FUNC xsocket_type(len_and_sockaddr **lsap, int family, int sock_type)$/;"	f
+xspawn	./libbb/vfork_daemon_rexec.c	/^pid_t FAST_FUNC xspawn(char **argv)$/;"	f
+xstat	./libbb/xfuncs_printf.c	/^void FAST_FUNC xstat(const char *name, struct stat *stat_buf)$/;"	f
+xstrdup	./libbb/xfuncs_printf.c	/^char* FAST_FUNC xstrdup(const char *s)$/;"	f
+xstrndup	./libbb/xfuncs_printf.c	/^char* FAST_FUNC xstrndup(const char *s, int n)$/;"	f
+xstrto	./libbb/xatonum.c	14;"	d	file:
+xstrto	./libbb/xatonum.c	26;"	d	file:
+xstrto	./libbb/xatonum.c	49;"	d	file:
+xstrto	./libbb/xatonum_template.c	/^type FAST_FUNC xstrto()(const char *numstr, int base)$/;"	f
+xstrto	./libbb/xatonum_template.c	189;"	d	file:
+xstrtou	./libbb/xatonum.c	13;"	d	file:
+xstrtou	./libbb/xatonum.c	25;"	d	file:
+xstrtou	./libbb/xatonum.c	48;"	d	file:
+xstrtou	./libbb/xatonum_template.c	/^unsigned type FAST_FUNC xstrtou()(const char *numstr, int base)$/;"	f
+xstrtou	./libbb/xatonum_template.c	188;"	d	file:
+xuid2uname	./libbb/bb_pwd.c	/^char* FAST_FUNC xuid2uname(uid_t uid)$/;"	f
+xuname2uid	./libbb/bb_pwd.c	/^long FAST_FUNC xuname2uid(const char *name)$/;"	f
+xunlink	./libbb/xfuncs_printf.c	/^void FAST_FUNC xunlink(const char *pathname)$/;"	f
+xwrite	./libbb/xfuncs_printf.c	/^void FAST_FUNC xwrite(int fd, const void *buf, size_t count)$/;"	f
+xwrite_str	./libbb/xfuncs_printf.c	/^void FAST_FUNC xwrite_str(int fd, const char *str)$/;"	f
+xz_buf	./libarchive/unxz/xz.h	/^struct xz_buf {$/;"	s
+xz_check	./libarchive/unxz/xz_stream.h	/^enum xz_check {$/;"	g
+xz_crc32	./libarchive/decompress_unxz.c	/^static uint32_t xz_crc32(const uint8_t *buf, size_t size, uint32_t crc)$/;"	f	file:
+xz_crc32	./libarchive/unxz/xz_stream.h	16;"	d
+xz_dec	./libarchive/unxz/xz_dec_stream.c	/^struct xz_dec {$/;"	s	file:
+xz_dec_bcj	./libarchive/unxz/xz_dec_bcj.c	/^struct xz_dec_bcj {$/;"	s	file:
+xz_dec_bcj_create	./libarchive/unxz/xz_dec_bcj.c	/^XZ_EXTERN struct xz_dec_bcj * XZ_FUNC xz_dec_bcj_create(bool single_call)$/;"	f
+xz_dec_bcj_end	./libarchive/unxz/xz_private.h	156;"	d
+xz_dec_bcj_reset	./libarchive/unxz/xz_dec_bcj.c	/^XZ_EXTERN enum xz_ret XZ_FUNC xz_dec_bcj_reset($/;"	f
+xz_dec_bcj_run	./libarchive/unxz/xz_dec_bcj.c	/^XZ_EXTERN enum xz_ret XZ_FUNC xz_dec_bcj_run(struct xz_dec_bcj *s,$/;"	f
+xz_dec_end	./libarchive/unxz/xz_dec_stream.c	/^XZ_EXTERN void XZ_FUNC xz_dec_end(struct xz_dec *s)$/;"	f
+xz_dec_hash	./libarchive/unxz/xz_dec_stream.c	/^struct xz_dec_hash {$/;"	s	file:
+xz_dec_init	./libarchive/unxz/xz_dec_stream.c	/^XZ_EXTERN struct xz_dec * XZ_FUNC xz_dec_init($/;"	f
+xz_dec_lzma2	./libarchive/unxz/xz_dec_lzma2.c	/^struct xz_dec_lzma2 {$/;"	s	file:
+xz_dec_lzma2_create	./libarchive/unxz/xz_dec_lzma2.c	/^XZ_EXTERN struct xz_dec_lzma2 * XZ_FUNC xz_dec_lzma2_create($/;"	f
+xz_dec_lzma2_end	./libarchive/unxz/xz_dec_lzma2.c	/^XZ_EXTERN void XZ_FUNC xz_dec_lzma2_end(struct xz_dec_lzma2 *s)$/;"	f
+xz_dec_lzma2_reset	./libarchive/unxz/xz_dec_lzma2.c	/^XZ_EXTERN enum xz_ret XZ_FUNC xz_dec_lzma2_reset($/;"	f
+xz_dec_lzma2_run	./libarchive/unxz/xz_dec_lzma2.c	/^XZ_EXTERN NOINLINE enum xz_ret XZ_FUNC xz_dec_lzma2_run($/;"	f
+xz_dec_reset	./libarchive/unxz/xz_dec_stream.c	/^XZ_EXTERN void XZ_FUNC xz_dec_reset(struct xz_dec *s)$/;"	f
+xz_dec_run	./libarchive/unxz/xz_dec_stream.c	/^XZ_EXTERN enum xz_ret XZ_FUNC xz_dec_run(struct xz_dec *s, struct xz_buf *b)$/;"	f
+xz_mode	./libarchive/unxz/xz.h	/^enum xz_mode {$/;"	g
+xz_ret	./libarchive/unxz/xz.h	/^enum xz_ret {$/;"	g
+xzalloc	./libbb/xfuncs_printf.c	/^void* FAST_FUNC xzalloc(size_t size)$/;"	f
+yesno	./libbb/compare_string_array.c	/^smallint FAST_FUNC yesno(const char *str)$/;"	f
+zbits	./libarchive/bz/bzlib_private.h	/^	uint8_t  *zbits;$/;"	m	struct:EState
