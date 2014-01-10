@@ -488,35 +488,8 @@ static int writeTarHeader(struct TarBallInfo *tbInfo,
 	return TRUE;
 }
 
-#if ENABLE_FEATURE_TAR_FROM
-static int exclude_file(const llist_t *excluded_files, const char *file)
-{
-	while (excluded_files) {
-		if (excluded_files->data[0] == '/') {
-			if (fnmatch(excluded_files->data, file,
-					FNM_PATHNAME | FNM_LEADING_DIR) == 0)
-				return 1;
-		} else {
-			const char *p;
 
-			for (p = file; p[0] != '\0'; p++) {
-				if ((p == file || p[-1] == '/')
-				 && p[0] != '/'
-				 && fnmatch(excluded_files->data, p,
-						FNM_PATHNAME | FNM_LEADING_DIR) == 0
-				) {
-					return 1;
-				}
-			}
-		}
-		excluded_files = excluded_files->link;
-	}
-
-	return 0;
-}
-#else
 # define exclude_file(excluded_files, file) 0
-#endif
 
 static int FAST_FUNC writeFileToTarball(const char *fileName, struct stat *statbuf,
 			void *userData, int depth UNUSED_PARAM)
@@ -767,27 +740,6 @@ int writeTarFile(int tar_fd, int verboseFlag,
 	const llist_t *exclude, int gzip);
 #endif /* FEATURE_TAR_CREATE */
 
-#if ENABLE_FEATURE_TAR_FROM
-static llist_t *append_file_list_to_list(llist_t *list)
-{
-	FILE *src_stream;
-	char *line;
-	llist_t *newlist = NULL;
-
-	while (list) {
-		src_stream = xfopen_stdin((char const *)llist_pop(&list));
-		while ((line = xmalloc_fgetline(src_stream)) != NULL) {
-			/* kill trailing '/' unless the string is just "/" */
-			char *cp = last_char_is(line, '/');
-			if (cp > line)
-				*cp = '\0';
-			llist_add_to_end(&newlist, line);
-		}
-		fclose(src_stream);
-	}
-	return newlist;
-}
-#endif
 
 //usage:#define tar_trivial_usage
 //usage:	"-[" IF_FEATURE_TAR_CREATE("c") "xt"
@@ -930,10 +882,6 @@ static const char tar_longopts[] ALIGN1 =
 # if ENABLE_FEATURE_SEAMLESS_LZMA
 	"lzma\0"                No_argument       "a"
 # endif
-# if ENABLE_FEATURE_TAR_FROM
-	"files-from\0"          Required_argument "T"
-	"exclude-from\0"        Required_argument "X"
-# endif
 # if ENABLE_FEATURE_SEAMLESS_GZ
 	"gzip\0"                No_argument       "z"
 # endif
@@ -958,179 +906,83 @@ static const char tar_longopts[] ALIGN1 =
 	"overwrite\0"           No_argument       "\xfe"
 	/* --exclude takes next bit position in option mask, */
 	/* therefore we have to put it _after_ --no-same-permissions */
-# if ENABLE_FEATURE_TAR_FROM
-	"exclude\0"             Required_argument "\xff"
-# endif
 	;
 #endif
 
+
+int tarArchive(const char * pathname,const char * tarname)
+{
+	archive_handle_t *tar_handle;
+	tar_handle = init_handle();
+	tar_handle->ah_flags = ARCHIVE_CREATE_LEADING_DIRS
+	                     | ARCHIVE_RESTORE_DATE
+	                     | ARCHIVE_UNLINK_OLD;
+
+	unsigned opt=0;
+	llist_add_to_end(&tar_handle->accept, (void *)pathname);
+
+	{
+		
+		int tar_fd = STDIN_FILENO;
+		int flags = O_RDONLY;
+		if (tar_handle->accept == NULL){
+			//To do notice
+			return -1;
+		}
+
+		flags = O_WRONLY | O_CREAT | O_TRUNC;
+
+		if (LONE_DASH(tarname)) {
+			tar_handle->src_fd = tar_fd;
+			tar_handle->seek = seek_by_read;
+		} else {
+			tar_handle->src_fd = xopen(tarname, flags);
+		}
+
+			
+	}
+
+	
+	return writeTarFile(tar_handle->src_fd, 1,
+				(opt & OPT_DEREFERENCE ? ACTION_FOLLOWLINKS : 0)
+				| (opt & OPT_NORECURSION ? 0 : ACTION_RECURSE),
+				tar_handle->accept,
+				tar_handle->reject, zipMode);	
+}
+
+#if 0
 int main(int argc,char *argv[])
 {
 	archive_handle_t *tar_handle;
+	
+	int verboseFlag = 0;//Extract out vith verbose
+
+	unsigned opt=0;//set the and choice)
 	
 	tar_handle = init_handle();
 	tar_handle->ah_flags = ARCHIVE_CREATE_LEADING_DIRS
 	                     | ARCHIVE_RESTORE_DATE
 	                     | ARCHIVE_UNLINK_OLD;
-
 	if (getuid() != 0)
 		tar_handle->ah_flags |= ARCHIVE_DONT_RESTORE_PERM;
 
-}
+	
 
 
-
-int tar_main(int argc , char **argv)
-{
-	archive_handle_t *tar_handle;
-	char *base_dir = NULL;
-	const char *tar_filename = "-";
-	unsigned opt;
-	int verboseFlag = 0;
-#if ENABLE_FEATURE_TAR_LONG_OPTIONS && ENABLE_FEATURE_TAR_FROM
-	llist_t *excludes = NULL;
-#endif
-
-	/* Initialise default values */
-	tar_handle = init_handle();
-	tar_handle->ah_flags = ARCHIVE_CREATE_LEADING_DIRS
-	                     | ARCHIVE_RESTORE_DATE
-	                     | ARCHIVE_UNLINK_OLD;
-
-	/* Apparently only root's tar preserves perms (see bug 3844) */
-	if (getuid() != 0)
-		tar_handle->ah_flags |= ARCHIVE_DONT_RESTORE_PERM;
-
-	/* Prepend '-' to the first argument if required */
-	opt_complementary = "--:" // first arg is options
-		"tt:vv:" // count -t,-v
-		IF_FEATURE_TAR_FROM("X::T::") // cumulative lists
-#if ENABLE_FEATURE_TAR_LONG_OPTIONS && ENABLE_FEATURE_TAR_FROM
-		"\xff::" // cumulative lists for --exclude
-#endif
-		IF_FEATURE_TAR_CREATE("c:") "t:x:" // at least one of these is reqd
-		IF_FEATURE_TAR_CREATE("c--tx:t--cx:x--ct") // mutually exclusive
-		IF_NOT_FEATURE_TAR_CREATE("t--x:x--t"); // mutually exclusive
-#if ENABLE_FEATURE_TAR_LONG_OPTIONS
-	applet_long_options = tar_longopts;
-#endif
-#if ENABLE_DESKTOP
-	if (argv[1] && argv[1][0] != '-') {
-		/* Compat:
-		 * 1st argument without dash handles options with parameters
-		 * differently from dashed one: it takes *next argv[i]*
-		 * as paramenter even if there are more chars in 1st argument:
-		 *  "tar fx TARFILE" - "x" is not taken as f's param
-		 *  but is interpreted as -x option
-		 *  "tar -xf TARFILE" - dashed equivalent of the above
-		 *  "tar -fx ..." - "x" is taken as f's param
-		 * getopt32 wouldn't handle 1st command correctly.
-		 * Unfortunately, people do use such commands.
-		 * We massage argv[1] to work around it by moving 'f'
-		 * to the end of the string.
-		 * More contrived "tar fCx TARFILE DIR" still fails,
-		 * but such commands are much less likely to be used.
-		 */
-		char *f = strchr(argv[1], 'f');
-		if (f) {
-			while (f[1] != '\0') {
-				*f = f[1];
-				f++;
-			}
-			*f = 'f';
-		}
-	}
-#endif
-	opt = getopt32(argv,
-		"txC:f:Oopvk"
-		IF_FEATURE_TAR_CREATE(   "ch"  )
-		IF_FEATURE_SEAMLESS_BZ2( "j"   )
-		IF_FEATURE_SEAMLESS_LZMA("a"   )
-		IF_FEATURE_TAR_FROM(     "T:X:")
-		IF_FEATURE_SEAMLESS_GZ(  "z"   )
-		IF_FEATURE_SEAMLESS_XZ(  "J"   )
-		IF_FEATURE_SEAMLESS_Z(   "Z"   )
-		IF_FEATURE_TAR_NOPRESERVE_TIME("m")
-		, &base_dir // -C dir
-		, &tar_filename // -f filename
-		IF_FEATURE_TAR_FROM(, &(tar_handle->accept)) // T
-		IF_FEATURE_TAR_FROM(, &(tar_handle->reject)) // X
-		IF_FEATURE_TAR_TO_COMMAND(, &(tar_handle->tar__to_command)) // --to-command
-#if ENABLE_FEATURE_TAR_LONG_OPTIONS && ENABLE_FEATURE_TAR_FROM
-		, &excludes // --exclude
-#endif
-		, &verboseFlag // combined count for -t and -v
-		, &verboseFlag // combined count for -t and -v
-		);
-	//bb_error_msg("opt:%08x", opt);
-	argv += optind;
-
+	//here to set the opt
+	
 	if (verboseFlag) tar_handle->action_header = header_verbose_list;
 	if (verboseFlag == 1) tar_handle->action_header = header_list;
-
-	if (opt & OPT_EXTRACT)
+	if (opt & OPT_EXTRACT){
 		tar_handle->action_data = data_extract_all;
-
-	if (opt & OPT_2STDOUT)
-		tar_handle->action_data = data_extract_to_stdout;
-#if 0
-	if (opt & OPT_2COMMAND) {
-		putenv((char*)"TAR_FILETYPE=f");
-		signal(SIGPIPE, SIG_IGN);
-		tar_handle->action_data = data_extract_to_command;
-		IF_FEATURE_TAR_TO_COMMAND(tar_handle->tar__to_command_shell = xstrdup(get_shell_name());)
-	}
-#endif
-
-	if (opt & OPT_KEEP_OLD)
-		tar_handle->ah_flags &= ~ARCHIVE_UNLINK_OLD;
-
-	if (opt & OPT_NUMERIC_OWNER)
-		tar_handle->ah_flags |= ARCHIVE_NUMERIC_OWNER;
-
-	if (opt & OPT_NOPRESERVE_OWNER)
-		tar_handle->ah_flags |= ARCHIVE_DONT_RESTORE_OWNER;
-
-	if (opt & OPT_NOPRESERVE_PERM)
-		tar_handle->ah_flags |= ARCHIVE_DONT_RESTORE_PERM;
-
-	if (opt & OPT_OVERWRITE) {
-		tar_handle->ah_flags &= ~ARCHIVE_UNLINK_OLD;
-		tar_handle->ah_flags |= ARCHIVE_O_TRUNC;
 	}
 
-	if (opt & OPT_NOPRESERVE_TIME)
-		tar_handle->ah_flags &= ~ARCHIVE_RESTORE_DATE;
-
-#if ENABLE_FEATURE_TAR_FROM
+	//add the ecrypt file to list 
+	
+	
 	tar_handle->reject = append_file_list_to_list(tar_handle->reject);
-# if ENABLE_FEATURE_TAR_LONG_OPTIONS
-	/* Append excludes to reject */
-	while (excludes) {
-		llist_t *next = excludes->link;
-		excludes->link = tar_handle->reject;
-		tar_handle->reject = excludes;
-		excludes = next;
-	}
-# endif
-	tar_handle->accept = append_file_list_to_list(tar_handle->accept);
-#endif
-
-	/* Setup an array of filenames to work with */
-	/* TODO: This is the same as in ar, make a separate function? */
-	while (*argv) {
-		/* kill trailing '/' unless the string is just "/" */
-		char *cp = last_char_is(*argv, '/');
-		if (cp > *argv)
-			*cp = '\0';
-		llist_add_to_end(&tar_handle->accept, *argv);
-		argv++;
-	}
-
 	if (tar_handle->accept || tar_handle->reject)
 		tar_handle->filter = filter_accept_reject_list;
-
-	/* Open the tar file */
 	{
 		int tar_fd = STDIN_FILENO;
 		int flags = O_RDONLY;
@@ -1162,14 +1014,10 @@ int tar_main(int argc , char **argv)
 		}
 	}
 
-	if (base_dir)
-		xchdir(base_dir);
+	
 
-	//if (SEAMLESS_COMPRESSION || OPT_COMPRESS)
-	//	/* We need to know whether child (gzip/bzip/etc) exits abnormally */
-	//	signal(SIGCHLD, check_errors_in_children);
-
-	/* Create an archive */
+#if 0
+		/* Create an archive */
 	if (opt & OPT_CREATE) {
 		/* NB: writeTarFile() closes tar_handle->src_fd */
 		printf("Create an archive\n");
@@ -1179,32 +1027,159 @@ int tar_main(int argc , char **argv)
 				tar_handle->accept,
 				tar_handle->reject, zipMode);
 	}
+#endif 
 
-	if (opt & OPT_ANY_COMPRESS) {
-		USE_FOR_MMU(IF_DESKTOP(long long) int FAST_FUNC (*xformer)(transformer_aux_data_t *aux, int src_fd, int dst_fd);)
-		USE_FOR_NOMMU(const char *xformer_prog;)
+}
+#endif
 
-		if (opt & OPT_COMPRESS)
-			USE_FOR_MMU(xformer = unpack_Z_stream;)
-			USE_FOR_NOMMU(xformer_prog = "uncompress";)
-		if (opt & OPT_GZIP)
-			USE_FOR_MMU(xformer = unpack_gz_stream;)
-			USE_FOR_NOMMU(xformer_prog = "gunzip";)
-		if (opt & OPT_BZIP2)
-			USE_FOR_MMU(xformer = unpack_bz2_stream;)
-			USE_FOR_NOMMU(xformer_prog = "bunzip2";)
-		if (opt & OPT_LZMA)
-			USE_FOR_MMU(xformer = unpack_lzma_stream;)
-			USE_FOR_NOMMU(xformer_prog = "unlzma";)
-		if (opt & OPT_XZ)
-			USE_FOR_MMU(xformer = unpack_xz_stream;)
-			USE_FOR_NOMMU(xformer_prog = "unxz";)
 
-		open_transformer_with_sig(tar_handle->src_fd, xformer, xformer_prog);
-		/* Can't lseek over pipes */
-		tar_handle->seek = seek_by_read;
-		/*tar_handle->offset = 0; - already is */
+#if 1 //dwj 
+int main(int argc , char **argv)
+{
+	archive_handle_t *tar_handle;
+	char *base_dir = NULL;
+	const char *tar_filename = "-";
+	unsigned opt;
+	int verboseFlag = 0;
+
+	/* Initialise default values */
+	tar_handle = init_handle();
+	tar_handle->ah_flags = ARCHIVE_CREATE_LEADING_DIRS
+	                     | ARCHIVE_RESTORE_DATE
+	                     | ARCHIVE_UNLINK_OLD;
+
+	/* Apparently only root's tar preserves perms (see bug 3844) */
+	if (getuid() != 0)
+		tar_handle->ah_flags |= ARCHIVE_DONT_RESTORE_PERM;
+
+	/* Prepend '-' to the first argument if required */
+	opt_complementary = "--:" // first arg is options
+		"tt:vv:" // count -t,-v
+		IF_FEATURE_TAR_FROM("X::T::") // cumulative lists
+		IF_FEATURE_TAR_CREATE("c:") "t:x:" // at least one of these is reqd
+		IF_FEATURE_TAR_CREATE("c--tx:t--cx:x--ct") // mutually exclusive
+		IF_NOT_FEATURE_TAR_CREATE("t--x:x--t"); // mutually exclusive
+#if ENABLE_FEATURE_TAR_LONG_OPTIONS
+	applet_long_options = tar_longopts;
+#endif
+#if 1
+#if ENABLE_DESKTOP
+	if (argv[1] && argv[1][0] != '-') {
+		/* Compat:
+		 * 1st argument without dash handles options with parameters
+		 * differently from dashed one: it takes *next argv[i]*
+		 * as paramenter even if there are more chars in 1st argument:
+		 *  "tar fx TARFILE" - "x" is not taken as f's param
+		 *  but is interpreted as -x option
+		 *  "tar -xf TARFILE" - dashed equivalent of the above
+		 *  "tar -fx ..." - "x" is taken as f's param
+		 * getopt32 wouldn't handle 1st command correctly.
+		 * Unfortunately, people do use such commands.
+		 * We massage argv[1] to work around it by moving 'f'
+		 * to the end of the string.
+		 * More contrived "tar fCx TARFILE DIR" still fails,
+		 * but such commands are much less likely to be used.
+		 */
+		char *f = strchr(argv[1], 'f');
+		if (f) {
+			while (f[1] != '\0') {
+				*f = f[1];
+				f++;
+			}
+			*f = 'f';
+		}
 	}
+#endif
+#endif
+	opt = getopt32(argv,
+		"txC:f:Oopvk"
+		IF_FEATURE_TAR_CREATE(   "ch"  )
+		IF_FEATURE_SEAMLESS_BZ2( "j"   )
+		IF_FEATURE_SEAMLESS_LZMA("a"   )
+		IF_FEATURE_TAR_FROM(     "T:X:")
+		IF_FEATURE_SEAMLESS_GZ(  "z"   )
+		IF_FEATURE_SEAMLESS_XZ(  "J"   )
+		IF_FEATURE_SEAMLESS_Z(   "Z"   )
+		IF_FEATURE_TAR_NOPRESERVE_TIME("m")
+		, &base_dir // -C dir
+		, &tar_filename // -f filename
+		IF_FEATURE_TAR_FROM(, &(tar_handle->accept)) // T
+		IF_FEATURE_TAR_FROM(, &(tar_handle->reject)) // X
+		IF_FEATURE_TAR_TO_COMMAND(, &(tar_handle->tar__to_command)) // --to-command
+		, &verboseFlag // combined count for -t and -v
+		, &verboseFlag // combined count for -t and -v
+		);
+	//bb_error_msg("opt:%08x", opt);
+	argv += optind;
+
+	if (verboseFlag) tar_handle->action_header = header_verbose_list;
+	if (verboseFlag == 1) tar_handle->action_header = header_list;
+
+	if (opt & OPT_EXTRACT){
+		tar_handle->action_data = data_extract_all;
+	}
+
+	/* Setup an array of filenames to work with */
+	/* TODO: This is the same as in ar, make a separate function? */
+	/* Apprend the file in the end */
+#if 1
+	while (*argv) {
+		/* kill trailing '/' unless the string is just "/" */
+		char *cp = last_char_is(*argv, '/');
+		if (cp > *argv)
+			*cp = '\0';
+		llist_add_to_end(&tar_handle->accept, *argv);
+		argv++;
+	}
+#endif 
+
+	if (tar_handle->accept || tar_handle->reject)
+		tar_handle->filter = filter_accept_reject_list;
+
+	/* Open the tar file */
+	{
+		int tar_fd = STDIN_FILENO;
+		int flags = O_RDONLY;
+
+		if (opt & OPT_CREATE) {
+			/* Make sure there is at least one file to tar up */
+			if (tar_handle->accept == NULL)
+				bb_error_msg_and_die("empty archive");
+
+			tar_fd = STDOUT_FILENO;
+			/* Mimicking GNU tar 1.15.1: */
+			flags = O_WRONLY | O_CREAT | O_TRUNC;
+		}
+
+		if (LONE_DASH(tar_filename)) {
+			tar_handle->src_fd = tar_fd;
+			tar_handle->seek = seek_by_read;
+		} else {
+			tar_handle->src_fd = xopen(tar_filename, flags);
+		}
+	}
+	
+	printf("base_dir:%s\n",base_dir);
+	if (base_dir){
+		xchdir(base_dir);
+	}
+
+	//if (SEAMLESS_COMPRESSION || OPT_COMPRESS)
+	//	/* We need to know whether child (gzip/bzip/etc) exits abnormally */
+	//	signal(SIGCHLD, check_errors_in_children);
+
+	/* Create an archive */
+	if (opt & OPT_CREATE) {
+		/* NB: writeTarFile() closes tar_handle->src_fd */
+		printf("Create an archive\n");
+		printf("mode:%02x\n",opt);
+		return writeTarFile(tar_handle->src_fd, verboseFlag,
+				(opt & OPT_DEREFERENCE ? ACTION_FOLLOWLINKS : 0)
+				| (opt & OPT_NORECURSION ? 0 : ACTION_RECURSE),
+				tar_handle->accept,
+				tar_handle->reject, zipMode);
+	}
+
 
 	/* Zero processed headers (== empty file) is not a valid tarball.
 	 * We (ab)use bb_got_signal as exitcode here,
@@ -1235,4 +1210,6 @@ int tar_main(int argc , char **argv)
 
 	return bb_got_signal;
 }
+
+#endif 
 

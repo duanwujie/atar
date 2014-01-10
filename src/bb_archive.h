@@ -46,35 +46,25 @@ typedef struct file_header_t {
 struct hardlinks_t;
 
 typedef struct archive_handle_t {
-	/* Flags. 1st since it is most used member */
-	unsigned ah_flags;
-
-	/* The raw stream as read from disk or stdin */
-	int src_fd;
-
+	unsigned ah_flags;/* Flags. 1st since it is most used member */
+	int src_fd;/* The raw stream as read from disk or stdin */
 	/* Define if the header and data component should be processed */
 	char FAST_FUNC (*filter)(struct archive_handle_t *);
-	/* List of files that have been accepted */
-	llist_t *accept;
-	/* List of files that have been rejected */
-	llist_t *reject;
-	/* List of files that have successfully been worked on */
-	llist_t *passed;
+	llist_t *accept;/* List of files that have been accepted */
+	llist_t *reject;/* List of files that have been rejected */
+	llist_t *passed;/* List of files that have successfully been worked on */
 
-	/* Currently processed file's header */
-	file_header_t *file_header;
+	file_header_t *file_header;/* Currently processed file's header */
 
+	
 	/* Process the header component, e.g. tar -t */
 	void FAST_FUNC (*action_header)(const file_header_t *);
 
 	/* Process the data component, e.g. extract to filesystem */
 	void FAST_FUNC (*action_data)(struct archive_handle_t *);
 
-	/* Function that skips data */
-	void FAST_FUNC (*seek)(int fd, off_t amount);
-
-	/* Count processed bytes */
-	off_t offset;
+	void FAST_FUNC (*seek)(int fd, off_t amount);/* Function that skips data */
+	off_t offset;/* Count processed bytes */
 
 	/* Archiver specific. Can make it a union if it ever gets big */
 #define PAX_NEXT_FILE 0
