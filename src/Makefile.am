@@ -1,10 +1,13 @@
 #AM_CFLAGS = -std=c99 -Wall -Wextra -Werror -Wstrict-prototypes -Wredundant-decls -Wshadow -pedantic -fno-strict-aliasing -D_POSIX_C_SOURCE=200112L -D_XOPEN_SOURCE=600 -O2 -D_SVID_SOURCE
 
+AM_CFLAGS = -Wunused-function -Wall
+
 #if ENABLE_DEBUG_BUILD
 #AM_CFLAGS += -g 
 #else
 #AM_CFLAGS += -DNDEBUG
 #endif
+
 
 INCLUDE = -I.
 sbin_PROGRAMS = atar
@@ -55,7 +58,6 @@ atar_SOURCES =     $(TAR_PREFIX)/tar.cpp \
                    $(TAR_PREFIX)/data_align.cpp \
                    $(TAR_PREFIX)/safe_poll.cpp \
                    $(TAR_PREFIX)/get_last_path_component.cpp\
-                   $(TAR_PREFIX)/time.cpp \
                    $(TAR_PREFIX)/platform.cpp \
                    $(TAR_PREFIX)/xrealloc_vector.cpp \
                    $(TAR_PREFIX)/bb_pwd.cpp\

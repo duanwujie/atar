@@ -304,10 +304,6 @@ struct BUG_off_t_size_is_misdetected {
 uint64_t bb_bswap_64(uint64_t x) FAST_FUNC;
 #endif
 
-unsigned long long monotonic_ns(void) FAST_FUNC;
-unsigned long long monotonic_us(void) FAST_FUNC;
-unsigned long long monotonic_ms(void) FAST_FUNC;
-unsigned monotonic_sec(void) FAST_FUNC;
 
 extern void chomp(char *s) FAST_FUNC;
 extern void trim(char *s) FAST_FUNC;
@@ -525,10 +521,6 @@ struct BUG_too_small {
 };
 
 
-void parse_datestr(const char *date_str, struct tm *ptm) FAST_FUNC;
-time_t validate_tm_time(const char *date_str, struct tm *ptm) FAST_FUNC;
-char *strftime_HHMMSS(char *buf, unsigned len, time_t *tp) FAST_FUNC;
-char *strftime_YYYYMMDDHHMMSS(char *buf, unsigned len, time_t *tp) FAST_FUNC;
 
 int xsocket(int domain, int type, int protocol) FAST_FUNC;
 void xbind(int sockfd, struct sockaddr *my_addr, socklen_t addrlen) FAST_FUNC;
@@ -834,11 +826,7 @@ const char *make_human_readable_str(unsigned long long size,
 		unsigned long block_size, unsigned long display_unit) FAST_FUNC;
 /* Put a string of hex bytes ("1b2e66fe"...), return advanced pointer */
 char *bin2hex(char *dst, const char *src, int count) FAST_FUNC;
-/* Reverse */
-char* hex2bin(char *dst, const char *src, int count) FAST_FUNC;
 
-/* Generate a UUID */
-void generate_uuid(uint8_t *buf) FAST_FUNC;
 
 /* Last element is marked by mult == 0 */
 struct suffix_mult {
@@ -1018,12 +1006,9 @@ enum {
 # define bb_daemonize(a) BUG_bb_daemonize_is_unavailable_on_nommu()
 #endif
 void bb_daemonize_or_rexec(int flags, char **argv) FAST_FUNC;
-void bb_sanitize_stdio(void) FAST_FUNC;
 /* Clear dangerous stuff, set PATH. Return 1 if was run by different user. */
-int sanitize_env_if_suid(void) FAST_FUNC;
 
 
-char* single_argv(char **argv) FAST_FUNC;
 extern const char *const bb_argv_dash[]; /* "-", NULL */
 extern const char *opt_complementary;
 #if ENABLE_LONG_OPTS || ENABLE_FEATURE_GETOPT_LONG
@@ -1033,7 +1018,6 @@ extern const char *opt_complementary;
 extern const char *applet_long_options;
 #endif
 extern uint32_t option_mask32;
-//extern uint32_t getopt32(char **argv, const char *applet_opts, ...) FAST_FUNC;
 
 
 /* Having next pointer as a first member allows easy creation
@@ -1087,41 +1071,12 @@ extern void bb_perror_msg(const char *s, ...) __attribute__ ((format (printf, 1,
 extern void bb_simple_perror_msg(const char *s) FAST_FUNC;
 extern void bb_perror_msg_and_die(const char *s, ...) __attribute__ ((noreturn, format (printf, 1, 2))) FAST_FUNC;
 extern void bb_simple_perror_msg_and_die(const char *s) NORETURN FAST_FUNC;
-extern void bb_herror_msg(const char *s, ...) __attribute__ ((format (printf, 1, 2))) FAST_FUNC;
-extern void bb_herror_msg_and_die(const char *s, ...) __attribute__ ((noreturn, format (printf, 1, 2))) FAST_FUNC;
-extern void bb_perror_nomsg_and_die(void) NORETURN FAST_FUNC;
-extern void bb_perror_nomsg(void) FAST_FUNC;
-extern void bb_info_msg(const char *s, ...) __attribute__ ((format (printf, 1, 2))) FAST_FUNC;
 extern void bb_verror_msg(const char *s, va_list p, const char *strerr) FAST_FUNC;
 
 /* We need to export XXX_main from libbusybox
  * only if we build "individual" binaries
  */
-#if ENABLE_FEATURE_INDIVIDUAL
-#define MAIN_EXTERNALLY_VISIBLE EXTERNALLY_VISIBLE
-#else
 #define MAIN_EXTERNALLY_VISIBLE
-#endif
-
-
-/* Applets which are useful from another applets */
-int bb_cat(char** argv);
-/* If shell needs them, they exist even if not enabled as applets */
-int echo_main(int argc, char** argv) IF_ECHO(MAIN_EXTERNALLY_VISIBLE);
-int printf_main(int argc, char **argv) IF_PRINTF(MAIN_EXTERNALLY_VISIBLE);
-int test_main(int argc, char **argv) IF_TEST(MAIN_EXTERNALLY_VISIBLE);
-int kill_main(int argc, char **argv) IF_KILL(MAIN_EXTERNALLY_VISIBLE);
-/* Similar, but used by chgrp, not shell */
-int chown_main(int argc, char **argv) IF_CHOWN(MAIN_EXTERNALLY_VISIBLE);
-/* Used by ftpd */
-int ls_main(int argc, char **argv) IF_LS(MAIN_EXTERNALLY_VISIBLE);
-/* Don't need IF_xxx() guard for these */
-int gunzip_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
-int bunzip2_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
-
-#if ENABLE_ROUTE
-void bb_displayroutes(int noresolve, int netstatfmt) FAST_FUNC;
-#endif
 
 
 /* Networking */
