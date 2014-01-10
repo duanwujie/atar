@@ -14,7 +14,6 @@
  * This will allow to stop using libc functions returning
  * pointers to static data (getpwuid)
  */
-
 struct passwd* FAST_FUNC xgetpwnam(const char *name)
 {
 	struct passwd *pw = getpwnam(name);
@@ -92,14 +91,6 @@ long FAST_FUNC xuname2uid(const char *name)
 	return myuser->pw_uid;
 }
 
-long FAST_FUNC xgroup2gid(const char *name)
-{
-	struct group *mygroup;
-
-	mygroup = xgetgrnam(name);
-	return mygroup->gr_gid;
-}
-
 unsigned long FAST_FUNC get_ug_id(const char *s,
 		long FAST_FUNC (*xname2id)(const char *))
 {
@@ -110,6 +101,7 @@ unsigned long FAST_FUNC get_ug_id(const char *s,
 		return xname2id(s);
 	return r;
 }
+
 
 /* Experimental "mallocing" API.
  * The goal is nice: "we want to support a case when "guests" group is very large"

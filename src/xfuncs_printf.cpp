@@ -291,17 +291,6 @@ int FAST_FUNC bb_putchar(int ch)
 	return putchar(ch);
 }
 
-/* Die with an error message if we can't copy an entire FILE* to stdout,
- * then close that file. */
-void FAST_FUNC xprint_and_close_file(FILE *file)
-{
-	fflush_all();
-	// copyfd outputs error messages for us.
-	if (bb_copyfd_eof(fileno(file), STDOUT_FILENO) == -1)
-		xfunc_die();
-
-	fclose(file);
-}
 
 // Die with an error message if we can't malloc() enough space and do an
 // sprintf() into that space.

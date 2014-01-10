@@ -37,7 +37,6 @@ atar_SOURCES =     $(TAR_PREFIX)/tar.cpp \
                    $(TAR_PREFIX)/header_list.cpp \
                    $(TAR_PREFIX)/seek_by_read.cpp \
                    $(TAR_PREFIX)/data_extract_all.cpp \
-                   $(TAR_PREFIX)/signals.cpp \
                    $(TAR_PREFIX)/filter_accept_reject_list.cpp \
                    $(TAR_PREFIX)/data_extract_to_stdout.cpp \
                    $(TAR_PREFIX)/data_skip.cpp \
@@ -62,6 +61,5 @@ atar_SOURCES =     $(TAR_PREFIX)/tar.cpp \
                    $(TAR_PREFIX)/xrealloc_vector.cpp \
                    $(TAR_PREFIX)/bb_pwd.cpp\
                    $(TAR_PREFIX)/data_extract_to_command.cpp \
-                   $(TAR_PREFIX)/makedev.cpp \
                    $(TAR_PREFIX)/appletlib.cpp
 

@@ -9,6 +9,8 @@
 
 #include "libbb.h"
 
+
+
 /* Used by NOFORK applets (e.g. cat) - must not use xmalloc.
  * size < 0 means "ignore write errors", used by tar --to-command
  * size = 0 means "copy till EOF"
@@ -133,3 +135,5 @@ off_t FAST_FUNC bb_copyfd_eof(int fd1, int fd2)
 {
 	return bb_full_fd_action(fd1, fd2, 0);
 }
+
+

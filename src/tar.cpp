@@ -581,7 +581,7 @@ int main(int argc,char *argv[])
 	char *tarname="test.tar";
 	tarArchive(pathname,tarname);
 
-	//tarExtract(tarname);
+	tarExtract(tarname);
 	return 0;
 }
 

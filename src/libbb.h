@@ -404,58 +404,6 @@ char *xrealloc_getcwd_or_warn(char *cwd) FAST_FUNC;
 char *xmalloc_follow_symlinks(const char *path) FAST_FUNC RETURNS_MALLOC;
 
 
-enum {
-	/* bb_signals(BB_FATAL_SIGS, handler) catches all signals which
-	 * otherwise would kill us, except for those resulting from bugs:
-	 * SIGSEGV, SIGILL, SIGFPE.
-	 * Other fatal signals not included (TODO?):
-	 * SIGBUS   Bus error (bad memory access)
-	 * SIGPOLL  Pollable event. Synonym of SIGIO
-	 * SIGPROF  Profiling timer expired
-	 * SIGSYS   Bad argument to routine
-	 * SIGTRAP  Trace/breakpoint trap
-	 *
-	 * The only known arch with some of these sigs not fitting
-	 * into 32 bits is parisc (SIGXCPU=33, SIGXFSZ=34, SIGSTKFLT=36).
-	 * Dance around with long long to guard against that...
-	 */
-	BB_FATAL_SIGS = (int)(0
-		+ (1LL << SIGHUP)
-		+ (1LL << SIGINT)
-		+ (1LL << SIGTERM)
-		+ (1LL << SIGPIPE)   // Write to pipe with no readers
-		+ (1LL << SIGQUIT)   // Quit from keyboard
-		+ (1LL << SIGABRT)   // Abort signal from abort(3)
-		+ (1LL << SIGALRM)   // Timer signal from alarm(2)
-		+ (1LL << SIGVTALRM) // Virtual alarm clock
-		+ (1LL << SIGXCPU)   // CPU time limit exceeded
-		+ (1LL << SIGXFSZ)   // File size limit exceeded
-		+ (1LL << SIGUSR1)   // Yes kids, these are also fatal!
-		+ (1LL << SIGUSR2)
-		+ 0),
-};
-void bb_signals(int sigs, void (*f)(int)) FAST_FUNC;
-/* Unlike signal() and bb_signals, sets handler with sigaction()
- * and in a way that while signal handler is run, no other signals
- * will be blocked; syscalls will not be restarted: */
-void bb_signals_recursive_norestart(int sigs, void (*f)(int)) FAST_FUNC;
-/* syscalls like read() will be interrupted with EINTR: */
-void signal_no_SA_RESTART_empty_mask(int sig, void (*handler)(int)) FAST_FUNC;
-/* syscalls like read() won't be interrupted (though select/poll will be): */
-void signal_SA_RESTART_empty_mask(int sig, void (*handler)(int)) FAST_FUNC;
-void wait_for_any_sig(void) FAST_FUNC;
-void kill_myself_with_sig(int sig) NORETURN FAST_FUNC;
-void sig_block(int sig) FAST_FUNC;
-void sig_unblock(int sig) FAST_FUNC;
-/* Will do sigaction(signum, act, NULL): */
-int sigaction_set(int sig, const struct sigaction *act) FAST_FUNC;
-/* SIG_BLOCK/SIG_UNBLOCK all signals: */
-int sigprocmask_allsigs(int how) FAST_FUNC;
-/* Standard handler which just records signo */
-extern smallint bb_got_signal;
-void record_signo(int signo); /* not FAST_FUNC! */
-
-
 void xsetgid(gid_t gid) FAST_FUNC;
 void xsetuid(uid_t uid) FAST_FUNC;
 void xsetegid(gid_t egid) FAST_FUNC;
@@ -754,7 +702,6 @@ extern void xopen_xwrite_close(const char* file, const char *str) FAST_FUNC;
 extern void xclose(int fd) FAST_FUNC;
 
 /* Reads and prints to stdout till eof, then closes FILE. Exits on error: */
-extern void xprint_and_close_file(FILE *file) FAST_FUNC;
 
 /* Reads a line from a text file, up to a newline or NUL byte, inclusive.
  * Returns malloc'ed char*. If end is NULL '\n' isn't considered
@@ -908,18 +855,6 @@ int exists_execable(const char *filename) FAST_FUNC;
 /* BB_EXECxx always execs (it's not doing NOFORK/NOEXEC stuff),
  * but it may exec busybox and call applet instead of searching PATH.
  */
-#if ENABLE_FEATURE_PREFER_APPLETS
-int BB_EXECVP(const char *file, char *const argv[]) FAST_FUNC;
-#define BB_EXECLP(prog,cmd,...) \
-	do { \
-		if (find_applet_by_name(prog) >= 0) \
-			execlp(bb_busybox_exec_path, cmd, __VA_ARGS__); \
-		execlp(prog, cmd, __VA_ARGS__); \
-	} while (0)
-#else
-#define BB_EXECVP(prog,cmd)     execvp(prog,cmd)
-#define BB_EXECLP(prog,cmd,...) execlp(prog,cmd,__VA_ARGS__)
-#endif
 int BB_EXECVP_or_die(char **argv) NORETURN FAST_FUNC;
 
 /* xvfork() can't be a _function_, return after vfork mangles stack
@@ -1325,12 +1260,6 @@ int bb_xioctl(int fd, unsigned request, void *argp) FAST_FUNC;
 char *is_in_ino_dev_hashtable(const struct stat *statbuf) FAST_FUNC;
 void add_to_ino_dev_hashtable(const struct stat *statbuf, const char *name) FAST_FUNC;
 void reset_ino_dev_hashtable(void) FAST_FUNC;
-#ifdef __GLIBC__
-/* At least glibc has horrendously large inline for this, so wrap it */
-unsigned long long bb_makedev(unsigned major, unsigned minor) FAST_FUNC;
-#undef makedev
-#define makedev(a,b) bb_makedev(a,b)
-#endif
 
 
 /* "Keycodes" that report an escape sequence.
@@ -1485,12 +1414,6 @@ struct smaprec {
 	char *smap_name;
 };
 
-#if !ENABLE_PMAP
-#define procps_read_smaps(pid, total, cb, data) \
-	procps_read_smaps(pid, total)
-#endif
-int FAST_FUNC procps_read_smaps(pid_t pid, struct smaprec *total,
-		void (*cb)(struct smaprec *, void *), void *data);
 
 typedef struct procps_status_t {
 	DIR *dir;
@@ -1565,12 +1488,8 @@ enum {
 	PSSCAN_RUIDGID  = (1 << 21) * ENABLE_FEATURE_PS_ADDITIONAL_COLUMNS,
 	PSSCAN_TASKS	= (1 << 22) * ENABLE_FEATURE_SHOW_THREADS,
 };
-//procps_status_t* alloc_procps_scan(void) FAST_FUNC;
-void free_procps_scan(procps_status_t* sp) FAST_FUNC;
-procps_status_t* procps_scan(procps_status_t* sp, int flags) FAST_FUNC;
 /* Format cmdline (up to col chars) into char buf[size] */
 /* Puts [comm] if cmdline is empty (-> process is a kernel thread) */
-void read_cmdline(char *buf, int size, unsigned pid, const char *comm) FAST_FUNC;
 pid_t *find_pid_by_name(const char* procName) FAST_FUNC;
 pid_t *pidlist_reverse(pid_t *pidList) FAST_FUNC;
 int starts_with_cpu(const char *str) FAST_FUNC;
