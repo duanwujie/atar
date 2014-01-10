@@ -9,6 +9,7 @@
 #include "libbb.h"
 
 
+
 /* Suppose that you are a shell. You start child processes.
  * They work and eventually exit. You want to get user input.
  * You read stdin. But what happens if last child switched
@@ -234,3 +235,4 @@ void* FAST_FUNC xmalloc_xopen_read_close(const char *filename, size_t *maxsz_p)
 		bb_perror_msg_and_die("can't read '%s'", filename);
 	return buf;
 }
+

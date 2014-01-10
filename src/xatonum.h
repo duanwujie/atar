@@ -1,12 +1,3 @@
-/* vi: set sw=4 ts=4: */
-/*
- * ascii-to-numbers implementations for busybox
- *
- * Copyright (C) 2003  Manuel Novoa III  <mjn3@codepoet.org>
- *
- * Licensed under GPLv2, see file LICENSE in this source tree.
- */
-
 PUSH_AND_SET_FUNCTION_VISIBILITY_TO_HIDDEN
 
 /* Provides extern declarations of functions */

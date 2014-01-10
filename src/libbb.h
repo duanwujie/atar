@@ -78,12 +78,6 @@
  * of struct sysinfo (only in some toolchanins), which breaks build.
  * Include sys/sysinfo.h only in those files which need it.
  */
-#if ENABLE_SELINUX
-# include <selinux/selinux.h>
-# include <selinux/context.h>
-# include <selinux/flask.h>
-# include <selinux/av_permissions.h>
-#endif
 #if ENABLE_FEATURE_UTMP
 # include <utmp.h>
 #endif
@@ -96,18 +90,6 @@
 # include <dmalloc.h>
 #endif
 /* Just in case libc doesn't define some of these... */
-#ifndef _PATH_PASSWD
-#define _PATH_PASSWD  "/etc/passwd"
-#endif
-#ifndef _PATH_GROUP
-#define _PATH_GROUP   "/etc/group"
-#endif
-#ifndef _PATH_SHADOW
-#define _PATH_SHADOW  "/etc/shadow"
-#endif
-#ifndef _PATH_GSHADOW
-#define _PATH_GSHADOW "/etc/gshadow"
-#endif
 #if defined __FreeBSD__ || defined __OpenBSD__
 # include <netinet/in.h>
 # include <arpa/inet.h>
@@ -250,12 +232,7 @@ typedef unsigned long uoff_t;
 #endif
 /* scary. better ideas? (but do *test* them first!) */
 #define OFF_T_MAX  ((off_t)~((off_t)1 << (sizeof(off_t)*8-1)))
-/* Users report bionic to use 32-bit off_t even if LARGEFILE support is requested.
- * We misdetected that. Don't let it build:
- */
-struct BUG_off_t_size_is_misdetected {
-	char BUG_off_t_size_is_misdetected[sizeof(off_t) == sizeof(uoff_t) ? 1 : -1];
-};
+
 
 /* Some useful definitions */
 #undef FALSE
@@ -437,37 +414,12 @@ uoff_t FAST_FUNC get_volume_size_in_bytes(int fd,
 
 void xpipe(int filedes[2]) FAST_FUNC;
 /* In this form code with pipes is much more readable */
-struct fd_pair { int rd; int wr; };
 #define piped_pair(pair)  pipe(&((pair).rd))
 #define xpiped_pair(pair) xpipe(&((pair).rd))
 
 /* Useful for having small structure members/global variables */
 typedef int8_t socktype_t;
 typedef int8_t family_t;
-struct BUG_too_small {
-	char BUG_socktype_t_too_small[(0
-			| SOCK_STREAM
-			| SOCK_DGRAM
-			| SOCK_RDM
-			| SOCK_SEQPACKET
-			| SOCK_RAW
-			) <= 127 ? 1 : -1];
-	char BUG_family_t_too_small[(0
-			| AF_UNSPEC
-			| AF_INET
-			| AF_INET6
-			| AF_UNIX
-#ifdef AF_PACKET
-			| AF_PACKET
-#endif
-#ifdef AF_NETLINK
-			| AF_NETLINK
-#endif
-			/* | AF_DECnet */
-			/* | AF_IPX */
-			) <= 127 ? 1 : -1];
-};
-
 
 
 int xsocket(int domain, int type, int protocol) FAST_FUNC;

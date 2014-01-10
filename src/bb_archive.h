@@ -97,10 +97,18 @@ typedef struct archive_handle_t {
 #endif
 
 
+/*
+ * tar 包格式
+ * [tar_header1][file1][tar_header-1][file2][tar-header]
+ */
+
 /* POSIX tar Header Block, from POSIX 1003.1-1990  */
 #define TAR_BLOCK_SIZE 512
 #define NAME_SIZE      100
 #define NAME_SIZE_STR "100"
+/**
+ * @brief Tar Format
+ */
 typedef struct tar_header_t {     /* byte offset */
 	char name[NAME_SIZE];     /*   0-99 */
 	char mode[8];             /* 100-107 */
@@ -124,9 +132,7 @@ typedef struct tar_header_t {     /* byte offset */
 	char prefix[155];         /* 345-499 */
 	char padding[12];         /* 500-512 (pad to exactly TAR_BLOCK_SIZE) */
 } tar_header_t;
-struct BUG_tar_header {
-	char c[sizeof(tar_header_t) == TAR_BLOCK_SIZE ? 1 : -1];
-};
+
 
 
 

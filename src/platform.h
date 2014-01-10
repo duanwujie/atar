@@ -1,9 +1,3 @@
-/* vi: set sw=4 ts=4: */
-/*
- * Copyright 2006, Bernhard Reutner-Fischer
- *
- * Licensed under GPLv2 or later, see file LICENSE in this source tree.
- */
 #ifndef BB_PLATFORM_H
 #define BB_PLATFORM_H 1
 

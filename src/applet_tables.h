@@ -1,5 +1,3 @@
-/* This is a generated file, don't edit */
-
 #define NUM_APPLETS 1
 #define SINGLE_APPLET_STR "tar"
 //#define SINGLE_APPLET_MAIN tar_mains

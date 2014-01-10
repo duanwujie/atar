@@ -1,3 +1,10 @@
+/**
+ * @file tar.cpp
+ * @brief tar tookit
+ * @author Dan Panic
+ * @version 1.0.0
+ * @date 2014-01-10
+ */
 #include <fnmatch.h>
 #include "libbb.h"
 #include "bb_archive.h"
@@ -7,8 +14,13 @@
 #endif
 
 
-//#define DBG(fmt, ...) bb_error_msg("%s: " fmt, __func__, ## __VA_ARGS__)
+
+#define TAR_DEBUG
+#ifdef TAR_DEBUG
+#define DBG printf
+#else
 #define DBG(...) ((void)0)
+#endif
 
 
 #define block_buf bb_common_bufsiz1
@@ -22,23 +34,57 @@
 ** the only functions that deal with the HardLinkInfo structure.
 ** Even these functions use the xxxHardLinkInfo() functions.
 */
+/**
+ * @brief 硬链接信息
+ */
 typedef struct HardLinkInfo {
 	struct HardLinkInfo *next; /* Next entry in list */
+    
+    /**
+     * @brief 设备号
+     */
 	dev_t dev;                 /* Device number */
+    
+    /**
+     * @brief 节点号
+     */
 	ino_t ino;                 /* Inode number */
 //	short linkCount;           /* (Hard) Link Count */
+
+    /**
+     * @brief 文件名
+     */
 	char name[1];              /* Start of filename (must be last) */
 } HardLinkInfo;
 
-/* Some info to be carried along when creating a new tarball */
+/**
+ * @brief Some info to be carried along when creating a new tarball 
+ */
 typedef struct TarBallInfo {
-	int tarFd;                      /* Open-for-write file descriptor
-	                                 * for the tarball */
-	int verboseFlag;                /* Whether to print extra stuff or not */
-	const llist_t *excludeList;     /* List of files to not include */
-	HardLinkInfo *hlInfoHead;       /* Hard Link Tracking Information */
-	HardLinkInfo *hlInfo;           /* Hard Link Info for the current file */
-//TODO: save only st_dev + st_ino
+        /**
+         * @brief Open-for-write file descriptor for the tarball 
+         */
+	int tarFd;                          
+    /**
+     * @brief Whether to print extra stuff or not
+     */
+	int verboseFlag;               
+    /**
+     * @brief List of files to not include
+     */
+	const llist_t *excludeList;     
+    /**
+     * @brief Hard Link Tracking Information
+     */
+	HardLinkInfo *hlInfoHead;       
+    /**
+     * @brief Hard Link Info for the current file
+     */
+	HardLinkInfo *hlInfo;        
+    //TODO: save only st_dev + st_ino
+    /**
+     * @brief the tarball stat info
+     */
 	struct stat tarFileStatBuf;     /* Stat info for the tarball, letting
 	                                 * us know the inode and device that the
 	                                 * tarball lives, so we can avoid trying
@@ -61,6 +107,13 @@ enum {
 };
 
 /* Might be faster (and bigger) if the dev/ino were stored in numeric order;) */
+/**
+ * @brief Set the hardlink info
+ *
+ * @param hlInfoHeadPtr
+ * @param statbuf
+ * @param fileName
+ */
 static void addHardLinkInfo(HardLinkInfo **hlInfoHeadPtr,
 					struct stat *statbuf,
 					const char *fileName)
@@ -77,6 +130,11 @@ static void addHardLinkInfo(HardLinkInfo **hlInfoHeadPtr,
 	strcpy(hlInfo->name, fileName);
 }
 
+/**
+ * @brief free the Hard link info
+ *
+ * @param hlInfoHeadPtr
+ */
 static void freeHardLinkInfo(HardLinkInfo **hlInfoHeadPtr)
 {
 	HardLinkInfo *hlInfo;
@@ -94,6 +152,14 @@ static void freeHardLinkInfo(HardLinkInfo **hlInfoHeadPtr)
 }
 
 /* Might be faster (and bigger) if the dev/ino were stored in numeric order ;) */
+/**
+ * @brief According the inode info and dev info to find the hardlink info
+ *
+ * @param hlInfo 
+ * @param statbuf ,file's stat info
+ *
+ * @return 
+ */
 static HardLinkInfo *findHardLinkInfo(HardLinkInfo *hlInfo, struct stat *statbuf)
 {
 	while (hlInfo) {
@@ -111,6 +177,13 @@ static HardLinkInfo *findHardLinkInfo(HardLinkInfo *hlInfo, struct stat *statbuf
 /* Put an octal string into the specified buffer.
  * The number is zero padded and possibly null terminated.
  * Stores low-order bits only if whole value does not fit. */
+/**
+ * @brief Put the octal string into the specified buffer
+ *
+ * @param cp buffer
+ * @param len  buffer length
+ * @param value the octal value
+ */
 static void putOctal(char *cp, int len, off_t value)
 {
 	char tempBuffer[sizeof(off_t)*3 + 1];
@@ -200,6 +273,16 @@ static void writeLongname(int fd, int type, const char *name, int dir)
 #endif
 
 /* Write out a tar header for the specified file/directory/whatever */
+/**
+ * @brief 根据文件的信息生成一个文件的tar头，并写入tar包
+ *
+ * @param tbInfo tarball infomation
+ * @param header_name 
+ * @param fileName
+ * @param statbuf , file stat info
+ *
+ * @return 
+ */
 static int writeTarHeader(struct TarBallInfo *tbInfo,
 		const char *header_name, const char *fileName, struct stat *statbuf)
 {
@@ -215,7 +298,7 @@ static int writeTarHeader(struct TarBallInfo *tbInfo,
 	PUT_OCTAL(header.gid, statbuf->st_gid);
 	memset(header.size, '0', sizeof(header.size)-1); /* Regular file size is handled later */
 	/* users report that files with negative st_mtime cause trouble, so: */
-	PUT_OCTAL(header.mtime, statbuf->st_mtime >= 0 ? statbuf->st_mtime : 0);
+	PUT_OCTAL(header.mtime, statbuf->st_mtime >= 0 ? statbuf->st_mtime : 0);/*  file modified time */
 
 	/* Enter the user and group names */
 	safe_strncpy(header.uname, get_cached_username(statbuf->st_uid), sizeof(header.uname));
@@ -339,6 +422,16 @@ static int writeTarHeader(struct TarBallInfo *tbInfo,
 
 # define exclude_file(excluded_files, file) 0
 
+/**
+ * @brief 
+ *
+ * @param fileName
+ * @param statbuf
+ * @param userData
+ * @param depth ,未使用的参数
+ *
+ * @return 
+ */
 static int FAST_FUNC writeFileToTarball(const char *fileName, struct stat *statbuf,
 			void *userData, int depth UNUSED_PARAM)
 {
@@ -346,10 +439,12 @@ static int FAST_FUNC writeFileToTarball(const char *fileName, struct stat *statb
 	const char *header_name;
 	int inputFileFd = -1;
 
-	DBG("writeFileToTarball('%s')", fileName);
+	//DBG("writeFileToTarball('%s')\n", fileName);
 
 	/* Strip leading '/' and such (must be before memorizing hardlink's name) */
 	header_name = strip_unsafe_prefix(fileName);
+
+
 
 	if (header_name[0] == '\0')
 		return TRUE;
@@ -411,7 +506,11 @@ static int FAST_FUNC writeFileToTarball(const char *fileName, struct stat *statb
 		return FALSE;
 	}
 
-	/* If it was a regular file, write out the body */
+    /**
+     * @brief If it was a regular file, write out the body
+     *
+     * @param >
+     */
 	if (inputFileFd >= 0) {
 		size_t readSize;
 		/* Write the file to the archive. */
@@ -444,7 +543,17 @@ static int FAST_FUNC writeFileToTarball(const char *fileName, struct stat *statb
 
 
 
-/* gcc 4.2.1 inlines it, making code bigger */
+/**
+ * @brief 用于归档文件夹
+ *
+ * @param tar_fd 归档文件描述符
+ * @param verboseFlag 显示输出
+ * @param recurseFlags 递归标志
+ * @param include 需要归档的文件列表
+ * @param exclude not used
+ *
+ * @return 成功返回0,失败返回-1
+ */
 static NOINLINE int writeTarFile(int tar_fd, int verboseFlag,
 	int recurseFlags, const llist_t *include,
 	const llist_t *exclude)
@@ -498,6 +607,14 @@ static NOINLINE int writeTarFile(int tar_fd, int verboseFlag,
 
 
 
+/**
+ * @brief 打包文件夹
+ *
+ * @param pathname 需要打包的文件名
+ * @param tarname 生成的打包文件
+ *
+ * @return 成功返回0,失败返回-1
+ */
 int tarArchive(const char * pathname,const char * tarname)
 {
 	archive_handle_t *tar_handle;
@@ -535,6 +652,13 @@ int tarArchive(const char * pathname,const char * tarname)
 				tar_handle->reject);	
 }
 
+/**
+ * @brief 解包
+ *
+ * @param tarname 输入参数，需要解包的文件
+ *
+ * @return 打包成功返回0，失败返回-1
+ */
 int tarExtract(const char * tarname)
 {
 	archive_handle_t *tar_handle;
@@ -575,13 +699,21 @@ int tarExtract(const char * tarname)
 
 }
 
+/**
+ * @brief Test function
+ *
+ * @param argc
+ * @param argv[]
+ *
+ * @return 
+ */
 int main(int argc,char *argv[])
 {
-	char *pathname="test";
-	char *tarname="test.tar";
-	tarArchive(pathname,tarname);
+	//char *pathname="test";
+	//char *tarname="test.tar";
+	tarArchive(argv[1],argv[2]);
 
-	tarExtract(tarname);
+	//tarExtract(tarname);
 	return 0;
 }
 

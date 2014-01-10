@@ -53,6 +53,18 @@ static int FAST_FUNC true_action(const char *fileName UNUSED_PARAM,
  * 1: stat(statbuf). Calls dirAction and optionally recurse on link to dir.
  */
 
+/**
+ * @brief  Recurse to process the dir and file
+ *
+ * @param fileName 文件名
+ * @param flags 递归标志
+ * @param fileAction function pointer to process file
+ * @param dirAction function pointer to process dir
+ * @param userData
+ * @param depth
+ *
+ * @return 
+ */
 int FAST_FUNC recursive_action(const char *fileName,
 		unsigned flags,
 		int FAST_FUNC (*fileAction)(const char *fileName, struct stat *statbuf, void* userData, int depth),
